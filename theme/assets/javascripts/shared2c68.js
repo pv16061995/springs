@@ -5727,7 +5727,7 @@
       }
       renderSearch() {
         if (this.options.search) {
-          return `\n                <div class="${this.options.dropdownClassName}__search">\n                    ${this.options.searchLabel ? `<label class="form-label">${this.options.searchLabel}</label>` : ""}\n                    <svg class="icon icon-search-small" width="16" height="16" aria-hidden="true" viewBox="0 0 16 16" style="--icon-width: 16; --icon-height: 16;"><use href="/assets/images/icons.svg#search-small" xlink:href="/assets/images/icons.svg#search-small"></use></svg>\n                    <input\n                        type="search"\n                        class="js-input-select-search"\n                        autocorrect="off"\n                        autocapitalize="none"\n                        spellcheck="false"\n                        autocomplete="new-password"\n                        aria-autocomplete="list"\n                        role="searchbox"\n                        aria-label="Search"\n                        aria-controls="dropdown-${this.ns}"\n                    />\n                </div>\n            `;
+          return `\n                <div class="${this.options.dropdownClassName}__search">\n                    ${this.options.searchLabel ? `<label class="form-label">${this.options.searchLabel}</label>` : ""}\n                    <svg class="icon icon-search-small" width="16" height="16" aria-hidden="true" viewBox="0 0 16 16" style="--icon-width: 16; --icon-height: 16;"><use href="assets/images/icons.svg#search-small" xlink:href="assets/images/icons.svg#search-small"></use></svg>\n                    <input\n                        type="search"\n                        class="js-input-select-search"\n                        autocorrect="off"\n                        autocapitalize="none"\n                        spellcheck="false"\n                        autocomplete="new-password"\n                        aria-autocomplete="list"\n                        role="searchbox"\n                        aria-label="Search"\n                        aria-controls="dropdown-${this.ns}"\n                    />\n                </div>\n            `;
         }
         return "";
       }
@@ -44748,6 +44748,7 @@
           (a.removeEventListener("load", o, !1),
             a.removeEventListener("error", l, !1));
         }
+        t = t.replace(/^\//, "");
         return (
           a.addEventListener("load", o, !1),
           a.addEventListener("error", l, !1),
@@ -52091,7 +52092,7 @@
           .replace(/\s/g, "%20")
           .replace(/"/g, "%22");
       }
-      return "/assets/images/px.gif";
+      return "assets/images/px.gif";
     }
     function v(t) {
       return "jpg" === t
@@ -52110,7 +52111,7 @@
         i && t.width && t.height
           ? (r += `\n            data-srcset="${c(t)}"\n            srcset="${g(t.width, t.height)}"\n        `)
           : (r += i
-              ? `\n                srcset="/assets/images/px-2x1.gif"\n                data-srcset="${c(t)}"\n            `
+              ? `\n                srcset="assets/images/px-2x1.gif"\n                data-srcset="${c(t)}"\n            `
               : ` srcset="${c(t)}"`),
         "string" == typeof e && e.trim() && (r += ` media="${e.trim()}"`),
         n && (r += ` type="${n}"`),
