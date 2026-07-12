@@ -30,6 +30,22 @@
       if (navigator.platform.toUpperCase().indexOf('WIN') >= 0) {
          document.documentElement.classList.add('is-win');
       }
+
+      // Suppress harmless browser extension errors
+      window.addEventListener('error', function(e) {
+         if (e.message && e.message.includes('runtime.lastError')) {
+            e.preventDefault();
+            e.stopPropagation();
+         }
+      });
+
+      // Suppress unhandled promise rejections from extensions
+      window.addEventListener('unhandledrejection', function(e) {
+         if (e.reason && typeof e.reason.message && e.reason.message.includes('runtime.lastError')) {
+            e.preventDefault();
+            e.stopPropagation();
+         }
+      });
    </script>
    <!-- <link rel="manifest" href="assets/manifest/manifest2c68.webmanifest?v=1765268659"> -->
    <meta name="theme-color" content="#162D24">
@@ -1979,7 +1995,7 @@
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
-                                                srcset="media/cache/homepage_wellness_slider_xxlassets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                                srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="900">
                                              <source
@@ -2175,11 +2191,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxxlassets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxlassets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -2188,24 +2204,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_wellness_slider_xsassets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
+                                       data-src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" decoding="async" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxxlassets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxlassets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-1%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_wellness_slider_xsassets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
+                                          src="media/cache/homepage_wellness_slider_xs/assets/images/media/landing/2.wellness/wellness-slider-xs-1%40xs.webp"
                                           alt="" width="720" height="900" decoding="async" draggable="false">
                                     </picture>
                                  </noscript>
@@ -2218,7 +2234,7 @@
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_wellness_slider_xxlassets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -2234,10 +2250,10 @@
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxxlassets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxlassets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-2%40xxxl.webp"
@@ -2276,7 +2292,7 @@
                                           srcset="media/cache/homepage_wellness_slider_xxxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_wellness_slider_xxlassets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
+                                          srcset="media/cache/homepage_wellness_slider_xxl/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_wellness_slider_md/assets/images/media/landing/2.wellness/wellness-slider-md-3%40xxxl.webp"
@@ -2687,12 +2703,12 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
+                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-1%40xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                              height="854">
@@ -2702,7 +2718,7 @@
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="640" height="854">
                                           <img
-                                             data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp"
+                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              alt="" width="640" height="854" draggable="false">
                                        </picture>
@@ -2735,7 +2751,7 @@
                                              media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                              height="854">
@@ -2756,7 +2772,7 @@
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
+                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-2%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
@@ -2773,12 +2789,12 @@
                                        <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
                                           data-plugin="appear " draggable="false">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                              height="854">
                                           <source
-                                             data-srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                             data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
                                              srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                              height="854">
@@ -2788,18 +2804,18 @@
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="640" height="854">
                                           <img
-                                             data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                             data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
                                              src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22854%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20854%22%3E%3C/svg%3E"
                                              alt="" width="640" height="854" draggable="false">
                                        </picture>
                                        <noscript>
                                           <picture class=" img-full parallax-image-move" draggable="false">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
-                                                srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
+                                                srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/3.nature/nature-slider-md-3%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="640"
                                                 height="854">
                                              <source
@@ -2807,7 +2823,7 @@
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="640" height="854">
                                              <img
-                                                src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                                src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
                                                 alt="" width="640" height="854" draggable="false">
                                           </picture>
                                        </noscript>
@@ -3066,31 +3082,31 @@
                               <li class="mobile-scrollable__item">
                                  <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false"
                                     width="640" height="760" data-plugin="appear "
-                                    data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp"
+                                    data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp"
                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22760%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20760%22%3E%3C/svg%3E">
                                  <noscript>
                                     <img class="img-cover " alt="" draggable="false" width="640" height="760"
-                                       src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp">
+                                       src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-1%40xs.webp">
                                  </noscript>
                               </li>
                               <li class="mobile-scrollable__item">
                                  <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false"
                                     width="640" height="760" data-plugin="appear "
-                                    data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-2%40xs.webp"
+                                    data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-2%40xs.webp"
                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22760%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20760%22%3E%3C/svg%3E">
                                  <noscript>
                                     <img class="img-cover " alt="" draggable="false" width="640" height="760"
-                                       src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-2%40xs.webp">
+                                       src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-2%40xs.webp">
                                  </noscript>
                               </li>
                               <li class="mobile-scrollable__item">
                                  <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false"
                                     width="640" height="760" data-plugin="appear "
-                                    data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
+                                    data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp"
                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22760%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20760%22%3E%3C/svg%3E">
                                  <noscript>
                                     <img class="img-cover " alt="" draggable="false" width="640" height="760"
-                                       src="media/cache/homepage_nature_slider_xsassets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp">
+                                       src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/3.nature/nature-slider-xs-3%40xs.webp">
                                  </noscript>
                               </li>
                            </ul>
@@ -3414,11 +3430,11 @@
                                     <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
                                        draggable="false">
                                        <source
-                                          data-srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                          data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
                                           srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
                                        <source
-                                          data-srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                          data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
                                           srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
                                        <source
@@ -3427,18 +3443,18 @@
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="440" height="427">
                                        <img
-                                          data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                          data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
                                           src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           alt="" width="440" height="427" draggable="false">
                                     </picture>
                                     <noscript>
                                        <picture class=" img-full" draggable="false">
                                           <source
-                                             srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                             srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="440"
                                              height="427">
                                           <source
-                                             srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                             srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="440"
                                              height="427">
                                           <source
@@ -3446,7 +3462,7 @@
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="440" height="427">
                                           <img
-                                             src="media/cache/homepage_nature_slider_xsassets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
+                                             src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-1%40xxxl.webp"
                                              alt="" width="440" height="427" draggable="false">
                                        </picture>
                                     </noscript>
@@ -3489,11 +3505,11 @@
                                     <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
                                        draggable="false">
                                        <source
-                                          data-srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                                          data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
                                           srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
                                        <source
-                                          data-srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                                          data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
                                           srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
                                        <source
@@ -3502,18 +3518,18 @@
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="440" height="427">
                                        <img
-                                          data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                                          data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
                                           src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           alt="" width="440" height="427" draggable="false">
                                     </picture>
                                     <noscript>
                                        <picture class=" img-full" draggable="false">
                                           <source
-                                             srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                                             srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="440"
                                              height="427">
                                           <source
-                                             srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                                             srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="440"
                                              height="427">
                                           <source
@@ -3521,7 +3537,7 @@
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="440" height="427">
                                           <img
-                                             src="media/cache/homepage_nature_slider_xsassets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
+                                             src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-3%40xxxl.webp"
                                              alt="" width="440" height="427" draggable="false">
                                        </picture>
                                     </noscript>
@@ -3564,11 +3580,11 @@
                                     <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
                                        draggable="false">
                                        <source
-                                          data-srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
+                                          data-srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
                                           srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="440" height="427">
                                        <source
-                                          data-srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
+                                          data-srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
                                           srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="440" height="427">
                                        <source
@@ -3577,18 +3593,18 @@
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="440" height="427">
                                        <img
-                                          data-src="media/cache/homepage_nature_slider_xsassets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
+                                          data-src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
                                           src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20427%22%3E%3C/svg%3E"
                                           alt="" width="440" height="427" draggable="false">
                                     </picture>
                                     <noscript>
                                        <picture class=" img-full" draggable="false">
                                           <source
-                                             srcset="media/cache/homepage_nature_slider_xxxlassets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
+                                             srcset="media/cache/homepage_nature_slider_xxxl/assets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
                                              media="(min-width: 1920px) and (min-height: 700px)" width="440"
                                              height="427">
                                           <source
-                                             srcset="media/cache/homepage_nature_slider_xxlassets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
+                                             srcset="media/cache/homepage_nature_slider_xxl/assets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
                                              media="(min-width: 1440px) and (min-height: 700px)" width="440"
                                              height="427">
                                           <source
@@ -3596,7 +3612,7 @@
                                              media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                              width="440" height="427">
                                           <img
-                                             src="media/cache/homepage_nature_slider_xsassets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
+                                             src="media/cache/homepage_nature_slider_xs/assets/images/media/landing/4.place/place-caption-2%40xxxl.webp"
                                              alt="" width="440" height="427" draggable="false">
                                        </picture>
                                     </noscript>
@@ -4070,11 +4086,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -4083,24 +4099,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-xs-1.webp"
+                                       data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-1.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" decoding="async" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-1%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-1%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-xs-1.webp"
+                                          src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-1.webp"
                                           alt="" width="720" height="900" decoding="async" draggable="false">
                                     </picture>
                                  </noscript>
@@ -4109,11 +4125,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-2%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-2%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -4122,24 +4138,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-xs-2.webp"
+                                       data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-2.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" decoding="async" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-2%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-2%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-xs-2.webp"
+                                          src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-xs-2.webp"
                                           alt="" width="720" height="900" decoding="async" draggable="false">
                                     </picture>
                                  </noscript>
@@ -4166,11 +4182,11 @@
                            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                               draggable="false">
                               <source
-                                 data-srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-4%40xxxl.webp"
+                                 data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                               <source
-                                 data-srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-4%40xxxl.webp"
+                                 data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                               <source
@@ -4179,24 +4195,24 @@
                                  media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                  width="720" height="900">
                               <img
-                                 data-src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-4%40xxxl.webp"
+                                 data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-4%40xxxl.webp"
                                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                  alt="" width="720" height="900" decoding="async" draggable="false">
                            </picture>
                            <noscript>
                               <picture class=" img-cover" draggable="false">
                                  <source
-                                    srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-4%40xxxl.webp"
+                                    srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
                                     media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                  <source
-                                    srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-4%40xxxl.webp"
+                                    srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-4%40xxxl.webp"
                                     media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                  <source
                                     srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-4%40xxxl.webp"
                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                     width="720" height="900">
                                  <img
-                                    src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-4%40xxxl.webp"
+                                    src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-4%40xxxl.webp"
                                     alt="" width="720" height="900" decoding="async" draggable="false">
                               </picture>
                            </noscript>
@@ -4217,11 +4233,11 @@
                         <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                            draggable="false">
                            <source
-                              data-srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-3%40xxxl.webp"
+                              data-srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
                               srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
                               media="(min-width: 1920px) and (min-height: 700px)" width="240" height="300">
                            <source
-                              data-srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-3%40xxxl.webp"
+                              data-srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
                               srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
                               media="(min-width: 1440px) and (min-height: 700px)" width="240" height="300">
                            <source
@@ -4230,24 +4246,24 @@
                               media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                               width="240" height="300">
                            <img
-                              data-src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-3%40xxxl.webp"
+                              data-src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-3%40xxxl.webp"
                               src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22240%22%20height=%22300%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20240%20300%22%3E%3C/svg%3E"
                               alt="" width="240" height="300" decoding="async" draggable="false">
                         </picture>
                         <noscript>
                            <picture class=" img-cover" draggable="false">
                               <source
-                                 srcset="media/cache/homepage_design_slider_xxxlassets/images/media/landing/6.design/design-3%40xxxl.webp"
+                                 srcset="media/cache/homepage_design_slider_xxxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
                                  media="(min-width: 1920px) and (min-height: 700px)" width="240" height="300">
                               <source
-                                 srcset="media/cache/homepage_design_slider_xxlassets/images/media/landing/6.design/design-3%40xxxl.webp"
+                                 srcset="media/cache/homepage_design_slider_xxl/assets/images/media/landing/6.design/design-3%40xxxl.webp"
                                  media="(min-width: 1440px) and (min-height: 700px)" width="240" height="300">
                               <source
                                  srcset="media/cache/homepage_design_slider_md/assets/images/media/landing/6.design/design-3%40xxxl.webp"
                                  media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                  width="240" height="300">
                               <img
-                                 src="media/cache/homepage_design_slider_xsassets/images/media/landing/6.design/design-3%40xxxl.webp"
+                                 src="media/cache/homepage_design_slider_xs/assets/images/media/landing/6.design/design-3%40xxxl.webp"
                                  alt="" width="240" height="300" decoding="async" draggable="false">
                            </picture>
                         </noscript>
@@ -4312,11 +4328,11 @@
                               <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
                                  data-plugin="appear " draggable="false">
                                  <source
-                                    data-srcset="media/cache/homepage_residences_slider_xxxlassets/images/media/landing/7.residence/residence-1%40xxxl.webp"
+                                    data-srcset="media/cache/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                  <source
-                                    data-srcset="media/cache/homepage_residences_slider_xxlassets/images/media/landing/7.residence/residence-1%40xxxl.webp"
+                                    data-srcset="media/cache/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                  <source
@@ -4325,24 +4341,24 @@
                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                     width="1440" height="900">
                                  <img
-                                    data-src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
+                                    data-src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     alt="" width="1440" height="900" draggable="false">
                               </picture>
                               <noscript>
                                  <picture class=" img-cover parallax-image-move" draggable="false">
                                     <source
-                                       srcset="media/cache/homepage_residences_slider_xxxlassets/images/media/landing/7.residence/residence-1%40xxxl.webp"
+                                       srcset="media/cache/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                     <source
-                                       srcset="media/cache/homepage_residences_slider_xxlassets/images/media/landing/7.residence/residence-1%40xxxl.webp"
+                                       srcset="media/cache/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-1%40xxxl.webp"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                     <source
                                        srcset="media/cache/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-1%40xxxl.webp"
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="1440" height="900">
                                     <img
-                                       src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
+                                       src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
                                        alt="" width="1440" height="900" draggable="false">
                                  </picture>
                               </noscript>
@@ -4357,11 +4373,11 @@
                               <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
                                  data-plugin="appear " draggable="false">
                                  <source
-                                    data-srcset="media/cache/homepage_residences_slider_xxxlassets/images/media/landing/7.residence/residence-2%40xxxl.webp"
+                                    data-srcset="media/cache/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                  <source
-                                    data-srcset="media/cache/homepage_residences_slider_xxlassets/images/media/landing/7.residence/residence-2%40xxxl.webp"
+                                    data-srcset="media/cache/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                  <source
@@ -4370,24 +4386,24 @@
                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                     width="1440" height="900">
                                  <img
-                                    data-src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
+                                    data-src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     alt="" width="1440" height="900" draggable="false">
                               </picture>
                               <noscript>
                                  <picture class=" img-cover parallax-image-move" draggable="false">
                                     <source
-                                       srcset="media/cache/homepage_residences_slider_xxxlassets/images/media/landing/7.residence/residence-2%40xxxl.webp"
+                                       srcset="media/cache/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                     <source
-                                       srcset="media/cache/homepage_residences_slider_xxlassets/images/media/landing/7.residence/residence-2%40xxxl.webp"
+                                       srcset="media/cache/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-2%40xxxl.webp"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                     <source
                                        srcset="media/cache/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-2%40xxxl.webp"
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="1440" height="900">
                                     <img
-                                       src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
+                                       src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
                                        alt="" width="1440" height="900" draggable="false">
                                  </picture>
                               </noscript>
@@ -4402,11 +4418,11 @@
                               <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move"
                                  data-plugin="appear " draggable="false">
                                  <source
-                                    data-srcset="media/cache/homepage_residences_slider_xxxlassets/images/media/landing/7.residence/residence-3%40xxxl.webp"
+                                    data-srcset="media/cache/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                  <source
-                                    data-srcset="media/cache/homepage_residences_slider_xxlassets/images/media/landing/7.residence/residence-3%40xxxl.webp"
+                                    data-srcset="media/cache/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp"
                                     srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                  <source
@@ -4415,24 +4431,24 @@
                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                     width="1440" height="900">
                                  <img
-                                    data-src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
+                                    data-src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
                                     src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                     alt="" width="1440" height="900" draggable="false">
                               </picture>
                               <noscript>
                                  <picture class=" img-cover parallax-image-move" draggable="false">
                                     <source
-                                       srcset="media/cache/homepage_residences_slider_xxxlassets/images/media/landing/7.residence/residence-3%40xxxl.webp"
+                                       srcset="media/cache/homepage_residences_slider_xxxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                     <source
-                                       srcset="media/cache/homepage_residences_slider_xxlassets/images/media/landing/7.residence/residence-3%40xxxl.webp"
+                                       srcset="media/cache/homepage_residences_slider_xxl/assets/images/media/landing/7.residence/residence-3%40xxxl.webp"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                     <source
                                        srcset="media/cache/homepage_residences_slider_md/assets/images/media/landing/7.residence/residence-3%40xxxl.webp"
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="1440" height="900">
                                     <img
-                                       src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
+                                       src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
                                        alt="" width="1440" height="900" draggable="false">
                                  </picture>
                               </noscript>
@@ -4661,14 +4677,14 @@
                                     <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                        draggable="false">
                                        <img
-                                          data-src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
+                                          data-src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
                                           src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22360%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20360%22%3E%3C/svg%3E"
                                           alt="" width="360" height="360" decoding="async" draggable="false">
                                     </picture>
                                     <noscript>
                                        <picture class=" img-cover" draggable="false">
                                           <img
-                                             src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
+                                             src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-1%40xs.webp"
                                              alt="" width="360" height="360" decoding="async" draggable="false">
                                        </picture>
                                     </noscript>
@@ -4677,14 +4693,14 @@
                                     <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                        draggable="false">
                                        <img
-                                          data-src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
+                                          data-src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
                                           src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22360%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20360%22%3E%3C/svg%3E"
                                           alt="" width="360" height="360" decoding="async" draggable="false">
                                     </picture>
                                     <noscript>
                                        <picture class=" img-cover" draggable="false">
                                           <img
-                                             src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
+                                             src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-2%40xs.webp"
                                              alt="" width="360" height="360" decoding="async" draggable="false">
                                        </picture>
                                     </noscript>
@@ -4693,14 +4709,14 @@
                                     <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                        draggable="false">
                                        <img
-                                          data-src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
+                                          data-src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
                                           src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22360%22%20height=%22360%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20360%20360%22%3E%3C/svg%3E"
                                           alt="" width="360" height="360" decoding="async" draggable="false">
                                     </picture>
                                     <noscript>
                                        <picture class=" img-cover" draggable="false">
                                           <img
-                                             src="media/cache/homepage_residences_slider_xsassets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
+                                             src="media/cache/homepage_residences_slider_xs/assets/images/media/landing/7.residence/residence-xs-3%40xs.webp"
                                              alt="" width="360" height="360" decoding="async" draggable="false">
                                        </picture>
                                     </noscript>
@@ -4946,11 +4962,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -4959,24 +4975,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -4985,11 +5001,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -4998,24 +5014,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5024,11 +5040,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5037,24 +5053,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5063,11 +5079,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5076,24 +5092,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5102,11 +5118,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5115,24 +5131,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5270,11 +5286,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5283,24 +5299,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-3%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5310,11 +5326,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5323,24 +5339,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-5%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5350,11 +5366,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5363,24 +5379,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-4%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5390,11 +5406,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5403,24 +5419,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-1%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
@@ -5430,11 +5446,11 @@
                                  <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                                     draggable="false">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                     <source
-                                       data-srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                       data-srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                     <source
@@ -5443,24 +5459,24 @@
                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                        width="720" height="900">
                                     <img
-                                       data-src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                       data-src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                        alt="" width="720" height="900" draggable="false">
                                  </picture>
                                  <noscript>
                                     <picture class=" img-cover" draggable="false">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           media="(min-width: 1920px) and (min-height: 700px)" width="720" height="900">
                                        <source
-                                          srcset="media/cache/homepage_interiors_slider_xxlassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                          srcset="media/cache/homepage_interiors_slider_xxl/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
                                        <source
                                           srcset="media/cache/homepage_interiors_slider_md/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                           width="720" height="900">
                                        <img
-                                          src="media/cache/homepage_interiors_slider_xsassets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
+                                          src="media/cache/homepage_interiors_slider_xs/assets/images/media/landing/8.interiors/interiors-slider-2%40xxxl.webp"
                                           alt="" width="720" height="900" draggable="false">
                                     </picture>
                                  </noscript>
