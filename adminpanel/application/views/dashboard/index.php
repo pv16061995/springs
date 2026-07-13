@@ -2,62 +2,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="viho admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, viho admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="pixelstrap">
-    <link rel="icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon">
-    <title>viho - Premium Admin Template</title>
-    <!-- Google font-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <?php $this->load->view('layout/head'); ?>
     <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/fontawesome.css">
     <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/icofont.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/icofont.css">
     <!-- Themify icon-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/themify.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/themify.css">
     <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/flag-icon.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/flag-icon.css">
     <!-- Feather icon-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/feather-icon.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/feather-icon.css">
     <!-- Plugins css start-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/chartist.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/date-picker.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/prism.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/vector-map.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/chartist.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/date-picker.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/prism.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/vector-map.css">
     <!-- Plugins css Ends-->
     <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/bootstrap.css">
     <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css">
-    <link id="color" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/style.css">
+    <link id="color" rel="stylesheet" href="<?php echo base_url();?>assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/responsive.css">
   </head>
   <body>
     <!-- Loader starts-->
-    <div class="loader-wrapper">
-      <div class="theme-loader">    
-        <div class="loader-p"></div>
-      </div>
-    </div>
+    <?php $this->load->view('layout/preloader'); ?>
     <!-- Loader ends-->
     <!-- page-wrapper Start       -->
     <div class="page-wrapper compact-wrapper" id="pageWrapper">
       <!-- Page Header Start-->
-      <?php  $this->load->view('layout/topbar'); ?>
+      <?php $this->load->view('layout/header'); ?>
       <!-- Page Header Ends  -->
       <!-- Page Body Start-->
       <div class="page-body-wrapper sidebar-icon">
         <!-- Page Sidebar Start-->
-        <?php  $this->load->view('layout/header'); ?>
+        <?php $this->load->view('layout/menu'); ?>
         <!-- Page Sidebar Ends-->
         <div class="page-body">
           <!-- Container-fluid starts-->
@@ -220,32 +203,32 @@
                     <div class="code-box-copy">
                       <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#yearly-overview" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
                       <pre><code class="language-html" id="yearly-overview"><div class="card income-card"> 
-                          <div class="card-header">
-                            <div class="header-top d-sm-flex align-items-center">
-                              <h5> yearly overview  </h5>
-                              <div class="center-content" >
-                                <p> 
-                                  <span class="font-primary fontbold-600" > $859.25k </span>
-                                  <i class="toprightarrow-primary fa fa-arrow-up m-l-10 m-r-10" > </i>
-                                    86% More than last year
-                                </p> 
-                              </div>
-                              <div class="setting-list">
-                                <ul class="list-unstyled setting-option">
-                                  <li><div class="setting-primary"><i class="icon-settings"></i></div></li>
-                                  <li><i class="view-html fa fa-code font-primary"></i></li>
-                                  <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
-                                  <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
-                                  <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
-                                  <li><i class="icofont icofont-error close-card font-primary"> </i></li>
-                                </ul>
-                              </div>
+                        <div class="card-header">
+                          <div class="header-top d-sm-flex align-items-center">
+                            <h5> yearly overview  </h5>
+                            <div class="center-content" >
+                              <p> 
+                                <span class="font-primary fontbold-600" > $859.25k </span>
+                                <i class="toprightarrow-primary fa fa-arrow-up m-l-10 m-r-10" > </i>
+                                  86% More than last year
+                              </p> 
+                            </div>
+                            <div class="setting-list">
+                              <ul class="list-unstyled setting-option">
+                                <li><div class="setting-primary"><i class="icon-settings"></i></div></li>
+                                <li><i class="view-html fa fa-code font-primary"></i></li>
+                                <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                                <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                                <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                                <li><i class="icofont icofont-error close-card font-primary"> </i></li>
+                              </ul>
                             </div>
                           </div>
-                          <div class="card-body p-0">
-                            <div id="chart-timeline-dashbord"></div>
-                          </div>
-                        </div></code></pre>
+                        </div>
+                        <div class="card-body p-0">
+                          <div id="chart-timeline-dashbord"></div>
+                        </div>
+                      </div></code></pre>
                     </div>
                   </div>
                 </div>
@@ -663,7 +646,7 @@
                             <tbody>
                               <tr>
                                 <td>
-                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-1.png" alt="" data-original-title="" title="">
+                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-1.png" alt="" data-original-title="" title="">
                                     <div class="media-body"><a href="product-page.html"><span>Yellow New Nike shoes</span></a></div>
                                   </div>
                                 </td>
@@ -673,7 +656,7 @@
                                 <td>
                                   <p>54146</p>
                                 </td>
-                                <td><img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-1.png" alt="" data-original-title="" title=""></td>
+                                <td><img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-1.png" alt="" data-original-title="" title=""></td>
                                 <td>
                                   <p>$210326</p>
                                 </td>
@@ -683,7 +666,7 @@
                               </tr>
                               <tr>
                                 <td>
-                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-2.png" alt="" data-original-title="" title="">
+                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-2.png" alt="" data-original-title="" title="">
                                     <div class="media-body"><a href="product-page.html"><span>Sony Brand New Headphone</span></a></div>
                                   </div>
                                 </td>
@@ -693,7 +676,7 @@
                                 <td>
                                   <p>32015</p>
                                 </td>
-                                <td><img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-2.png" alt="" data-original-title="" title=""></td>
+                                <td><img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-2.png" alt="" data-original-title="" title=""></td>
                                 <td>
                                   <p>$548526</p>
                                 </td>
@@ -703,7 +686,7 @@
                               </tr>
                               <tr>
                                 <td>
-                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-3.png" alt="" data-original-title="" title="">
+                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-3.png" alt="" data-original-title="" title="">
                                     <div class="media-body"><a href="product-page.html"><span>Beautiful Golden Tree plant</span></a></div>
                                   </div>
                                 </td>
@@ -713,7 +696,7 @@
                                 <td>
                                   <p>12548</p>
                                 </td>
-                                <td><img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-3.png" alt="" data-original-title="" title=""></td>
+                                <td><img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-3.png" alt="" data-original-title="" title=""></td>
                                 <td>
                                   <p>$589565</p>
                                 </td>
@@ -723,7 +706,7 @@
                               </tr>
                               <tr>
                                 <td>
-                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-4.png" alt="" data-original-title="" title="">
+                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-4.png" alt="" data-original-title="" title="">
                                     <div class="media-body"><a href="product-page.html"><span>Marco M Kely Handbeg</span></a></div>
                                   </div>
                                 </td>
@@ -733,7 +716,7 @@
                                 <td>
                                   <p>15495</p>
                                 </td>
-                                <td><img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-4.png" alt="" data-original-title="" title=""></td>
+                                <td><img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-4.png" alt="" data-original-title="" title=""></td>
                                 <td>
                                   <p>$125424 </p>
                                 </td>
@@ -743,7 +726,7 @@
                               </tr>
                               <tr>
                                 <td>
-                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-5.png" alt="" data-original-title="" title="">
+                                  <div class="media"><img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-5.png" alt="" data-original-title="" title="">
                                     <div class="media-body"><a href="product-page.html"><span>Being Human Branded T-Shirt                                                    </span></a></div>
                                   </div>
                                 </td>
@@ -753,7 +736,7 @@
                                 <td>
                                   <p>56625</p>
                                 </td>
-                                <td><img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-5.png" alt="" data-original-title="" title=""></td>
+                                <td><img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-5.png" alt="" data-original-title="" title=""></td>
                                 <td>
                                   <p>$112103</p>
                                 </td>
@@ -767,163 +750,163 @@
                         <div class="code-box-copy">
                           <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#recent-order" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
                           <pre><code class="language-html" id="recent-order"><div class="card">
-                              <div class="card-body">
-                                <div class="table-responsive">
-                                  <table class="table table-bordernone">
-                                    <thead>
-                                      <tr>
-                                        <th>Name</th>
-                                        <th>Date</th>
-                                        <th>Quantity</th>
-                                        <th>Value</th>
-                                        <th>Rate</th>
-                                        <th>
-                                          <div class="setting-list">
-                                            <ul class="list-unstyled setting-option">
-                                              <li>
-                                                <div class="setting-primary"><i class="icon-settings"> </i></div>
-                                              </li>
-                                              <li><i class="view-html fa fa-code font-primary"></i></li>
-                                              <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
-                                              <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
-                                              <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
-                                              <li><i class="icofont icofont-error close-card font-primary"></i></li>
-                                            </ul>
-                                          </div>
-                                        </th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td>
-                                          <div class="media">
-                                            <img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-1.png" alt="" data-original-title="" title="">
-                                            <div class="media-body">
-                                              <span>Yellow New Nike shoes</span>
-                                            </div>
-                                          </div>
-                                        </td>
-                                        <td>
-                                          <p>16 August</p>
-                                        </td>
-                                        <td>
-                                          <p>54146</p>
-                                        </td>
-                                        <td>
-                                          <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-1.png" alt="" data-original-title="" title="">
-                                        </td>
-                                        <td>
-                                          <p>$210326</p>
-                                        </td>
-                                        <td>
-                                          <p>Done</p>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td>
-                                          <div class="media">
-                                            <img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-2.png" alt="" data-original-title="" title="">
-                                            <div class="media-body">
-                                              <span>Sony Brand New Headphone</span>
-                                            </div>
-                                          </div>
-                                        </td>
-                                        <td>
-                                          <p>2 October</p>
-                                        </td>
-                                        <td>
-                                          <p>32015</p>
-                                        </td>
-                                        <td>
-                                          <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-2.png" alt="" data-original-title="" title="">
-                                        </td>
-                                        <td>
-                                          <p>$548526</p>
-                                        </td>
-                                        <td>
-                                          <p>Done</p>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td>
-                                          <div class="media">
-                                            <img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-3.png" alt="" data-original-title="" title="">
-                                            <div class="media-body">
-                                              <span>Beautiful Golden Tree plant</span>
-                                            </div>
-                                          </div>
-                                        </td>
-                                        <td>
-                                          <p>21 March</p>
-                                        </td>
-                                        <td>
-                                          <p>12548</p>
-                                        </td>
-                                        <td>
-                                          <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-3.png" alt="" data-original-title="" title="">
-                                        </td>
-                                        <td>
-                                          <p>$589565</p>
-                                        </td>
-                                        <td>
-                                          <p>Done</p>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td>
-                                          <div class="media">
-                                            <img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-4.png" alt="" data-original-title="" title="">
-                                            <div class="media-body">
-                                              <span>Marco M Kely Handbeg</span>
-                                            </div>
-                                          </div>
-                                        </td>
-                                        <td>
-                                          <p>31 December</p>
-                                        </td>
-                                        <td>
-                                          <p>15495</p>
-                                        </td>
-                                        <td>
-                                          <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-4.png" alt="" data-original-title="" title="">
-                                        </td>
-                                        <td>
-                                          <p>$125424 </p>
-                                        </td>
-                                        <td>
-                                          <p>Done</p>
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td>
-                                          <div class="media">
-                                            <img class="img-fluid rounded-circle" src="<?php echo base_url(); ?>assets/images/dashboard/product-5.png" alt="" data-original-title="" title="">
-                                            <div class="media-body">
-                                              <span>Being Human Branded T-Shirt</span>
-                                            </div>
-                                          </div>
-                                        </td>
-                                        <td>
-                                          <p>26 January</p>
-                                        </td>
-                                        <td>
-                                          <p>56625</p>
-                                        </td>
-                                        <td>
-                                          <img class="img-fluid" src="<?php echo base_url(); ?>assets/images/dashboard/graph-5.png" alt="" data-original-title="" title="">
-                                        </td>
-                                        <td>
-                                          <p>$112103</p>
-                                        </td>
-                                        <td>
-                                          <p>Done</p>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </div>
-                              </div>
-                              </div></code></pre>
+                          <div class="card-body">
+                            <div class="table-responsive">
+                              <table class="table table-bordernone">
+                                <thead>
+                                  <tr>
+                                    <th>Name</th>
+                                    <th>Date</th>
+                                    <th>Quantity</th>
+                                    <th>Value</th>
+                                    <th>Rate</th>
+                                    <th>
+                                      <div class="setting-list">
+                                        <ul class="list-unstyled setting-option">
+                                          <li>
+                                            <div class="setting-primary"><i class="icon-settings"> </i></div>
+                                          </li>
+                                          <li><i class="view-html fa fa-code font-primary"></i></li>
+                                          <li><i class="icofont icofont-maximize full-card font-primary"></i></li>
+                                          <li><i class="icofont icofont-minus minimize-card font-primary"></i></li>
+                                          <li><i class="icofont icofont-refresh reload-card font-primary"></i></li>
+                                          <li><i class="icofont icofont-error close-card font-primary"></i></li>
+                                        </ul>
+                                      </div>
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <div class="media">
+                                        <img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-1.png" alt="" data-original-title="" title="">
+                                        <div class="media-body">
+                                          <span>Yellow New Nike shoes</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <p>16 August</p>
+                                    </td>
+                                    <td>
+                                      <p>54146</p>
+                                    </td>
+                                    <td>
+                                      <img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-1.png" alt="" data-original-title="" title="">
+                                    </td>
+                                    <td>
+                                      <p>$210326</p>
+                                    </td>
+                                    <td>
+                                      <p>Done</p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="media">
+                                        <img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-2.png" alt="" data-original-title="" title="">
+                                        <div class="media-body">
+                                          <span>Sony Brand New Headphone</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <p>2 October</p>
+                                    </td>
+                                    <td>
+                                      <p>32015</p>
+                                    </td>
+                                    <td>
+                                      <img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-2.png" alt="" data-original-title="" title="">
+                                    </td>
+                                    <td>
+                                      <p>$548526</p>
+                                    </td>
+                                    <td>
+                                      <p>Done</p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="media">
+                                        <img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-3.png" alt="" data-original-title="" title="">
+                                        <div class="media-body">
+                                          <span>Beautiful Golden Tree plant</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <p>21 March</p>
+                                    </td>
+                                    <td>
+                                      <p>12548</p>
+                                    </td>
+                                    <td>
+                                      <img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-3.png" alt="" data-original-title="" title="">
+                                    </td>
+                                    <td>
+                                      <p>$589565</p>
+                                    </td>
+                                    <td>
+                                      <p>Done</p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="media">
+                                        <img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-4.png" alt="" data-original-title="" title="">
+                                        <div class="media-body">
+                                          <span>Marco M Kely Handbeg</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <p>31 December</p>
+                                    </td>
+                                    <td>
+                                      <p>15495</p>
+                                    </td>
+                                    <td>
+                                      <img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-4.png" alt="" data-original-title="" title="">
+                                    </td>
+                                    <td>
+                                      <p>$125424 </p>
+                                    </td>
+                                    <td>
+                                      <p>Done</p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      <div class="media">
+                                        <img class="img-fluid rounded-circle" src="<?php echo base_url();?>assets/images/dashboard/product-5.png" alt="" data-original-title="" title="">
+                                        <div class="media-body">
+                                          <span>Being Human Branded T-Shirt</span>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <p>26 January</p>
+                                    </td>
+                                    <td>
+                                      <p>56625</p>
+                                    </td>
+                                    <td>
+                                      <img class="img-fluid" src="<?php echo base_url();?>assets/images/dashboard/graph-5.png" alt="" data-original-title="" title="">
+                                    </td>
+                                    <td>
+                                      <p>$112103</p>
+                                    </td>
+                                    <td>
+                                      <p>Done</p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                          </div></code></pre>
                         </div>
                       </div>
                     </div>
@@ -959,42 +942,42 @@
                         <div class="code-box-copy">
                           <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#user-activations" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
                           <pre><code class="language-html" id="user-activations"><div class="card">
-                              <div class="card-header">
-                                <div class="header-top d-sm-flex align-items-center">
-                                  <h5>User Activations</h5>
-                                  <div class="center-content">
-                                    <p>Yearly User 24.65k</p>
-                                  </div>
-                                  <div class="setting-list">
-                                      <ul class="list-unstyled setting-option">
-                                        <li>
-                                          <div class="setting-primary">
-                                            <i class="icon-settings"></i>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <i class="view-html fa fa-code font-primary"></i>
-                                        </li>
-                                        <li>
-                                          <i class="icofont icofont-maximize full-card font-primary"></i>
-                                        </li>
-                                        <li>
-                                          <i class="icofont icofont-minus minimize-card font-primary"></i>
-                                        </li>
-                                        <li>
-                                          <i class="icofont icofont-refresh reload-card font-primary"></i>
-                                        </li>
-                                        <li>
-                                          <i class="icofont icofont-error close-card font-primary"></i>
-                                        </li>
-                                      </ul>
-                                  </div>
+                            <div class="card-header">
+                              <div class="header-top d-sm-flex align-items-center">
+                                <h5>User Activations</h5>
+                                <div class="center-content">
+                                  <p>Yearly User 24.65k</p>
+                                </div>
+                                <div class="setting-list">
+                                    <ul class="list-unstyled setting-option">
+                                      <li>
+                                        <div class="setting-primary">
+                                          <i class="icon-settings"></i>
+                                        </div>
+                                      </li>
+                                      <li>
+                                        <i class="view-html fa fa-code font-primary"></i>
+                                      </li>
+                                      <li>
+                                        <i class="icofont icofont-maximize full-card font-primary"></i>
+                                      </li>
+                                      <li>
+                                        <i class="icofont icofont-minus minimize-card font-primary"></i>
+                                      </li>
+                                      <li>
+                                        <i class="icofont icofont-refresh reload-card font-primary"></i>
+                                      </li>
+                                      <li>
+                                        <i class="icofont icofont-error close-card font-primary"></i>
+                                      </li>
+                                    </ul>
                                 </div>
                               </div>
-                              <div class="card-body p-0">
-                                <div id="user-activation-dash-2"></div>
-                              </div>
-                            </div></code></pre>
+                            </div>
+                            <div class="card-body p-0">
+                              <div id="user-activation-dash-2"></div>
+                            </div>
+                          </div></code></pre>
                         </div>
                       </div>
                     </div>
@@ -1091,47 +1074,47 @@
       </div>
     </div>
     <!-- latest jquery-->
-    <script src="<?php echo base_url(); ?>assets/js/jquery-3.5.1.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/jquery-3.5.1.min.js"></script>
     <!-- feather icon js-->
-    <script src="<?php echo base_url(); ?>assets/js/icons/feather-icon/feather.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/icons/feather-icon/feather-icon.js"></script>
+    <script src="<?php echo base_url();?>assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/icons/feather-icon/feather-icon.js"></script>
     <!-- Sidebar jquery-->
-    <script src="<?php echo base_url(); ?>assets/js/sidebar-menu.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/config.js"></script>
+    <script src="<?php echo base_url();?>assets/js/sidebar-menu.js"></script>
+    <script src="<?php echo base_url();?>assets/js/config.js"></script>
     <!-- Bootstrap js-->
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap/popper.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap/popper.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap/bootstrap.min.js"></script>
     <!-- Plugins JS start-->
-    <script src="<?php echo base_url(); ?>assets/js/chart/chartist/chartist.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/chart/chartist/chartist-plugin-tooltip.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/chart/knob/knob.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/chart/knob/knob-chart.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/chart/apex-chart/apex-chart.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/chart/apex-chart/stock-prices.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/prism/prism.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/clipboard/clipboard.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/counter/jquery.waypoints.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/counter/jquery.counterup.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/counter/counter-custom.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/custom-card/custom-card.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/notify/bootstrap-notify.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/map/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/map/jquery-jvectormap-us-aea-en.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/map/jquery-jvectormap-uk-mill-en.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/map/jquery-jvectormap-au-mill.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/map/jquery-jvectormap-chicago-mill-en.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/map/jquery-jvectormap-in-mill.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/vector-map/map/jquery-jvectormap-asia-mill.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/dashboard/default.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/notify/index.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/datepicker/date-picker/datepicker.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/datepicker/date-picker/datepicker.en.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/datepicker/date-picker/datepicker.custom.js"></script>
+    <script src="<?php echo base_url();?>assets/js/chart/chartist/chartist.js"></script>
+    <script src="<?php echo base_url();?>assets/js/chart/chartist/chartist-plugin-tooltip.js"></script>
+    <script src="<?php echo base_url();?>assets/js/chart/knob/knob.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/chart/knob/knob-chart.js"></script>
+    <script src="<?php echo base_url();?>assets/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="<?php echo base_url();?>assets/js/chart/apex-chart/stock-prices.js"></script>
+    <script src="<?php echo base_url();?>assets/js/prism/prism.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/clipboard/clipboard.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/counter/jquery.waypoints.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/counter/jquery.counterup.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/counter/counter-custom.js"></script>
+    <script src="<?php echo base_url();?>assets/js/custom-card/custom-card.js"></script>
+    <script src="<?php echo base_url();?>assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/map/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/map/jquery-jvectormap-us-aea-en.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/map/jquery-jvectormap-uk-mill-en.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/map/jquery-jvectormap-au-mill.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/map/jquery-jvectormap-chicago-mill-en.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/map/jquery-jvectormap-in-mill.js"></script>
+    <script src="<?php echo base_url();?>assets/js/vector-map/map/jquery-jvectormap-asia-mill.js"></script>
+    <script src="<?php echo base_url();?>assets/js/dashboard/default.js"></script>
+    <script src="<?php echo base_url();?>assets/js/notify/index.js"></script>
+    <script src="<?php echo base_url();?>assets/js/datepicker/date-picker/datepicker.js"></script>
+    <script src="<?php echo base_url();?>assets/js/datepicker/date-picker/datepicker.en.js"></script>
+    <script src="<?php echo base_url();?>assets/js/datepicker/date-picker/datepicker.custom.js"></script>
     <!-- Plugins JS Ends-->
     <!-- Theme js-->
-    <script src="<?php echo base_url(); ?>assets/js/script.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/theme-customizer/customizer.js"></script>
+    <script src="<?php echo base_url();?>assets/js/script.js"></script>
+    <script src="<?php echo base_url();?>assets/js/theme-customizer/customizer.js"></script>
     <!-- login js-->
     <!-- Plugin used-->
   </body>
