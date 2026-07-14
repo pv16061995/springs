@@ -1,0 +1,170 @@
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #1c1c1c;
+}
+
+.jSlider {
+    max-width: 1250px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 99;
+    height: 100vh;
+}
+
+.jSlider-track {
+    position: relative;
+    height: 500px;
+}
+
+.jSlide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px) scale(.96);
+    transition: .8s ease;
+}
+
+.jSlide.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+}
+
+.jSliderCard {
+
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .12);
+    transition: .5s;
+    animation: float 5s ease-in-out infinite;
+}
+
+.jSliderCard:nth-child(2) {
+    animation-delay: .7s;
+}
+
+.jSliderCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 35px 60px rgba(0, 0, 0, .18);
+}
+
+.jSimage {
+    height: 280px;
+    overflow: hidden;
+}
+
+.jSimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .7s;
+}
+
+.jSliderCard:hover img {
+    transform: scale(1.08);
+}
+
+.jScontent {
+    padding: 30px;
+}
+
+.jStag {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #c89b3c;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+p {
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+a.jSread {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 28px;
+    background: #1b1b1b;
+    color: #fff;
+    border-radius: 40px;
+    transition: .4s;
+}
+
+a.jSread:hover {
+    background: #c89b3c;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background: #1b1b1b;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover {
+    background: #c89b3c;
+    transform: scale(1.1);
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+}
+
+@media(max-width:900px) {
+
+    .jSlide {
+        grid-template-columns: 1fr;
+    }
+
+    .jSlider-track {
+        height: 620px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+}

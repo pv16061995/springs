@@ -49,6 +49,7 @@
         href="assets/manifest/favicon-16x16-light2c68.png?v=1765268659">
     <link rel="apple-touch-icon" href="assets/manifest/apple-touch-icon2c68.png?v=1765268659">
     <link rel="mask-icon" href="assets/manifest/safari-pinned-tab2c68.svg?v=1765268659" color="#ffffff">
+    <link rel="mask-icon" href="assets/stylesheets/jsSlider.css" color="#ffffff">
     <meta name="description"
         content="Panoramic apartments, townhouses with&amp;nbsp;patios and two-level penthouses with&amp;nbsp;terraces near&amp;nbsp;a&amp;nbsp;park">
     <meta name="keywords" content="">
@@ -66,6 +67,219 @@
     <meta name="twitter:description"
         content="Panoramic apartments, townhouses with&amp;nbsp;patios and two-level penthouses with&amp;nbsp;terraces near&amp;nbsp;a&amp;nbsp;park">
     <!-- <meta name="twitter:image" content="assets/manifest/og.jpg"> -->
+    <style>
+        .section-title {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 400;
+            margin-bottom: 50px;
+            color: #666;
+            font-family: Victor Serif, Helvetica, Arial, sans-serif;
+        }
+
+
+        .jSliderContainer {
+            background: #e0d1b6;
+            min-height: 120vh;
+            padding-top: 80px;
+            margin: 0;
+            margin-top: -1px;
+            position: relative;
+        }
+
+        .jSlider {
+            max-width: 1250px;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+            z-index: 99;
+            height: 120vh;
+        }
+
+        .jSlider-track {
+            position: relative;
+            min-height: 620px;
+        }
+
+        .jSlide {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(30px) scale(.96);
+            transition: .8s ease;
+        }
+
+        .jSlide.active {
+            opacity: 1;
+            visibility: visible;
+            /* transform: translateY(0) scale(1); */
+        }
+
+        .jSliderCard {
+            background: rgba(255, 255, 255, .2);
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 0px 10px rgba(0, 0, 0, .12);
+            transition: .5s;
+            animation: float 5s ease-in-out infinite;
+        }
+
+        .jSliderCard:nth-child(2) {
+            animation-delay: .7s;
+        }
+
+        .jSliderCard:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 20px rgba(0, 0, 0, .18);
+        }
+
+        .jSimage {
+            height: 280px;
+            overflow: hidden;
+        }
+
+        .jSimage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: .7s;
+        }
+
+        .jSliderCard:hover img {
+            transform: scale(1.08);
+        }
+
+        .jScontent {
+            padding: 30px;
+        }
+
+        .jStag {
+            display: inline-block;
+            padding: 8px 18px;
+            background: #c89b3c;
+            color: #fff;
+            border-radius: 30px;
+            font-size: 13px;
+            margin-bottom: 18px;
+            float: left;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        a.jSread {
+            text-decoration: none;
+            display: inline-block;
+            padding: 14px 28px;
+            background: #1b1b1b;
+            color: #fff;
+            border-radius: 40px;
+            transition: .4s;
+        }
+
+        a.jSread:hover {
+            background: #c89b3c;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: right;
+            gap: 20px;
+            margin-top: 40px;
+            padding-right: 30px;
+        }
+
+        .blog-meta {
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 25px;
+            text-align: right;
+            display: block;
+            height: 40px;
+        }
+
+        .meta-item {
+            display: inline-block;
+            align-items: center;
+            gap: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #555;
+            transition: .3s;
+            cursor: pointer;
+            margin-left: 30px;
+        }
+
+        .meta-item:hover {
+            color: #c89b3c;
+            transform: translateY(-2px);
+        }
+
+        .meta-item span {
+            font-size: 15px;
+        }
+
+        button {
+            width: 55px;
+            height: 55px;
+            border: none;
+            border-radius: 50%;
+            background: #1b1b1b;
+            color: #fff;
+            font-size: 22px;
+            cursor: pointer;
+            transition: .4s;
+        }
+
+        button:hover {
+            background: #c89b3c;
+            transform: scale(1.1);
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+
+        }
+
+        @media(max-width:900px) {
+
+            .jSlide {
+                grid-template-columns: 1fr;
+            }
+
+            .jSlider-track {
+                height: 620px;
+            }
+
+            .section-title {
+                font-size: 32px;
+            }
+
+        }
+    </style>
 </head>
 
 <body data-barba="wrapper">
@@ -336,18 +550,15 @@
                                         data-parallax--100-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'>
                                         <picture class="is-invisible--js is-hidden--no-js a-about__big-img img-cover"
                                             data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="900">
@@ -361,20 +572,17 @@
                                         </picture>
                                         <noscript>
                                             <picture class=" a-about__big-img img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
                                                     media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
                                                     media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/2.about/image-1%40xxxl.webp"
                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                     width="720" height="900">
-                                                <img src="assets/images/media/about/2.about/image-1-xs%40xs.webp"
-                                                    alt="" width="720" height="840" data-plugin="parallax"
+                                                <img src="assets/images/media/about/2.about/image-1-xs%40xs.webp" alt=""
+                                                    width="720" height="840" data-plugin="parallax"
                                                     data-parallax-clamp="true" data-parallax-enable-mq="md-up"
                                                     data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
                                                     data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
@@ -483,16 +691,13 @@
                                     </picture>
                                     <noscript>
                                         <picture class=" a-overview__img img-full" draggable="false">
-                                            <source
-                                                srcset="assets/images/media/about/3.overview/background%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/3.overview/background%40xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                 height="1434">
-                                            <source
-                                                srcset="assets/images/media/about/3.overview/background%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/3.overview/background%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                 height="1434">
-                                            <source
-                                                srcset="assets/images/media/about/3.overview/background%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/3.overview/background%40xxxl.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="1440" height="1434">
                                             <img src="assets/images/media/about/3.overview/background-xs%40xs.webp"
@@ -526,7 +731,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="a-photos sticky sticky--full-height sticky--under-previous sticky--under-next" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
+                        <div class="a-photos sticky sticky--full-height sticky--under-previous sticky--under-next"
+                            data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
                             <div
                                 class="sticky__layer sticky__layer--sticky sticky__layer--sticky:lg-up sticky--full-height ui-background">
                                 <div>
@@ -775,18 +981,15 @@
                                     <div class=" background background--bottom background--cover">
                                         <picture class="is-invisible--js is-hidden--no-js img-cover"
                                             data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="1440" height="900">
@@ -796,20 +999,17 @@
                                         </picture>
                                         <noscript>
                                             <picture class=" img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                     width="1440" height="900">
-                                                <img src="assets/images/media/about/5.place/place-1-xs%40xs.webp"
-                                                    alt="" width="1440" height="900" draggable="false">
+                                                <img src="assets/images/media/about/5.place/place-1-xs%40xs.webp" alt=""
+                                                    width="1440" height="900" draggable="false">
                                             </picture>
                                         </noscript>
                                     </div>
@@ -822,18 +1022,15 @@
                                     <div class=" background background--bottom background--cover">
                                         <picture class="is-invisible--js is-hidden--no-js img-cover"
                                             data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="1440" height="900">
@@ -843,20 +1040,17 @@
                                         </picture>
                                         <noscript>
                                             <picture class=" img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                     width="1440" height="900">
-                                                <img src="assets/images/media/about/5.place/place-2-xs%40xs.webp"
-                                                    alt="" width="1440" height="900" draggable="false">
+                                                <img src="assets/images/media/about/5.place/place-2-xs%40xs.webp" alt=""
+                                                    width="1440" height="900" draggable="false">
                                             </picture>
                                         </noscript>
                                     </div>
@@ -869,18 +1063,15 @@
                                     <div class=" background background--bottom background--cover">
                                         <picture class="is-invisible--js is-hidden--no-js img-cover"
                                             data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="1440" height="900">
@@ -890,20 +1081,17 @@
                                         </picture>
                                         <noscript>
                                             <picture class=" img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                     width="1440" height="900">
-                                                <img src="assets/images/media/about/5.place/place-3-xs%40xs.webp"
-                                                    alt="" width="1440" height="900" draggable="false">
+                                                <img src="assets/images/media/about/5.place/place-3-xs%40xs.webp" alt=""
+                                                    width="1440" height="900" draggable="false">
                                             </picture>
                                         </noscript>
                                     </div>
@@ -916,18 +1104,15 @@
                                     <div class=" background background--bottom background--cover">
                                         <picture class="is-invisible--js is-hidden--no-js img-cover"
                                             data-plugin="appear " draggable="false">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                 height="900">
-                                            <source
-                                                data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                            <source data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="1440" height="900">
@@ -937,20 +1122,17 @@
                                         </picture>
                                         <noscript>
                                             <picture class=" img-cover" draggable="false">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440"
                                                     height="900">
-                                                <source
-                                                    srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                                <source srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                     width="1440" height="900">
-                                                <img src="assets/images/media/about/5.place/place-4-xs%40xs.webp"
-                                                    alt="" width="1440" height="900" draggable="false">
+                                                <img src="assets/images/media/about/5.place/place-4-xs%40xs.webp" alt=""
+                                                    width="1440" height="900" draggable="false">
                                             </picture>
                                         </noscript>
                                     </div>
@@ -1125,18 +1307,15 @@
                                         data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                         data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                         data-plugin="appear  parallax" draggable="false">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                             width="720" height="1280">
@@ -1150,20 +1329,17 @@
                                             data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                             data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                             data-plugin=" parallax" draggable="false">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-1%40xxxl.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="1280">
-                                            <img src="assets/images/media/about/5.place/place-1-xs%40xs.webp"
-                                                alt="" width="720" height="1280" draggable="false">
+                                            <img src="assets/images/media/about/5.place/place-1-xs%40xs.webp" alt=""
+                                                width="720" height="1280" draggable="false">
                                         </picture>
                                     </noscript>
                                 </div>
@@ -1191,18 +1367,15 @@
                                         data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                         data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                         data-plugin="appear  parallax" draggable="false">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                             width="720" height="1280">
@@ -1216,20 +1389,17 @@
                                             data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                             data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                             data-plugin=" parallax" draggable="false">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-2%40xxxl.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="1280">
-                                            <img src="assets/images/media/about/5.place/place-2-xs%40xs.webp"
-                                                alt="" width="720" height="1280" draggable="false">
+                                            <img src="assets/images/media/about/5.place/place-2-xs%40xs.webp" alt=""
+                                                width="720" height="1280" draggable="false">
                                         </picture>
                                     </noscript>
                                 </div>
@@ -1257,18 +1427,15 @@
                                         data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                         data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                         data-plugin="appear  parallax" draggable="false">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                             width="720" height="1280">
@@ -1282,20 +1449,17 @@
                                             data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                             data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                             data-plugin=" parallax" draggable="false">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-3%40xxxl.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="1280">
-                                            <img src="assets/images/media/about/5.place/place-3-xs%40xs.webp"
-                                                alt="" width="720" height="1280" draggable="false">
+                                            <img src="assets/images/media/about/5.place/place-3-xs%40xs.webp" alt=""
+                                                width="720" height="1280" draggable="false">
                                         </picture>
                                     </noscript>
                                 </div>
@@ -1323,18 +1487,15 @@
                                         data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                         data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                         data-plugin="appear  parallax" draggable="false">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                             height="1280">
-                                        <source
-                                            data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                        <source data-srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                             srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
                                             media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                             width="720" height="1280">
@@ -1348,20 +1509,17 @@
                                             data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}"
                                             data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                                             data-plugin=" parallax" draggable="false">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                 media="(min-width: 1920px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                 media="(min-width: 1440px) and (min-height: 700px)" width="720"
                                                 height="1280">
-                                            <source
-                                                srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
+                                            <source srcset="assets/images/media/about/5.place/place-4%40xxxl.webp"
                                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                                 width="720" height="1280">
-                                            <img src="assets/images/media/about/5.place/place-4-xs%40xs.webp"
-                                                alt="" width="720" height="1280" draggable="false">
+                                            <img src="assets/images/media/about/5.place/place-4-xs%40xs.webp" alt=""
+                                                width="720" height="1280" draggable="false">
                                         </picture>
                                     </noscript>
                                 </div>
@@ -2338,6 +2496,276 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="jSliderContainer">
+
+                            <h1 class="section-title">
+                                Latest Real Estate Insights
+                            </h1>
+                            <div class="jSlider">
+                                <div class="jSlider-track">
+                                    <!-- Slide 1 -->
+                                    <div class="jSlide active">
+
+                                        <div class="jSliderCard">
+
+                                            <div class="jSimage">
+                                                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200"
+                                                    alt="">
+                                            </div>
+
+                                            <div class="jScontent">
+                                                <div class="blog-meta">
+
+                                                    <span class="jStag">
+                                                        Luxury Homes
+                                                    </span>
+
+                                                    <div class="meta-item">
+                                                        ❤️ <span>248</span>
+                                                    </div>
+
+                                                    <div class="meta-item">
+                                                        💬 <span>36</span>
+                                                    </div>
+
+                                                </div>
+
+                                                <h2>
+                                                    Modern Villas with Smart Living
+                                                </h2>
+
+                                                <p>
+                                                    Explore beautifully designed luxury villas featuring intelligent
+                                                    home, elegant interiors and peaceful & perfect for
+                                                    premium living.
+                                                </p>
+
+                                                <a href="#" class="jSread">
+                                                    Read More
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="jSliderCard">
+
+                                            <div class="jSimage">
+                                                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200"
+                                                    alt="">
+                                            </div>
+                                            <div class="jScontent">
+                                                <div class="blog-meta">
+                                                    <span class="jStag">
+                                                        Investment
+                                                    </span>
+                                                    <div class="meta-item">
+                                                        ❤️ <span>248</span>
+                                                    </div>
+                                                    <div class="meta-item">
+                                                        💬 <span>36</span>
+                                                    </div>
+                                                </div>
+
+                                                <h2>
+                                                    Top Locations for Property Investment
+                                                </h2>
+                                                <p>
+                                                    Discover emerging residential locations with excellent appreciation
+                                                    potential, connectivity, lifestyle amenities and strong rental
+                                                    demand.
+                                                </p>
+
+                                                <a href="#" class="jSread">
+                                                    Read More
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Slide 2 -->
+                                    <div class="jSlide">
+
+                                        <div class="jSliderCard">
+
+                                            <div class="jSimage">
+                                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200"
+                                                    alt="">
+                                            </div>
+
+                                            <div class="jScontent">
+                                                <div class="blog-meta">
+
+                                                    <span class="jStag">
+                                                        Architecture
+                                                    </span>
+
+                                                    <div class="meta-item">
+                                                        ❤️ <span>248</span>
+                                                    </div>
+
+                                                    <div class="meta-item">
+                                                        💬 <span>36</span>
+                                                    </div>
+
+                                                </div>
+
+                                                <h2>
+                                                    Luxury Interior Design Trends
+                                                </h2>
+
+                                                <p>
+                                                    Minimalist layouts, natural lighting and sustainable materials
+                                                    continue
+                                                    to redefine modern luxury home experiences.
+                                                </p>
+
+                                                <a href="#" class="jSread">
+                                                    Read More
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="jSliderCard">
+
+                                            <div class="jSimage">
+                                                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200"
+                                                    alt="">
+                                            </div>
+
+                                            <div class="jScontent">
+                                                <div class="blog-meta">
+
+                                                    <span class="jStag">
+                                                        Buying Guide
+                                                    </span>
+
+                                                    <div class="meta-item">
+                                                        ❤️ <span>248</span>
+                                                    </div>
+
+                                                    <div class="meta-item">
+                                                        💬 <span>36</span>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <h2>
+                                                    Things to Check Before Buying a Home
+                                                </h2>
+
+                                                <p>
+                                                    Understand documentation, construction quality, legal approvals and
+                                                    financing options before making your next investment.
+                                                </p>
+
+
+                                                <a href="#" class="jSread">
+                                                    Read More
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Slide 3 -->
+                                    <div class="jSlide">
+
+                                        <div class="jSliderCard">
+
+                                            <div class="jSimage">
+                                                <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=1200"
+                                                    alt="">
+                                            </div>
+
+                                            <div class="jScontent">
+                                                <div class="blog-meta">
+
+                                                    <span class="jStag">
+                                                        Commercial
+                                                    </span>
+
+                                                    <div class="meta-item">
+                                                        ❤️ <span>248</span>
+                                                    </div>
+
+                                                    <div class="meta-item">
+                                                        💬 <span>36</span>
+                                                    </div>
+
+                                                </div>
+                                                <h2>
+                                                    Office Spaces That Boost Productivity
+                                                </h2>
+
+                                                <p>
+                                                    Flexible workspaces designed with modern architecture help improve
+                                                    employee wellbeing while enhancing business growth.
+                                                </p>
+                                                <a href="#" class="jSread">
+                                                    Read More
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="jSliderCard">
+
+                                            <div class="jSimage">
+                                                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200"
+                                                    alt="">
+                                            </div>
+
+                                            <div class="jScontent">
+                                                <div class="blog-meta">
+                                                    <span class="jStag">
+                                                        Lifestyle
+                                                    </span>
+                                                    <div class="meta-item">
+                                                        ❤️ <span>248</span>
+                                                    </div>
+
+                                                    <div class="meta-item">
+                                                        💬 <span>36</span>
+                                                    </div>
+
+                                                </div>
+
+
+                                                <h2>
+                                                    Why Waterfront Properties Are Trending
+                                                </h2>
+
+                                                <p>
+                                                    Premium waterfront communities offer scenic beauty, excellent resale
+                                                    value and unmatched luxury living experiences.
+                                                </p>
+
+                                                <a href="#" class="jSread">
+                                                    Read More
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <button id="prev">&#10094;</button>
+                                    <button id="next">&#10095;</button>
+                                </div>
+                            </div>
                     </section>
                 </main>
                 <footer class="section section--no-overflow ui-dark ui-background footer is-hidden--print"
@@ -2559,8 +2987,7 @@
                                                             id="application" role="tabpanel" aria-hidden="false">
                                                             <form
                                                                 class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
-                                                                method="POST"
-                                                                action="api/contact.json"
+                                                                method="POST" action="api/contact.json"
                                                                 data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
                                                                 data-recaptcha-type="yandex"
                                                                 data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
@@ -2726,8 +3153,7 @@
                                                             id="call" role="tabpanel" aria-hidden="true">
                                                             <form
                                                                 class="l-callback__form-container ui-dark ui-background pt-3:md pb-1:md"
-                                                                method="POST"
-                                                                action="api/contact.json"
+                                                                method="POST" action="api/contact.json"
                                                                 data-plugin="ajaxForm ajaxFormCalltouch recaptcha"
                                                                 data-recaptcha-type="yandex"
                                                                 data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
@@ -3310,8 +3736,8 @@
 
 
                                             <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/subscribe.json"
-                                                data-plugin="ajaxForm recaptcha" data-recaptcha-type="yandex"
+                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
+                                                data-recaptcha-type="yandex"
                                                 data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
                                                 data-ajax-form-loading-delay="1500" data-ajax-form-type="">
                                                 <div class="col col--xs-4 col--md-6 flats-subscribe__form">
@@ -3536,8 +3962,8 @@
 
 
                                             <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/subscribe.json"
-                                                data-plugin="ajaxForm recaptcha" data-recaptcha-type="yandex"
+                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
+                                                data-recaptcha-type="yandex"
                                                 data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
                                                 data-ajax-form-loading-delay="1500" data-ajax-form-type="penthouse">
                                                 <div class="col col--xs-4 col--md-6 flats-subscribe__form">
@@ -3762,8 +4188,8 @@
 
 
                                             <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/subscribe.json"
-                                                data-plugin="ajaxForm recaptcha" data-recaptcha-type="yandex"
+                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
+                                                data-recaptcha-type="yandex"
                                                 data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
                                                 data-ajax-form-loading-delay="1500" data-ajax-form-type="townhouse">
                                                 <div class="col col--xs-4 col--md-6 flats-subscribe__form">
@@ -5112,8 +5538,8 @@
 
 
                                             <form class="flats-subscribe__form-container pt-2:md" method="POST"
-                                                action="api/subscribe.json"
-                                                data-plugin="ajaxForm recaptcha" data-recaptcha-type="yandex"
+                                                action="api/subscribe.json" data-plugin="ajaxForm recaptcha"
+                                                data-recaptcha-type="yandex"
                                                 data-recaptcha-yandex-key="ysc1_xuCetcddmTWwcdcDRafE9wAV2kVtWnwUtoccCvKf7d2c00fd"
                                                 data-ajax-form-loading-delay="1500" data-ajax-form-type="">
                                                 <div class="col col--xs-4 col--md-6 flats-subscribe__form">
@@ -5410,5 +5836,110 @@
         integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ=="
         data-cf-beacon='{"version":"2024.11.0","token":"51f0635c29cd4442bc093b45ad852b2d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}'
         crossorigin="anonymous"></script>
+
+    <script>
+
+        // const slides = document.querySelectorAll(".jSlide");
+
+        // let current = 0;
+        // let interval;
+
+        // function showSlide(index) {
+
+        //     slides.forEach(slide => slide.classList.remove("active"));
+
+        //     slides[index].classList.add("active");
+
+        // }
+
+        // function nextSlide() {
+
+        //     current++;
+
+        //     if (current >= slides.length) {
+        //         current = 0;
+        //     }
+
+        //     showSlide(current);
+
+        // }
+
+        // function prevSlide() {
+
+        //     current--;
+
+        //     if (current < 0) {
+        //         current = slides.length - 1;
+        //     }
+
+        //     showSlide(current);
+
+        // }
+
+        // document.getElementById("next").onclick = () => {
+
+        //     nextSlide();
+        //     resetAuto();
+
+        // }
+
+        // document.getElementById("prev").onclick = () => {
+
+        //     prevSlide();
+        //     resetAuto();
+
+        // }
+
+        // function startAuto() {
+
+        //     interval = setInterval(nextSlide, 4000);
+
+        // }
+
+        // function resetAuto() {
+
+        //     clearInterval(interval);
+        //     startAuto();
+
+        // }
+
+        // startAuto();
+
+        const slides = document.querySelectorAll(".jSlide");
+        const prevBtn = document.getElementById("prev");
+        const nextBtn = document.getElementById("next");
+
+        let current = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle("active", i === index);
+            });
+        }
+
+        function nextSlide() {
+            current = (current + 1) % slides.length;
+            showSlide(current);
+        }
+
+        function prevSlide() {
+            current = (current - 1 + slides.length) % slides.length;
+            showSlide(current);
+        }
+
+        nextBtn.addEventListener("click", nextSlide);
+        prevBtn.addEventListener("click", prevSlide);
+
+        // Optional: Keyboard Navigation
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "ArrowRight") nextSlide();
+            if (e.key === "ArrowLeft") prevSlide();
+        });
+
+        // Show the first slide
+        showSlide(current);
+
+    </script>
 </body>
+
 </html>
