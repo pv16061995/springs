@@ -3,26 +3,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+class Testimonial extends CI_Controller {
 
     function __construct() {
         parent::__construct();
         is_login();
-        // $this->load->model('dashboard_model');
         ini_set("display_error",1);
     }
 
 	public function index()
 	{
         $data = array();
-		$data['title'] = 'Dashboard';
-        $data['page']  = 'dashboard/index';
-
         $this->load->view('dashboard/index', $data);
 	}
 
-	public function home()
-	{
-		echo "Welcome to the home page!";
-	}
 }
