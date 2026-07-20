@@ -1,67 +1,121 @@
+/*==================================================
+    360° COVERFLOW CAROUSEL
+==================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #a0725b;
+    color: #fff;
+    font-family: Segoe UI, sans-serif;
+    overflow-x: hidden;
+
+}
+
+/*============================*/
+
+.coverflow-section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(circle at top, #1f1f1f, #080808 70%);
+}
+
+/*============================*/
 
 .section-title {
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 400;
     margin-bottom: 50px;
-    color: #1c1c1c;
+    letter-spacing: 2px;
 }
 
-.jSlider {
-    max-width: 1250px;
-    margin: auto;
+/*============================*/
+
+.coverflow {
+    width: 100%;
+    height: 450px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 2200px;
+    overflow: visible;
+}
+
+/*============================*/
+
+.viewport {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: visible;
+}
+
+/*============================*/
+.track {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+/*============================*/
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 420px;
+    height: 480px;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    border-radius: 30px;
     overflow: hidden;
-    z-index: 99;
-    height: 100vh;
+    cursor: pointer;
+    /* transition: transform .8s cubic-bezier(.2, .8, .2, 1), opacity .8s, filter .8s, box-shadow .8s; */
+    /* background: rgba(255, 255, 255, .08); */
+    /* backdrop-filter: blur(18px); */
+    border: 1px solid rgba(255, 255, 255, .15);
 }
 
-.jSlider-track {
-    position: relative;
-    height: 500px;
+/*============================*/
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent, rgba(255, 255, 255, .08));
+    pointer-events: none;
 }
 
-.jSlide {
+/*============================*/
+.card::after {
+    content: "";
     position: absolute;
     left: 0;
-    top: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(30px) scale(.96);
-    transition: .8s ease;
+    right: 0;
+    bottom: -140px;
+    height: 140px;
+    background: inherit;
+    transform: scaleY(-1);
+    opacity: .18;
+    filter: blur(18px);
 }
 
-.jSlide.active {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0) scale(1);
-}
-
-.jSliderCard {
-
-    background: #fff;
-    border-radius: 25px;
-    overflow: hidden;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, .12);
-    transition: .5s;
-    animation: float 5s ease-in-out infinite;
-}
-
-.jSliderCard:nth-child(2) {
-    animation-delay: .7s;
-}
-
-.jSliderCard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 35px 60px rgba(0, 0, 0, .18);
-}
-
+/*============================*/
 .jSimage {
-    height: 280px;
+    width: 100%;
+    height: 220px;
     overflow: hidden;
 }
 
@@ -69,102 +123,248 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: .7s;
+    transition: 1s;
 }
 
-.jSliderCard:hover img {
+.card:hover img {
     transform: scale(1.08);
 }
 
+/*============================*/
 .jScontent {
-    padding: 30px;
+    padding: 20px;
+}
+
+.blog-meta {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 18px;
+    text-align: right;
 }
 
 .jStag {
-    display: inline-block;
-    padding: 8px 18px;
-    background: #c89b3c;
-    color: #fff;
-    border-radius: 30px;
-    font-size: 13px;
-    margin-bottom: 18px;
-}
-
-h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
-    color: #222;
-}
-
-p {
-    line-height: 1.7;
-    color: #666;
-    margin-bottom: 25px;
-}
-
-a.jSread {
-    text-decoration: none;
-    display: inline-block;
-    padding: 14px 28px;
-    background: #1b1b1b;
-    color: #fff;
+    padding: 5px 20px;
     border-radius: 40px;
+    background: #000;
+    color: #a0725b;
+    ;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-block;
+    float: left;
+}
+
+.meta-item {
+    display: inline-block;
+    padding-top: 8px;
+}
+
+/*============================*/
+.jScontent h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 400;
+}
+
+.jScontent p {
+    color: #d4d4d4;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.jScontent a.jSread {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 180px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: 400;
     transition: .4s;
+    border: 2px solid;
+    padding: 5px 20px;
+    position: relative;
+    transition: .2s ease-in-out;
+    top: 0
 }
 
-a.jSread:hover {
-    background: #c89b3c;
+.jScontent a.jSread:hover {
+    /* transform: translateY(-4px); */
+    /* box-shadow: 0 15px 40px rgba(212, 175, 55, .35); */
+    top: -2px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, .4);
 }
 
+/*==================================================
+ACTIVE
+==================================================*/
+.card.active {
+    opacity: 1;
+    filter: none;
+    z-index: 999;
+    box-shadow: 0 30px 90px rgba(0, 0, 0, .45);
+}
+
+/*============================*/
+.card.left,
+.card.right {
+    opacity: .85;
+}
+
+/*============================*/
+.card.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/*==================================================
+CONTROLS
+==================================================*/
 .controls {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 40px;
 }
 
-button {
-    width: 55px;
-    height: 55px;
+.controls button {
+    width: 70px;
+    height: 70px;
     border: none;
     border-radius: 50%;
-    background: #1b1b1b;
-    color: #fff;
-    font-size: 22px;
     cursor: pointer;
+    font-size: 26px;
+    color: #fff;
+    background: rgba(255, 255, 255, .08);
+    backdrop-filter: blur(12px);
     transition: .4s;
 }
 
-button:hover {
-    background: #c89b3c;
-    transform: scale(1.1);
+.controls button:hover {
+    background: #d4af37;
+    color: #000;
+    transform: translateY(-4px);
 }
 
-@keyframes float {
-
-    0%,
-    100% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(-8px);
-    }
-
+/*==================================================
+DRAG CURSOR
+==================================================*/
+.track.grabbing {
+    cursor: grabbing;
 }
 
-@media(max-width:900px) {
+.track {
+    cursor: grab;
+}
 
-    .jSlide {
-        grid-template-columns: 1fr;
-    }
-
-    .jSlider-track {
-        height: 620px;
+/*==================================================
+RESPONSIVE
+==================================================*/
+@media(max-width:1200px) {
+    .card {
+        width: 360px;
+        height: 520px;
     }
 
     .section-title {
-        font-size: 32px;
+        font-size: 42px;
+    }
+}
+
+@media(max-width:992px) {
+    .coverflow {
+        height: 620px;
     }
 
+    .card {
+        width: 320px;
+        height: 500px;
+    }
+
+    .jScontent h2 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:768px) {
+    .section-title {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+
+    .coverflow {
+        height: 540px;
+        perspective: 1500px;
+    }
+
+    .card {
+        width: 280px;
+        height: 440px;
+    }
+
+    .jSimage {
+        height: 200px;
+    }
+
+    .jScontent {
+        padding: 20px;
+    }
+
+    .jScontent h2 {
+        font-size: 22px;
+    }
+
+    .jScontent p {
+        font-size: 14px;
+    }
+
+    .controls button {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media(max-width:480px) {
+    .coverflow {
+        height: 480px;
+    }
+
+    .card {
+        width: 240px;
+        height: 390px;
+    }
+
+    .jSimage {
+        height: 170px;
+    }
+
+    .jScontent {
+        padding: 16px;
+    }
+
+    .jStag {
+        font-size: 11px;
+    }
+
+    .stats {
+        font-size: 13px;
+    }
+
+    .jScontent h2 {
+        font-size: 19px;
+    }
+
+    .jScontent p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .jScontent a {
+        width: 150px;
+        height: 46px;
+        font-size: 14px;
+    }
 }
