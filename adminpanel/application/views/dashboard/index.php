@@ -1115,6 +1115,8 @@
     <!-- Theme js-->
     <script src="<?php echo base_url();?>assets/js/script.js"></script>
     <script src="<?php echo base_url();?>assets/js/theme-customizer/customizer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon/dist/iconify-icon.min.js"></script>
+
     <!-- login js-->
     <!-- Plugin used-->
   </body>
