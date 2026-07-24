@@ -693,9 +693,9 @@
     height: calc(100 * var(--svh));
     opacity: .7;
     position: absolute;
-    top: -26vw;
-    /* transform: rotate(-28deg); */
-    transform-origin: 50% calc(50% + 30svh);
+    top: -25vw;
+    transform: rotate(30deg);
+    transform-origin: 50% calc(50% + 25svh);
     width: 100vw
 }
 
@@ -755,7 +755,13 @@
 }
 
 .is-preloader-disabled .l-gallery-next {
-    opacity: 1
+    opacity: 1;
+    background: transparent !important;
+    border: 1px solid;
+}
+
+a.btn.l-gallery-next.btn--outline.btn--square.btn--sm.is-hidden--md-down:hover {
+    background: transparent !important;
 }
 
 .l-gallery__gradient {
