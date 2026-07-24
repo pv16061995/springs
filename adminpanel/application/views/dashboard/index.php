@@ -87,7 +87,7 @@
                         <div class="confetti-piece"></div>
                         <div class="code-box-copy">
                           <button class="code-box-copy__btn btn-clipboard" data-clipboard-target="#profile-greeting" title="Copy"><i class="icofont icofont-copy-alt"></i></button>
-                          <pre><code class="language-html" id="profile-greeting">                                     <div class="card profile-greeting"> 
+                          <pre><code class="language-html" id="profile-greeting"><div class="card profile-greeting"> 
                             <div class="card-header">
                               <div class="header-top">
                                 <div class="setting-list bg-primary">
