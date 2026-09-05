@@ -800,3 +800,164 @@
     top: -28vw;
     width: 96vw
 }
+
+/* Base iframe container integration */
+.gallery-desktop-item iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Allows hover & custom cursor script interactions to register smoothly */
+    transition: transform 0.8s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+
+/* Hover effect on running pointer across desktop devices */
+.has-hover .gallery-desktop-item:hover iframe {
+    transform: scale(1.042);
+}
+
+/* Mobile responsive image/iframe layout adjustments */
+.gallery-mobile-item iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 24 / 30;
+    object-fit: cover;
+    border: none;
+    pointer-events: auto;
+}
+
+/* --------------------------------------------------
+   Media Queries for standard responsive breakpoints
+-------------------------------------------------- */
+
+/* Extra Large Screens / Ultra-wide Desktop (1920px+) */
+@media (min-width: 1920px) {
+    .gallery-desktop-item iframe {
+        min-height: 100%;
+    }
+}
+
+/* Large Desktop & Laptop Displays (1440px to 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .gallery-desktop-item iframe {
+        height: 100%;
+    }
+}
+
+/* Tablet / Medium Screens (980px to 1439px) */
+@media (min-width: 980px) and (max-width: 1439px) {
+    .gallery-desktop-item iframe {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Mobile & Small Screen Breakpoints (< 979px) */
+@media (max-width: 979px) {
+    .gallery-desktop-item iframe {
+        position: relative;
+        height: 100%;
+    }
+    
+    .gallery-mobile-layout iframe {
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+    }
+}
+.gallery-iframe-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-desktop-item iframe,
+.gallery-iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border: none;
+    pointer-events: none; /* Keeps custom hover cursor working */
+    transition: transform 0.8s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+
+/* Maintain hover zoom effect */
+.has-hover .gallery-desktop-item:hover iframe {
+    transform: scale(1.042);
+}
+.gallery-desktop-item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Wrapper holds absolute positioning boundaries */
+.gallery-iframe-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-iframe-wrapper iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    min-width: 177.77vh; /* Keeps 16:9 aspect ratio scaled to fill height */
+    min-height: 56.25vw;  /* Keeps 16:9 aspect ratio scaled to fill width */
+    transform: translate(-50%, -50%);
+    border: none;
+    pointer-events: none; /* Keeps custom hover cursor functional */
+    transition: transform 0.8s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+
+.gallery-desktop-item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-iframe-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gallery-iframe-wrapper iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100% !important;
+    min-width: 100% !important;
+    height: 56.25vw; /* 16:9 ratio coverage based on width */
+    min-height: 100% !important;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    border: none;
+    pointer-events: none; /* Keeps custom hover cursor working */
+    transition: transform 0.8s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+
+
+/* Hover effect on desktop */
+.has-hover .gallery-desktop-item:hover .gallery-iframe-wrapper iframe {
+    transform: translate(-50%, -50%) scale(1.042);
+}

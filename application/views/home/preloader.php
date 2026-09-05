@@ -1,7 +1,7 @@
 <div class="l-gallery__split row background background--cover">
     <div class="col col--xs-4 col--md-12">
         <div class="l-gallery__item__mask-list">
-            <div class="preloader-video__background">
+            <div class="preloader-video__background"  id="gif-preloader">
                 <img src="assets/images/bst-preloader.gif" alt="Loading">
             </div>
         </div>
@@ -43,6 +43,66 @@
     </div>
 </div> -->
 <style>
+    /* 
+
+
+#gif-preloader {
+    position: fixed !important;
+
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+
+    width: 100vw !important;
+    height: 100vh !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    overflow: hidden !important;
+
+    background: #000;
+
+    z-index: 2147483647 !important;
+
+    pointer-events: all;
+
+    opacity: 1;
+    visibility: visible;
+
+    transition:
+        opacity 0.5s ease,
+        visibility 0.5s ease;
+}
+
+
+
+#gif-preloader img {
+    position: absolute !important;
+
+    top: 0 !important;
+    left: 0 !important;
+
+    width: 100vw !important;
+    height: 100vh !important;
+
+    max-width: none !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: block !important;
+
+    object-fit: cover !important;
+    object-position: center center !important;
+}
+    #gif-preloader.hide {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+} */
     .preloader-video__background {
     position: fixed;
     inset: 0;
@@ -97,57 +157,30 @@
     border: 0;
 }
 </style> -->
-<script>
-    /*
+
+    <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-    const preloader = document.getElementById("preloaderVideo");
-    const acceptButton = document.querySelector(".js-cookie-consent-accept");
+    const preloader = document.getElementById("gif-preloader");
 
-    if (!preloader) return;
-
-    // Check if cookies were already accepted
-    if (document.cookie.indexOf("siteCookiesAccepted=true") !== -1) {
-        preloader.remove();
+    if (!preloader) {
         return;
     }
 
-    // When user clicks "Accept"
-    if (acceptButton) {
-        acceptButton.addEventListener("click", function () {
+    const gifDuration = 8000;
 
-            // Save cookie for 1 year
-            const expiry = new Date();
-            expiry.setTime(
-                expiry.getTime() + (365 * 24 * 60 * 60 * 1000)
-            );
 
-            document.cookie =
-                "siteCookiesAccepted=true; expires=" +
-                expiry.toUTCString() +
-                "; path=/";
-
-            // Hide video
-            hidePreloader();
-        });
-    }
-
-    // Hide automatically after 22 seconds
+    // Wait for GIF to finish
     setTimeout(function () {
-        hidePreloader();
-    }, 22000);
 
+        preloader.classList.add("hide");
 
-    function hidePreloader() {
-
-        if (!document.body.contains(preloader)) return;
-
-        preloader.classList.add("is-hidden");
-
+        // Remove it completely after fade-out
         setTimeout(function () {
             preloader.remove();
-        }, 500);
-    }
+        }, 600);
 
-});*/
+    }, gifDuration);
+
+});
 </script>

@@ -129,25 +129,14 @@
                                         </a>
                                     </div>
                                     <div class="col col--md-8 pt-2.5 pb-2 mr-0.5">
-                                        <a href="infra-shy-struktura.html" class="gallery-desktop-item  js-cursor-item" data-ajax-page-transition="modal-in">
-                                            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear " draggable="false">
-                                                <source data-srcset="media/cache/gallery_wallpaper_xxxl/uploads/2/250306_pool_1747846009_1751273338.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
-                                                media="(min-width: 1920px) and (min-height: 700px)" width="2400" height="1500">
-                                                <source data-srcset="media/cache/gallery_wallpaper_xxl/uploads/2/250306_pool_1747846009_1751273338.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
-                                                media="(min-width: 1440px) and (min-height: 700px)" width="2400" height="1500">
-                                                <source data-srcset="media/cache/gallery_wallpaper_md/uploads/2/250306_pool_1747846009_1751273338.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
-                                                media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="2400" height="1500">
-                                                <img data-src="media/cache/gallery_wallpaper_xs/uploads/2/250306_pool_1747846009_1751273338.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222400%22%20height=%221500%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202400%201500%22%3E%3C/svg%3E"
-                                                alt="" width="2400" height="1500" draggable="false">
-                                            </picture>
-                                            <noscript>
-                                                <picture class=" img-cover" draggable="false">
-                                                    <source srcset="media/cache/gallery_wallpaper_xxxl/uploads/2/250306_pool_1747846009_1751273338.webp" media="(min-width: 1920px) and (min-height: 700px)" width="2400" height="1500">
-                                                    <source srcset="media/cache/gallery_wallpaper_xxl/uploads/2/250306_pool_1747846009_1751273338.webp" media="(min-width: 1440px) and (min-height: 700px)" width="2400" height="1500">
-                                                    <source srcset="media/cache/gallery_wallpaper_md/uploads/2/250306_pool_1747846009_1751273338.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="2400" height="1500">
-                                                    <img src="media/cache/gallery_wallpaper_xs/uploads/2/250306_pool_1747846009_1751273338.webp" alt="" width="2400" height="1500" draggable="false">
-                                                </picture>
-                                            </noscript>
+                                       <a href="infra-shy-struktura.html" class="gallery-desktop-item js-cursor-item" data-ajax-page-transition="modal-in">
+                                            <div class="gallery-iframe-wrapper">
+                                                <iframe
+                                                    src="https://player.vimeo.com/video/1223554112?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1"
+                                                    allow="autoplay; fullscreen; picture-in-picture"
+                                                    allowfullscreen>
+                                                </iframe>
+                                            </div>
                                             <div class="background dim dim--gallery"></div>
                                             <div class="gallery-desktop-item__snap-point" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'></div>
                                         </a>
