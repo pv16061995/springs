@@ -1,15 +1,12 @@
 <div class="l-gallery__split row background background--cover">
-    <div class=" col col--xs-4 col--md-12">
+    <div class="col col--xs-4 col--md-12">
         <div class="l-gallery__item__mask-list">
             <div class="preloader-video__background">
-                <iframe
-                    src="https://player.vimeo.com/video/1223554112?autoplay=1&muted=1&autopause=0&background=1"
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+                <img src="assets/images/bst-preloader.gif" alt="Loading">
             </div>
         </div>
     </div>
+
     <!-- <?php foreach($preloader_gallery as $section=>$images): ?>
     <div class=" col col--xs-4 col--md-12">
         <div class="l-gallery__item__mask-list">
@@ -45,7 +42,24 @@
         </div>
     </div>
 </div> -->
+<style>
+    .preloader-video__background {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+    z-index: 1111119999;
+}
 
+    .preloader-video__background img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+    }
+</style>
 <!-- <style>
    #preloaderVideo {
     position: fixed;

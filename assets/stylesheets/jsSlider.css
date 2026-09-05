@@ -720,23 +720,17 @@
 
 .blogs-slide-category {
     align-self: flex-start;
-
     display: inline-flex;
-
     padding:
         calc(var(--scale-px) * 4)
         calc(var(--scale-px) * 5);
-
     border: 1px solid rgba(211, 166, 89, .45);
     border-radius: 20px;
-
     color: #b8b39f;
-
-
     letter-spacing: .06em;
     line-height: 1;
-
     text-transform: uppercase;
+    font-size: 17px;
 }
 
 
