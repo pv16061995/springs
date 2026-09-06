@@ -172,11 +172,21 @@
                                     About
                                 </a>
                             </li>
-                            <li class="js-content-animation-link " data-content-animation-id="6">
+                            <li class="js-content-animation-link " data-content-animation-id="7">
                                 <a href="<?php echo base_url('news'); ?>" class="leading-trim">
                                     Media Center
                                 </a>
                             </li>
+                             <li class="js-content-animation-link " data-content-animation-id="8">
+                                <a href="<?php echo base_url('channelPatner'); ?>" class="leading-trim">
+                                    Channel Partners
+                                </a>
+                            </li>
+                             <!-- <li class="js-content-animation-link " data-content-animation-id="9">
+                                <a href="<?php echo base_url('applicationform'); ?>" class="leading-trim">
+                                   Application Form
+                                </a>
+                            </li> -->
                         </ul>
                         <div class="menu__list__sublist mt-3 mt-1:sm">
                             <ul class="">

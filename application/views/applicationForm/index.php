@@ -22,8 +22,13 @@
             <?php $this->load->view("common/header"); ?>
                 <div class="page-content js-page-content">
                     <main id="top">
+                         <section class=" section ui-dark ui-background" data-scroll-section>
+                            <?php $this->load->view("applicationForm/intro"); ?>
+                            <?php $this->load->view("applicationForm/overview"); ?>
+                        </section>
                         <section class=" section ui-dark ui-background" data-scroll-section>
-                          Application Form
+                          
+                      
                         </section>
                     </main>
                     <?php $this->load->view("common/footer"); ?>

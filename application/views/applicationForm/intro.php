@@ -1,0 +1,62 @@
+<div class="a-intro sticky sticky--full-height sticky--under-next" id="intro" data-plugin="reveal" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
+    <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#intro">
+        <div class="a-intro__inner px-layout pb-layout">
+            <div class="a-intro__background background background--bottom background--cover">
+                <div class="dim dim--about"></div>
+                <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
+                data-plugin="appear  parallax" draggable="false">
+                    <source data-srcset="assets/images/media/about/1.intro/background%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                    <source data-srcset="assets/images/media/about/1.intro/background%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                    <source data-srcset="assets/images/media/about/1.intro/background%40xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
+                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                    <img data-src="assets/images/media/about/1.intro/background-xs%40xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
+                    alt="" width="720" height="1280" draggable="false">
+                </picture>
+                <noscript>
+                    <picture class=" img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}" data-plugin=" parallax"
+                    draggable="false">
+                        <source srcset="assets/images/media/about/1.intro/background%40xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
+                        <source srcset="assets/images/media/about/1.intro/background%40xxxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
+                        <source srcset="assets/images/media/about/1.intro/background%40xxxl.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
+                        <img src="assets/images/media/about/1.intro/background-xs%40xs.webp" alt="" width="720" height="1280" draggable="false">
+                    </picture>
+                </noscript>
+            </div>
+            <div class="a-intro__content p-relative">
+                <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
+               BST 
+                </h1>
+               
+                <picture class="is-invisible--js is-hidden--no-js is-hidden--lg-up img-full pr-6" data-plugin="appear " draggable="false">
+                    <img data-src="assets/images/media/about/1.intro/about-title-en.svg" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22320%22%20height=%2270%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20320%2070%22%3E%3C/svg%3E"
+                    alt="" width="320" height="70" draggable="false">
+                </picture>
+                <noscript>
+                    <picture class=" is-hidden--lg-up img-full pr-6" draggable="false">
+                        <img src="assets/images/media/about/1.intro/about-title-en.svg" alt="" width="320" height="70" draggable="false">
+                    </picture>
+                </noscript>
+                <div class="a-intro__subtitle mt-1  pr-6">
+                    <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
+                     Application Form
+                    </p>
+                </div>
+            </div>
+            <a class="btn a-intro__next btn--outline btn--square btn--sm p-relative" href="#a-about" aria-label="К следующей секции">
+                <span class="btn__content">
+                <span class="btn__icon ">
+                    <svg class="icon icon-arrow-down" width="14" height="16"
+                        aria-hidden="true" viewBox="0 0 14 16"
+                        style="--icon-width: 14; --icon-height: 16;">
+                        <use href="assets/images/icons.svg#arrow-down"
+                            xlink:href="assets/images/icons.svg#arrow-down">
+                        </use>
+                    </svg>
+                </span>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>

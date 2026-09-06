@@ -413,13 +413,13 @@
 }
 
 .a-photos {
-    height: var(--md, 160svh) var(--n-md, auto);
+    height: var(--md, 240svh) var(--n-md, auto);
     overflow: hidden;
     z-index: var(--md, auto) var(--n-md, 1)
 }
 
 .has-scroll-smooth .a-photos {
-    height: var(--md, 160svh) var(--n-md, auto)
+    height: var(--md, 240svh) var(--n-md, auto)
 }
 
 .a-photos__gradient {
@@ -949,3 +949,35 @@ h2.h2.leading-trim {
         .widthfix {
             width: 90%;
         }
+
+      .radio-inline-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px; /* Adjust spacing between options */
+  margin-top: 5px;
+}
+
+.radio-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px; /* Spacing between radio dot and text */
+  cursor: pointer;
+  font-weight: normal; /* Keeps label regular text */
+}
+
+.radio-inline input[type="radio"] {
+  margin: 0;
+  cursor: pointer;
+}  
+.dropRight{
+    float:right;
+    width: 50% !important;
+
+}
+.address-row {
+    width: 50%;
+}
+.address-row  input[type="text"] {
+    width: 95%;
+}
