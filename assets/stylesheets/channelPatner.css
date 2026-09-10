@@ -270,7 +270,7 @@
 }
 
 .a-about {
-    pointer-events: none
+    pointer-events: all;
 }
 
 .has-hover .a-about {
@@ -290,7 +290,7 @@
     filter: blur(40px);
     height: 100%;
     left: 0;
-    pointer-events: none;
+    pointer-events: All;
     position: absolute;
     top: 0;
     width: 100%
@@ -426,7 +426,7 @@
     filter: blur(40px);
     height: 100%;
     left: 0;
-    pointer-events: none;
+    pointer-events: all;
     position: absolute;
     top: 0;
     width: 100%
@@ -953,7 +953,7 @@ h2.h2.leading-trim {
         @media (min-width: 568px) and (max-width: 667px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (max-aspect-ratio: 10 / 11), (min-width: 668px) and (min-height: 416px), (min-width: 980px) {
     .js:not(.js-no-reveal) [data-reveal]:not([data-reveal-visible]) {
         opacity: 1 !important;
-        pointer-events: none !important;
+        pointer-events: all !important;
     }
 }
 
