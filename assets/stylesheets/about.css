@@ -831,3 +831,8 @@ h2.h2.leading-trim {
     z-index: 1;
     background: #0e0b0494;
 }
+
+.Philosophy_captionParagraph {
+    font-size: 35px;
+    letter-spacing: 2.1px;
+}

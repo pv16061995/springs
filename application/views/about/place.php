@@ -114,15 +114,15 @@
                                 </span>
                                 </span>
                                 <p class="mb-0.3 mb-0.5:xxl leading-trim">
-                                    Inspiring
-                                    <br> Nature park
+                                    Our Vision
+                                  
                                 </p>
                                 <div class="a-place__caption__line">
                                     <div class="a-place__caption__line-progress js-place-progress-line">
                                     </div>
                                 </div>
                                 <p class="a-place__caption__description text-color-small text-small leading-trim">
-                                    Scenic panoramas and year-round family activities only one-minute walk away.
+                                   To build homes and create lifestyles for the new generation of Indians. To inspire them to dream and feel free enough to live out their dreams!
                                 </p>
                             </div>
                         </div>
@@ -144,15 +144,14 @@
                                 </span>
                                 </span>
                                 <p class="mb-0.3 mb-0.5:xxl leading-trim">
-                                    Beautifying
-                                    <br> Wellness Center
+                                    Our Mission
                                 </p>
                                 <div class="a-place__caption__line">
                                     <div class="a-place__caption__line-progress js-place-progress-line">
                                     </div>
                                 </div>
                                 <p class="a-place__caption__description text-color-small text-small leading-trim">
-                                    Garden-view pool, aromatic hammam, meditative yoga, and active fitness to keep you relaxed and rejuvenate.
+                                   To fulfil the aspirations of families, in line with world-class standards
                                 </p>
                             </div>
                         </div>
@@ -174,20 +173,19 @@
                                 </span>
                                 </span>
                                 <p class="mb-0.3 mb-0.5:xxl leading-trim">
-                                    Impressive
-                                    <br> Outdoor Terraces
+                                   Our Culture
                                 </p>
                                 <div class="a-place__caption__line">
                                     <div class="a-place__caption__line-progress js-place-progress-line">
                                     </div>
                                 </div>
                                 <p class="a-place__caption__description text-color-small text-small leading-trim">
-                                    Vast panoramas, sky up-close, and intimate mini-garden with decorative lighting
+                                   To have a uniform code.To engage in events and join relevant associations.To provide soft skills training.To contribute to art and music.To participate in CSR activities
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div data-content-animation-item="4" class="ui-background ui-dark is-hidden" aria-hidden="true">
+                    <!-- <div data-content-animation-item="4" class="ui-background ui-dark is-hidden" aria-hidden="true">
                         <div class="a-place__caption__card ui-background">
                             <div class="a-place__caption__card-content">
                                 <span class="btn a-place__btn btn--outline btn--square btn--sm ml-auto">
@@ -216,7 +214,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-<div class="a-overview sticky sticky--full-height sticky--under-previous sticky--under-next" id="a-overview" data-scroll-snap-point='[{ "viewport": -100, "element": 0, "scrollable": true}, { "viewport": 200, "element": 100}]'>
+<!-- <div class="a-overview sticky sticky--full-height sticky--under-previous sticky--under-next" id="a-overview" data-scroll-snap-point='[{ "viewport": -100, "element": 0, "scrollable": true}, { "viewport": 200, "element": 100}]'>
     <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky data-scroll-target="#a-overview">
         <div data-plugin="parallax" data-parallax-pattern="aboutBackground">
             <picture class="is-invisible--js is-hidden--no-js a-overview__img img-full" data-plugin="appear " draggable="false">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- <div class="a-photos" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
     <div class="sticky__layer sticky__layer--sticky sticky__layer--sticky:lg-up sticky--full-height ui-background">
         <div>

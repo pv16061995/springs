@@ -38,18 +38,6 @@
     position: absolute
 }
 
-.content-animation--bottom {
-    align-items: stretch;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end
-}
-
-.content-animation--bottom [data-content-animation-item] {
-    bottom: 0;
-    top: auto
-}
-
 @media (min-width:568px) and (max-width:667px) and (max-aspect-ratio:13/9),
 (min-width:668px) and (max-aspect-ratio:10/11),
 (min-width:668px) and (min-height:416px),
@@ -550,10 +538,10 @@
 .a-place__screen--first {
     margin-top: calc(var(--sticky-under-previous-distance) * -1) !important
 }
-
+/* 
 .a-place__btn {
     margin-bottom: var(--xxl, calc(var(--scale-px) * 44)) var(--n-xxl, calc(var(--scale-px) * 20))
-}
+} */
 
 .a-place__caption {
     background: var(--c-dark-green);
@@ -960,57 +948,3 @@ h2.h2.leading-trim {
      position: relative;
      margin-top: -30px;
  }
- .has-hover .btn--cloned:hover .btn__text--clone, .has-hover .btn-container:hover .btn--cloned .btn__text--clone {
-    clip-path: polygon(-100% 200%, 200% 200%, 200% 500%, -100% 500%);
-    transform: translateY(-300%);
-}
-.submit-container .btn--clone {
-    position: relative;
-    overflow: hidden;
-}
-
-/* Text wrapper */
-.submit-container .btn--clone .btn__content {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    height: 1.2em;
-    line-height: 1.2em;
-}
-
-/* Original text */
-.submit-container .btn--clone .btn__text {
-    display: block;
-    height: 1.2em;
-    line-height: 1.2em;
-    transform: translate3d(0, 0, 0);
-    transition: transform 0.55s cubic-bezier(0.77, 0, 0.175, 1);
-    will-change: transform;
-}
-
-/* New text */
-.submit-container .btn--clone .btn__content::after {
-    content: "Submit a request";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 1.2em;
-    line-height: 1.2em;
-    text-align: inherit;
-
-    transform: translate3d(0, 100%, 0);
-    transition: transform 0.55s cubic-bezier(0.77, 0, 0.175, 1);
-
-    will-change: transform;
-}
-
-/* Original text goes UP */
-.submit-container .btn--clone:hover .btn__text {
-    transform: translate3d(0, -100%, 0);
-}
-
-/* New text comes from BOTTOM */
-.submit-container .btn--clone:hover .btn__content::after {
-    transform: translate3d(0, 0, 0);
-}

@@ -313,21 +313,10 @@
                                 </div>
 
                                 <div class="submit-container">
-                                 <button
-                                                    class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
-                                                    type="submit"
-                                                    data-plugin="button"
-                                                    data-button-clone-content="true">
-                                                    <span class="btn__content">
-                                                        <span class="btn__text">
-                                                            Submit a request
-                                                        </span>
-                                                    </span>
-                                                </button>
-                                                <!-- Mobile Button -->
-                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
-                                                    <span class="btn__content"><span class="btn__text">Submit a request</span></span>
-                                                </button>
+                                     <button class="btn btn--primary btn--clone btn--text-small btn--cloned "  data-plugin=" button" data-button-clone-content="true">
+                                        <span class="btn__content"><span class="btn__text">Submit a request</span></span>
+                                    </button>
+                                   
                                 </div>
 
                                 </form>

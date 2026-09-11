@@ -1,22 +1,22 @@
 <div class="a-mouse-slider sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up ui-light is-hidden--md-down" id="a-mouse-slider" data-plugin="mouseSlider contentAnimation" data-content-animation-animations='{"changeShow": {"name": "text"},"changeHide": {"name": "fadeOut", "duration": "fast"}}' data-content-animation-plugins="controller events height" data-content-animation-fixed-height="true" data-content-animation-link-event="hover" data-content-animation-link-hover-default="3">
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#a-mouse-slider" data-scroll-snap-point='[{ "viewport": -100, "element": 0 }]'>
         <div class="a-mouse-slider__inner pb-0.5 pb-1:xxl">
-            <h2 class="pt-2 pt-3:xxl pb-0.5 px-layout text-c1 leading-trim text-center"> Philosophy Of BST </h2>
+            <h2 class="pt-2 pt-3:xxl pb-0.5 px-layout h2 leading-trim text-center"> Philosophy Of BST </h2>
             <div class="pt-0.2 mb-1">
                 <div class="a-mouse-slider__titles content-animation mx-auto h2 text-center">
-                    <p class="a-mouse-slider__title leading-trim js-title-slide " data-content-animation-item="0">
+                    <p class="text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide " data-content-animation-item="0">
                         BST aspires to become an Indian unicorn in the next 3–5 years
                     </p>
-                    <p class="a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="1">
+                    <p class=" text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="1">
                         We at BST dare to fly high
                     </p>
-                    <p class="a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="2">
+                    <p class=" text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="2">
                         Hawk Eye - At the BST Group, we keep a hawk eye on detailing
                     </p>
-                    <p class="a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="3">
+                    <p class=" text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="3">
                         We at BST know that big dream starts with small action
                     </p>
-                    <p class="a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="4">
+                    <p class="text-b1 Philosophy_captionParagraph a-mouse-slider__title leading-trim js-title-slide is-hidden" data-content-animation-item="4">
                         Determination is in our DNA
                     </p>
                 </div>
@@ -135,24 +135,24 @@
 <div class="a-mouse-slider sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up ui-light is-hidden--lg-up">
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-plugin="mobileScrollable contentAnimation" data-mobile-scrollable-initial-index="1" data-content-animation-animations='{ "changeShow": {"name": "text"}, "changeHide": {"name": "fadeOut", "duration": "fast"} }' data-content-animation-plugins="controller events height" data-content-animation-fixed-height="true" data-content-animation-enable-mq="sm-down" data-themed-class="ui-light">
         <div class="a-mouse-slider__inner pb-1">
-            <h2 class="pt-6 pb-layout px-layout text-c1 leading-trim text-center">
+            <h2 class="pt-6 pb-layout px-layout h2 leading-trim text-center">
             Philosophy Of BST
         </h2>
             <div class="mb-2 pt-0.2 px-layout">
-                <div class="a-mouse-slider__titles content-animation mx-auto h2 text-center">
-                    <p class=" leading-trim js-title-slide" data-content-animation-item="0">
+                <div class="a-mouse-slider__titles content-animation mx-auto  text-center">
+                    <p class="text-c1  leading-trim js-title-slide" data-content-animation-item="0">
                         BST aspires to become an Indian unicorn in the next 3–5 years
                     </p>
-                    <p class="is-hidden leading-trim js-title-slide" data-content-animation-item="1">
+                    <p class="text-c1 is-hidden leading-trim js-title-slide" data-content-animation-item="1">
                         We at BST dare to fly high
                     </p>
-                    <p class="is-hidden leading-trim js-title-slide" data-content-animation-item="2">
+                    <p class="text-c1 is-hidden leading-trim js-title-slide" data-content-animation-item="2">
                         Hawk Eye - At the BST Group, we keep a hawk eye on detailing
                     </p>
-                    <p class="is-hidden leading-trim js-title-slide" data-content-animation-item="3">
+                    <p class="text-c1 is-hidden leading-trim js-title-slide" data-content-animation-item="3">
                         We at BST know that big dream starts with small action
                     </p>
-                    <p class="is-hidden leading-trim js-title-slide" data-content-animation-item="4">
+                    <p class="text-c1 is-hidden leading-trim js-title-slide" data-content-animation-item="4">
                         Determination is in our DNA
                     </p>
                 </div>
