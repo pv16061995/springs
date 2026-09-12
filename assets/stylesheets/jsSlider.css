@@ -436,10 +436,12 @@
 @media(max-width:768px) {
     #pxltsPrev9045 {
         left: 5px;
+        margin-top: 120px;
     }
 
     #pxltsNext9045 {
         right: 5px;
+        margin-top: 120px;
     }
 }
 

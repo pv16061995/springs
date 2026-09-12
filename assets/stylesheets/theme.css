@@ -21559,7 +21559,11 @@ p.text-justify {
    MOBILE
    ========================================== */
 
+
 @media (max-width: 767px) {
+    .text-right {
+    text-align: center !important;
+}
 
    #quickLinksBar {
       height: 62px !important;
