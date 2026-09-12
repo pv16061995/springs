@@ -239,7 +239,7 @@
     </div>
 </div>
 <div class="l-intro__content is-hidden--lg-up pb-2.5 pt-2 ui-dark ui-background">
-    <div class="l-intro__content-title col col--xs-3 col--md-4 pl-layout">
+    <!-- <div class="l-intro__content-title col col--xs-3 col--md-4 pl-layout">
     <h2 class="h2 leading-trim">
         Open the doors of BST Developers and step into your true self
     </h2>
@@ -260,27 +260,55 @@
         connect to your thoughts and feelings. Here, you will unveil hidden possibilities that
         the future holds just for you.
     </p>
-    </div>
+    </div> -->
     <div class="mx-layout p-relative mt-2" data-plugin="mobileScrollable">
     <ul class="mobile-scrollable col mx-auto">
         <li class="mobile-scrollable__item carousel__list__item--gradient">
-            <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false"
+            <h3 class="h3 leading-trim  mb-1">
+                Our Vision
+            </h3>
+             <p class="leading-trim mb-1">
+                To build homes and create lifestyles for the new generation of Indians. To inspire them to dream and feel free enough to live out their dreams!
+             </p>
+            <img class="img-cover is-invisible--js is-hidden--no-js " alt="" draggable="false"
                 width="640" height="760" data-plugin="appear "
-                data-src="assets/images/media/landing/1.intro/opening-1@xs.webp"
+                data-src="assets/images/media/landing/1.intro/vision.jpg"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22760%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20760%22%3E%3C/svg%3E">
             <noscript>
                 <img class="img-cover " alt="" draggable="false" width="640" height="760"
-                src="assets/images/media/landing/1.intro/opening-1%40xs.webp">
+                src="assets/images/media/landing/1.intro/vision.jpg">
             </noscript>
         </li>
         <li class="mobile-scrollable__item carousel__list__item--gradient">
+             <h3 class="h3 leading-trim mb-1">
+               Our Mission
+            </h3>
+             <p class="leading-trim mb-1">
+               To fulfil the aspirations of families, in line with world-class standards of living, by creating homes that are thoughtfully designed, sustainably built, and meticulously maintained.   
+             </p>
             <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false"
                 width="640" height="760" data-plugin="appear "
-                data-src="assets/images/media/landing/1.intro/opening-3@xs.webp"
+                data-src="assets/images/media/landing/1.intro/missions.jpg"
                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22760%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20760%22%3E%3C/svg%3E">
             <noscript>
                 <img class="img-cover " alt="" draggable="false" width="640" height="760"
-                src="assets/images/media/landing/1.intro/opening-3%40xs.webp">
+                src="assets/images/media/landing/1.intro/mission.jpg">
+            </noscript>
+        </li>
+        <li class="mobile-scrollable__item carousel__list__item--gradient">
+             <h3 class="h3 leading-trim mb-1">
+               Our Culture
+            </h3>
+             <p class="leading-trim mb-1">
+              To have a uniform code.To engage in events and join relevant associations.To provide soft skills training.To contribute to art and music.To participate in CSR activities.
+             </p>
+            <img class="img-cover is-invisible--js is-hidden--no-js" alt="" draggable="false"
+                width="640" height="760" data-plugin="appear "
+                data-src="assets/images/media/landing/1.intro/cultures.jpg"
+                src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22640%22%20height=%22760%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20640%20760%22%3E%3C/svg%3E">
+            <noscript>
+                <img class="img-cover " alt="" draggable="false" width="640" height="760"
+                src="assets/images/media/landing/1.intro/culture.jpg">
             </noscript>
         </li>
     </ul>
@@ -288,6 +316,8 @@
         <a role="button"
             class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail is-active"></a>
         <a role="button"
+            class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail "></a>
+         <a role="button"
             class="col col--xs-2 carousel__thumb__item js-mobile-scrollable-thumbnail "></a>
     </div>
     </div>
