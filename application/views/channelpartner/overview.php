@@ -239,7 +239,7 @@
                                                 <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
                                                     <span class="btn__content"><span class="btn__text">Submit request</span></span>
                                                 </button>
-                                </div>
+                                            </div>
                                     </div>
                                 </div>
                             </form>
