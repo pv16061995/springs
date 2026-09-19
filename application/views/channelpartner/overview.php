@@ -217,7 +217,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col col--md-10 offset--md-1 text-center">
+                                    <div class="col col--md-10 offset--md- text-center">
                                         <div class="terms-container">
                                             <input type="checkbox" id="terms" name="terms" required>
                                             <label for="terms" style="text-transform: none; font-weight: normal;">I agree with <a href="#"> T & C</a></label>
@@ -542,6 +542,7 @@ backdrop-filter: blur(14px);
     margin-top: 8px;
     margin-bottom: 0;
     padding-bottom: 0;
+    margin-bottom: 23px;
 }
 </style>
 <script>

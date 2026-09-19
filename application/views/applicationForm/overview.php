@@ -622,6 +622,7 @@ backdrop-filter: blur(14px);
     margin-top: 8px;
     margin-bottom: 0;
     padding-bottom: 0;
+      margin-bottom: 23px;
 }
 </style>
 <script>

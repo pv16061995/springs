@@ -150,9 +150,9 @@
                                 <div class="a-place__caption__line">
                                     <div class="a-place__caption__line-progress js-place-progress-line"></div>
                                 </div>
-                                <p class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open">
-                                   <span class="bullet">•</span> To fulfil the aspirations of families, in line with world-class standards
-                                </p>
+                                 <ul class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open">
+                                    <li> To fulfil the aspirations of families, in line with world-class standards</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -182,11 +182,11 @@
                                   <span class="bullet">•</span><br>
                                   <span class="bullet">•</span> 
                                 </p> -->
-                                <ul class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open" style="list-style-type: none !important; padding-left: 20px;">
-                                    <li style="display: block;">
+                                <ul class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open">
+                                    <li >
                                             To have a uniform code.To engage in events and join relevant associations.
                                     </li>
-                                    <li style="display: block;">
+                                    <li>
                                         To provide soft skills training.To contribute to art and music.To participate in CSR activities
                                     </li>
                                 </ul>
