@@ -182,11 +182,11 @@
                                   <span class="bullet">•</span><br>
                                   <span class="bullet">•</span> 
                                 </p> -->
-                                <ul class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open">
-                                    <li>
+                                <ul class="a-place__caption__description text-color-small text-small leading-trim a-place__caption__description_open" style="list-style-type: none !important; padding-left: 20px;">
+                                    <li style="display: block;">
                                             To have a uniform code.To engage in events and join relevant associations.
                                     </li>
-                                    <li>
+                                    <li style="display: block;">
                                         To provide soft skills training.To contribute to art and music.To participate in CSR activities
                                     </li>
                                 </ul>

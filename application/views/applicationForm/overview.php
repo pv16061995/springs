@@ -399,7 +399,7 @@ backdrop-filter: blur(14px);
 @media (min-width: 568px) and (max-width: 667px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (max-aspect-ratio: 10 / 11), (min-width: 668px) and (min-height: 416px), (min-width: 980px) {
     .col--md-5 {
         flex: 0 1 39vw;
-        width: 39vw;
+        width: 37vw;
         padding: 10px;
     }
 }
