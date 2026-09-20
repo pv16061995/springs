@@ -34,7 +34,7 @@
                                             <label class="form-label">Relation <span class="required">*</span></label>
                                             
                                            <div class="relation-container bst-select-relation">
-                                                <select id="relation" name="relation" class="dropRight">
+                                                <select id="relation" name="relation" class="dropRight" style="font-size: 13px;padding: 7px 10px; width: 32% !important;">
                                                         <option value="son">Son</option>
                                                         <option value="wife">Wife</option>
                                                         <option value="daughter">Daughter Of</option>
@@ -192,7 +192,7 @@
                                             <label class="form-label">Relation <span class="required">*</span></label>
                                             
                                            <div class="relation-container bst-select-relation">
-                                                <select id="relation" name="relation" class="dropRight">
+                                                <select id="relation" name="relation" class="dropRight" style="font-size: 13px;padding: 7px 10px; width: 32% !important;">
                                                         <option value="son">Son</option>
                                                         <option value="wife">Wife</option>
                                                         <option value="daughter">Daughter Of</option>
@@ -455,6 +455,17 @@ backdrop-filter: blur(14px);
     font-size: 16px;
     outline: none;
     transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #000;
+        display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .glass-card .form-group input::placeholder,
