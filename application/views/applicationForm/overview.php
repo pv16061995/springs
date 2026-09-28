@@ -9,7 +9,7 @@
         
             <div class="a-photos__inner row" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-100-0='{"transform": "translateY(30%)"}' data-parallax--100-0='{"transform": "translateY(-30%)"}'>
                 <h3 class="a-photos__text h2 px-layout px-0:lg col col--md-8 mb-1 offset--md-2 leading-trim">
-                  Reserve Your Plot Online
+                  Reserve Your Space Online
                </h3>
                <p class="description  col col--md-8 mb-2 text-center offset--md-2 leading-trim">
                 Take the first step toward your new home—fill out the application form below.</p>
@@ -421,6 +421,7 @@ backdrop-filter: blur(14px);
 
 .glass-card {
     color: #e6f3e9 !important;
+    margin-bottom: 70%;
 }
 
 .glass-card .form-group {
@@ -606,6 +607,7 @@ input[type="checkbox"] {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 @media (min-width: 980px) {
     .glass-card > form > .row > .col--md-5 {

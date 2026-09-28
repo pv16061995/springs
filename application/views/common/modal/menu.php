@@ -138,17 +138,18 @@
                         </div>
                         <div class="pt-1 is-hidden--sm-down"></div>
                         <ul class="menu__list__list pt-2 pt-0:md">
-                            <li class="js-content-animation-link is-active" data-content-animation-id="1">
+                            <!-- <li class="js-content-animation-link is-active" data-content-animation-id="1">
                                 <a href="<?php echo base_url('detail'); ?>" class="leading-trim">Residences</a>
+                            </li> -->
+
+                            <li class="js-content-animation-link " data-content-animation-id="6">
+                                <a href="<?php echo base_url('about'); ?>" class="leading-trim">
+                                    About Us
+                                </a>
                             </li>
                             <li class="js-content-animation-link " data-content-animation-id="2">
                                 <a href="<?php echo base_url('design'); ?>" class="leading-trim">
                                     Investor Guide
-                                </a>
-                            </li>
-                            <li class="js-content-animation-link " data-content-animation-id="3">
-                                <a href="<?php echo base_url('location'); ?>" class="leading-trim">
-                                    Location
                                 </a>
                             </li>
                             <li class="js-content-animation-link " data-content-animation-id="4">
@@ -161,11 +162,6 @@
                                     Gallery
                                 </a>
                             </li>
-                            <li class="js-content-animation-link " data-content-animation-id="6">
-                                <a href="<?php echo base_url('about'); ?>" class="leading-trim">
-                                    About
-                                </a>
-                            </li>
                             <li class="js-content-animation-link " data-content-animation-id="7">
                                 <a href="<?php echo base_url('news'); ?>" class="leading-trim">
                                     Media Center
@@ -173,12 +169,24 @@
                             </li>
                              <li class="js-content-animation-link " data-content-animation-id="8">
                                 <a href="<?php echo base_url('channelpartner'); ?>" class="leading-trim">
-                                    Join BST
+                                    Join BST “INNER CIRCLE”
                                 </a>
                             </li>
                              <li class="js-content-animation-link " data-content-animation-id="9">
                                 <a href="<?php echo base_url('applicationform'); ?>" class="leading-trim">
-                                   Reserve Your Plot Online
+                                   Reserve Your Space Online
+                                </a>
+                            </li>
+
+                            <li class="js-content-animation-link " data-content-animation-id="3">
+                                <a href="<?php echo base_url('location'); ?>" class="leading-trim">
+                                    Location
+                                </a>
+                            </li>
+
+                            <li class="js-content-animation-link " data-content-animation-id="3">
+                                <a href="<?php echo base_url('career'); ?>" class="leading-trim">
+                                    Careers
                                 </a>
                             </li>
                         </ul>

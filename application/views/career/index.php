@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>BST Developers | Join BST</title>
+    <title>BST Developers | Careers</title>
     <link rel="stylesheet" href="assets/stylesheets/jsSlider.css" />
     
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
@@ -24,12 +24,10 @@
                 <div class="page-content js-page-content">
                     <main id="top">
                          <section class=" section ui-dark ui-background" data-scroll-section>
-                            <?php $this->load->view("channelpartner/intro"); ?>
-                            <?php $this->load->view("channelpartner/overview"); ?>
+                            <?php $this->load->view("career/intro"); ?>
+                            <?php $this->load->view("career/overview"); ?>
                         </section>
                         <section class=" section ui-dark ui-background" data-scroll-section>
-                          
-                      
                         </section>
                     </main>
                     <?php $this->load->view("common/footer"); ?>

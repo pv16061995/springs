@@ -101,12 +101,12 @@
             </div> -->
             <div class="a-photos__inner row" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-100-0='{"transform": "translateY(30%)"}' data-parallax--100-0='{"transform": "translateY(-30%)"}'>
                 <h3 class="a-photos__text h2 px-layout px-0:lg col col--md-8 mb-1 offset--md-2 leading-trim">
-                  JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬”
+                  JOIN OUR TEAM
                </h3>
                <p class="description  col col--md-8 mb-2 text-center offset--md-2 leading-trim">
-                    JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬” program is our endeavor to forge new partnerships that are mutually beneficial for our business growth. We look forward to create bonds that will help us and our partners in achieving unwavering success and scale new heights with BST.
+                    At BST, we believe that great achievements begin with great people. We are committed to creating an environment where talented and passionate individuals can learn, grow, and build a rewarding career.
                <br>
-                    If you are interested to work with BST, please register with us as a partner by filling in the form below and start on your journey of growth with JOIN BST “𝑰𝑵𝑵𝑬𝑹 𝑪𝑰𝑹𝑪𝑳𝑬”.
+                    <i><b>“Join our team” </b></i>  and become part of an organization where your ideas, skills, and ambitions are valued. At BST, you will have the opportunity to work with talented professionals, take on new challenges, develop your expertise, and contribute to projects that shape the future.
                 </p>
                
                 <div class="col col--md-10 offset--md-1  text-t1 leading-trim" data-reveal="text">
@@ -120,9 +120,9 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label for="address">COMMUNICATION ADDRESS</label>
-                                            <input type="text" id="address" name="address" placeholder="Communication Address">
+                                        <div class="form-group widthfix">
+                                            <label for="email">*EMAIL ID</label>
+                                            <input type="email" id="email" name="email" placeholder="Email ID" required>
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
@@ -132,96 +132,68 @@
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label for="city">CITY</label>
-                                            <input type="text" id="city" name="city" placeholder="City Name">
+                                        <div class="form-group widthfix">
+                                            <label for="experience">*Years of Experience</label>
+                                            <input type="text" id="experience" name="experience" placeholder="Experience" required>
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                            <label for="email">*EMAIL ID</label>
-                                            <input type="email" id="email" name="email" placeholder="Email ID" required>
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label for="state">STATE</label>
-                                            <input type="text" id="state" name="state" placeholder="State">
+                                            <label for="company">*Company Name</label>
+                                            <input type="text" id="company" name="company" placeholder="Company Name" required>
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                            <label for="rera-no">*RERA REGISTRATION NUMBER</label>
-                                            <input type="text" id="rera-no" name="rera-no" placeholder="RERA Registration Number" required>
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label for="region">*REGION OF OPERATION</label>
-                                            <select id="region" name="region" placeholder="Region of Operation" required>
-                                                <option value="" disabled selected>Select</option>
+                                            <label for="position">*Position</label>
+                                            <select id="position" name="position" placeholder="Position" required>
+                                                <option value="" selected="" disabled="" class="pos_first_option"></option>
+                                                <option value="Front Office Executive" class="position clr_b">Front Office Executive</option>
+                                                <option value="General Manager - Corporate Finance / Loans" class="position clr_b">General Manager - Corporate Finance / Loans</option>
+                                                <option value="General Manager - Retail Leasing" class="position clr_b">General Manager - Retail Leasing</option>
+                                                <option value="Senior Executive - Purchase" class="position clr_b">Senior Executive - Purchase</option>
+                                                <option value="Billing Engineer" class="position clr_b">Billing Engineer</option>
+                                                <option value="Assistant Manager - Project Planning" class="position clr_b">Assistant Manager - Project Planning</option>
+                                                <option value="MEP Engineer" class="position clr_b">MEP Engineer</option>
+                                                <option value="MEP Electrical Engineer / Technician" class="position clr_b">MEP Electrical Engineer / Technician</option>
+                                                <option value="Project Coordinator" class="position clr_b">Project Coordinator</option>
+                                                <option value="Assistant Manager - Accounts" class="position clr_b">Assistant Manager - Accounts</option>
+                                                <option value="MEP Plant &amp; Machinery In-Charge" class="position clr_b">MEP Plant &amp; Machinery In-Charge</option>
+                                                <option value="MEP Design Engineer" class="position clr_b">MEP Design Engineer</option>
+                                                <option value="Civil Foreman / Civil Supervisor" class="position clr_b">Civil Foreman / Civil Supervisor</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
-                                            <label for="pan-no">*PAN NUMBER</label>
-                                            <input type="text" id="pan-no" name="pan-no" placeholder="PAN Number" required>
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label for="member-of">MEMBER OF</label>
-                                            <select id="member-of" name="member-of" placeholder="Member of">
-                                                <option value="" disabled selected>Select</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group widthfix">
-                                            <label>GST CERTIFICATE <span style="text-transform: none; font-weight: normal; font-size: small;" font-size: small;>(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
-                                                <input type="file" id="gst-file" name="gst-file" accept=".jpg,.jpeg,.png,.pdf" onchange="document.getElementById('gst-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label>*RERA CERTIFICATE <span style="text-transform: none; font-weight: normal; font-size: small;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
-                                                <input type="file" id="rera-file" name="rera-file" accept=".jpg,.jpeg,.png,.pdf" required onchange="document.getElementById('rera-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group widthfix">
-                                            <label>*SCANNED PAN CARD <span style="text-transform: none; font-weight: normal;">(File Types: Jpg, Jpeg, Png, Pdf, Max Size: 2 MB)</span></label>
-                                                <input type="file" id="pan-file" name="pan-file" accept=".jpg,.jpeg,.png,.pdf" required onchange="document.getElementById('pan-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label for="firm-name">FIRM NAME</label>
-                                            <input type="text" id="firm-name" name="firm-name">
+                                            <label>CV/Resume <span style="text-transform: none; font-weight: normal; font-size: small;" font-size: small;>(File Types: Docx, Pdf, Max Size: 2 MB)</span></label>
+                                                <input type="file" id="cv-file" name="cv-file" accept=".docx,.pdf" onchange="document.getElementById('cv-file-name').textContent = this.files[0] ? this.files[0].name : 'No file chosen'">
                                         </div>
                                     </div>
                                     <div class="col col--md-5">
                                         <div class="form-group widthfix">
                                             <label for="sourcing-manager">SOURCING MANAGER</label>
                                             <select id="sourcing-manager" name="sourcing-manager">
-                                                <option value="" disabled selected>Select</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col col--md-5">
-                                        <div class="form-group ">
-                                            <label for="firm-type">*TYPE OF FIRM</label>
-                                            <select id="firm-type" name="firm-type" required>
-                                                <option value="" disabled selected>Select</option>
+                                                <option value="" disabled selected>Select Source</option>
+                                                <option value="LinkedIn">LinkedIn</option>
+                                                <option value="Naukri">Naukri</option>
+                                                <option value="Indeed">Indeed</option>
+                                                <option value="Company Website">Company Website</option>
+                                                <option value="Employee Referral">Employee Referral</option>
+                                                <option value="Social Media">Social Media</option>
+                                                <option value="Google Search">Google Search</option>
+                                                <option value="Job Fair">Job Fair</option>
+                                                <option value="Recruitment Agency">Recruitment Agency</option>
+                                                <option value="Walk-in">Walk-in</option>
+                                                <option value="Other">Other</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col col--md-10 offset--md- text-center">
-                                        <div class="terms-container">
+                                        <!-- <div class="terms-container">
                                             <input type="checkbox" id="terms" name="terms" required>
                                             <label for="terms" style="text-transform: none; font-weight: normal;">I agree with <a href="#"> T & C</a></label>
-                                        </div>
+                                        </div> -->
                                           <div class="submit-container">
                                                 <button
                                                     class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
@@ -545,7 +517,7 @@ backdrop-filter: blur(14px);
     margin-bottom: 23px;
 }
 .container.glass-card{
-    margin-bottom: 40%;
+    margin-bottom: 10%;
 }
 </style>
 <script>

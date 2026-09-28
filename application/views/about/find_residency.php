@@ -28,7 +28,7 @@
                 <div class="text-c1 leading-trim p-relative " data-reveal="text" data-reveal-distance="100px 0px">
                     <p></p>
                 </div>
-                <h3 class="h0-sm leading-trim mt-0.3 mt-0:lg p-relative " data-reveal="text" data-reveal-distance="100px 0px">Find<br>Residency</h3>
+                <h3 class="h0-sm leading-trim mt-0.3 mt-0:lg p-relative " data-reveal="text" data-reveal-distance="100px 0px">Explore<br>Projects</h3>
                 <a class="btn more-block__button btn--outline btn--square btn--lg more-block__button--left" href="flats.html" data-reveal="fade-in" data-reveal-distance="100px 0px">
                     <span class="btn__content">
                         <span class="btn__icon ">

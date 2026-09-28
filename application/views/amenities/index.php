@@ -95,7 +95,7 @@
                               <div class="text-c1 leading-trim mt-1 mt-0.5:lg" data-reveal="text"
                                  data-reveal-distance="100px">
                                  <p>
-                                    Beauty at&nbsp;Your Fingertips
+                                    Designed for Life Beyond Four Walls
                                  </p>
                               </div>
                               <a class="btn i-intro__next btn--outline btn--square btn--sm is-hidden--md-down"
@@ -130,13 +130,12 @@
                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
                            data-parallax-0-0='{"clip-path": "polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%)"}'
                            data-parallax--100-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'>
-                           <h3 class="h3 leading-trim mb-1">
+                           <!-- <h3 class="h3 leading-trim mb-1">
                               Luxury Clubhouse
-                           </h3>
+                           </h3> -->
                            <p class="text-t1 leading-trim">
-                              Experience a world of elegance and recreation in our thoughtfully designed luxury
-                              clubhouse.From social gatherings to relaxing evenings, every moment is crafted for an
-                              elevated lifestyle.
+                              A thoughtfully planned community where every amenity creates more opportunities to <b>move, connect, relax and grow.</b></br></br>
+                              From peaceful green spaces to active recreational zones, BST brings everyday experiences closer to home—creating a neighbourhood designed for people of every age.
                            </p>
                         </div>
                      </div>
@@ -145,13 +144,12 @@
                   <div class="i-intro__text ui-light ui-background  is-hidden--lg-up" data-themed-class="ui-light"
                      id="i-next-mobile">
                      <div class="ui-light-background col col--md-7 col--xl-6 mr-0 ml-auto ui-light px-layout py-5">
-                        <h3 class="h3 leading-trim mb-1">
-                           Luxury Clubhouse
-                        </h3>
+                        <!-- <h3 class="h3 leading-trim mb-1">
+                              Luxury Clubhouse
+                           </h3> -->
                         <p class="text-t1 leading-trim">
-                           Experience a world of elegance and recreation in our thoughtfully designed luxury
-                           clubhouse.From social gatherings to relaxing evenings, every moment is crafted for an
-                           elevated lifestyle.
+                           A thoughtfully planned community where every amenity creates more opportunities to <b>move, connect, relax and grow.</b></br></br>
+                           From peaceful green spaces to active recreational zones, BST brings everyday experiences closer to home—creating a neighbourhood designed for people of every age.
                         </p>
                      </div>
                   </div>
@@ -270,14 +268,12 @@
                            <div class="text-t1 leading-trim ml-layout:lg i-video__text" data-reveal="text"
                               data-reveal-distance="0">
                               <p>
-                                 Host grand celebrations and welcome guests with premium banquet and hospitality
-                                 facilities.Designed to create unforgettable experiences with comfort and
-                                 sophistication.
+                                 Green open spaces designed for morning walks, evening strolls and unhurried moments with nature.
                               </p>
                            </div>
                            <div class="mr-4:lg i-video__title pl-layout pl-0:lg h0" data-reveal="text">
                               <h2 class="h0 leading-trim text-right:lg">
-                                 Banquet & Hotels
+                                 Community Park
                               </h2>
                            </div>
                         </div>
@@ -334,13 +330,12 @@
                            data-plugin="parallax" data-parallax-pattern="videoCaptionMoveUp" data-distance="1">
                            <div class="i-video__caption__title" data-reveal="text">
                               <h3 class="h3 leading-trim">
-                                 Swimming Pool
+                                 Amphitheatre
                               </h3>
                            </div>
                            <div class="i-video__caption__text mt-3.5" data-reveal="text">
                               <p class="text-t1 leading-trim">
-                                 Dive into serenity with a beautifully designed swimming pool that offers the perfect
-                                 escape from everyday life.A refreshing retreat for fitness, relaxation, and family fun.
+                                 An open-air gathering space for performances, celebrations, community events and memorable evenings.
                               </p>
                            </div>
                         </div>
@@ -374,44 +369,36 @@
                                     <div data-content-animation-item="1" class="" aria-hidden="false">
                                        <div class="i-slider__caption__title">
                                           <h3 class="h3 leading-trim">
-                                             Mini<br>
-                                             Golf
+                                             Basketball Court
                                           </h3>
                                        </div>
                                        <div class="i-slider__caption__text">
                                           <p class="text-t1 leading-trim">
-                                             Enjoy a unique leisure experience with a professionally designed mini golf
-                                             course.Perfect for friendly competitions and quality time with family and
-                                             friends.
+                                             A dedicated sporting zone for energetic games, friendly competition and an active lifestyle.
                                           </p>
                                        </div>
                                     </div>
                                     <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
                                        <div class="i-slider__caption__title">
                                           <h3 class="h3 leading-trim">
-                                             Sports<br>
-                                             Arena
+                                             Pergola
                                           </h3>
                                        </div>
                                        <div class="i-slider__caption__text">
                                           <p class="text-t1 leading-trim">
-                                             Stay active and energized with a modern sports arena featuring world -
-                                             class recreational facilities.A space where fitness, passion, and community
-                                             come together.
+                                             A shaded social space to pause, unwind and enjoy conversations amidst the outdoors.
                                           </p>
                                        </div>
                                     </div>
                                     <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
                                        <div class="i-slider__caption__title">
                                           <h3 class="h3 leading-trim">
-                                             Landscaped Gardens
+                                             Yoga Deck
                                           </h3>
                                        </div>
                                        <div class="i-slider__caption__text">
                                           <p class="text-t1 leading-trim">
-                                             Immerse yourself in lush green surroundings thoughtfully crafted for peace
-                                             and relaxation.Beautifully landscaped gardens offer a refreshing connection
-                                             with nature.
+                                             A calm outdoor setting for yoga, meditation and mindful moments to begin your day.
                                           </p>
                                        </div>
                                     </div>
@@ -424,8 +411,7 @@
                                        </div>
                                        <div class="i-slider__caption__text">
                                           <p class="text-t1 leading-trim">
-                                             A vibrant and secure play area where children can learn, explore, and
-                                             create joyful memories.Designed to inspire imagination and endless fun.
+                                             A playful, thoughtfully designed space where children can explore, play and make new friends.
                                           </p>
                                        </div>
                                     </div>
