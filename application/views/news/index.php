@@ -53,14 +53,12 @@
                                         data-parallax-100-100='{"--opacity": "0", "--z-index": "-1"}'>
                                      
                                         <div class="col col--xs-4 col--lg-12 flats__col pt-0.5 pt-0:lg pl-2:lg px-layout pl-0:lg pb-1 pb-0.5:lg p-relative">
-                                         
                                             <ul class="col col--xs-3 col--lg-12 flats__list ui-light js-ajax-list" data-themed-class='{"left": "ui-dark", "right": "ui-light", "mobile-left": "ui-light"}'>
                                                 <li class="news-list-item">
                                                     <a href="https://fb.com"
                                                     target="_blank"
                                                     class="news-card"
                                                     data-ajax-page-ignore-prefetch="">
-
                                                         <!-- Image -->
                                                         <div class="news-card__image">
                                                             <img src="uploads/news/newsu_130226240302_96.jpg"
@@ -122,7 +120,7 @@
                                                 </li>
 
                                               
-                                                  <li>
+                                                  <!-- <li>
                                                     <a href="https://fb.com" target="_blank" class="card card--apartment" data-ajax-page-ignore-prefetch>
                                                         <div class="card__sizer"></div>
                                                         <div class="card__content">
@@ -181,7 +179,7 @@
                                                             </div>
                                                         </div>
                                                     </a>
-                                              
+                                              </li> -->
                                               
                                             </ul>
                                         </div>
