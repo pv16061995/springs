@@ -6,25 +6,7 @@
                 <div></div>
                 <div></div>
             </div>
-            <!-- /* =========================================
-                BST SCROLL IMAGE ANIMATION
-                ========================================= */ -->
-             
-            <!-- <section class="springs-scroll-effect" id="springsScrollEffect">
-
-                <div class="springs-scroll-effect__space">
-
-                    <div class="springs-scroll-effect__stage">
-
-                        <div class="springs-scroll-effect__image-wrap">
-                            <img src="https://www.gangarealty.com/images/career_banner_mobile.webp" alt="bst">
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section> -->
+         
             <!-- <div class="a-photos__images row row--top-xs pb-2 pb-0:md">
                 <div class="a-photos__img-box col col--xs-2 col--md-3 pr-0:md mx-layout:md" data-plugin="parallax" data-parallax-measure-selector=".sticky" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-100-0='{"transform": "translateY(60%)"}'
                 data-parallax--100-0='{"transform": "translateY(-60%)"}'>

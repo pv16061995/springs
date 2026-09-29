@@ -20917,7 +20917,7 @@ jdiv.__jivoMobileButton {
 .flats__list {
     display: flex;
     flex-wrap: wrap;
-    gap: calc(var(--scale-px) * 20);
+    gap: calc(var(--scale-px) * 40);
     list-style-type: none;
     margin: 0;
     padding: 0;

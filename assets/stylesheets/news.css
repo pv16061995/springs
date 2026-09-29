@@ -1,0 +1,250 @@
+/* =========================
+   News List
+========================= */
+
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+
+/* =========================
+   News List Item
+========================= */
+
+.news-list-item {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* =========================
+   News Card
+========================= */
+
+.news-card {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    background: #092b20;
+    border: 1px solid rgba(191, 151, 55, 0.25);
+    border-radius: 16px;
+
+    text-decoration: none;
+    color: #fff;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   Image
+========================= */
+
+.news-card__image {
+    width: 100%;
+    height: 345px;
+    overflow: hidden;
+    background: #ddd;
+}
+
+.news-card__image img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    transition: transform 0.5s ease;
+}
+
+.news-card:hover .news-card__image img {
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   Content
+========================= */
+
+.news-card__content {
+    padding: 18px 18px 15px;
+}
+
+
+/* =========================
+   Category
+========================= */
+
+.news-card__category {
+    display: inline-block;
+
+    margin-bottom: 10px;
+    padding: 4px 9px;
+
+    border: 1px solid rgba(191, 151, 55, 0.65);
+    border-radius: 20px;
+
+    color: #bfa05a;
+
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   Title
+========================= */
+
+.news-card__title {
+    margin: 0 0 10px;
+
+    color: #c9a227;
+
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+
+/* =========================
+   Description
+========================= */
+
+.news-card__description {
+    margin: 0 0 15px;
+
+    color: rgba(255, 255, 255, 0.75);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+
+/* =========================
+   Stats
+========================= */
+
+.news-card__stats {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding-top: 12px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+    color: rgba(255, 255, 255, 0.65);
+
+    font-size: 14px;
+}
+
+.news-card__stat {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+    white-space: nowrap;
+}
+
+.news-card__icon {
+    font-size: 16px;
+}
+
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 992px) {
+
+    .news-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .news-card__image {
+        height: 220px;
+    }
+
+    .news-card__content {
+        padding: 16px;
+    }
+
+    .news-card__title {
+        font-size: 19px;
+    }
+
+    .news-card__description {
+        font-size: 15px;
+    }
+
+    .news-card__stats {
+        gap: 10px;
+        font-size: 13px;
+    }
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 600px) {
+
+    .news-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .news-card {
+        border-radius: 12px;
+    }
+
+    .news-card__image {
+        height: 200px;
+    }
+
+    .news-card__title {
+        font-size: 18px;
+    }
+
+    .news-card__description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .news-card__stats {
+        gap: 8px;
+        font-size: 12px;
+    }
+
+    .news-card__icon {
+        font-size: 14px;
+    }
+}
