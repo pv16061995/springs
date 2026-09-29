@@ -1,0 +1,96 @@
+/* =====================================================
+   SPRINGS SCROLL IMAGE EFFECT
+   Completely isolated styles
+====================================================== */
+
+.springs-scroll-effect {
+    position: relative;
+    width: 100%;
+    height: 260vh;
+    margin: 0;
+    padding: 0;
+    z-index: 20;
+    overflow: visible;
+}
+
+.springs-scroll-effect__space {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.springs-scroll-effect__stage {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.springs-scroll-effect__image-wrap {
+    position: absolute;
+
+    width: 55vw;
+    height: 60vh;
+
+    left: 50%;
+    top: 115vh;
+
+    transform: translateX(-50%);
+
+    overflow: hidden;
+
+    will-change: top, width, height;
+
+    z-index: 30;
+}
+
+.springs-scroll-effect__image {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    margin: 0;
+    padding: 0;
+
+    user-select: none;
+    pointer-events: none;
+}
+
+
+/* Desktop */
+@media (min-width: 769px) {
+
+    .springs-scroll-effect__image-wrap {
+        width: 55vw;
+        height: 60vh;
+        top: 115vh;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .springs-scroll-effect {
+        height: 230vh;
+    }
+
+    .springs-scroll-effect__image-wrap {
+        width: 82vw;
+        height: 55vh;
+
+        top: 115vh;
+    }
+
+}

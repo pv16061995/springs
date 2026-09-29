@@ -841,19 +841,10 @@ h2.h2.leading-trim {
     background: #0e0b0494;
 }
 
-.Philosophy_captionParagraph {
-    font-size: 35px;
-    letter-spacing: 2.1px;
-}
-
-.xx-large{
-    font-size: xx-large
-}
 .a-place__caption__description_open {
     margin-top: 35px !important;
     min-height: calc(var(--scale-px) * 30);
     padding-bottom: 0;
-    font-size: 19px;
 }
 .a-place__caption__description {
     margin: 0;

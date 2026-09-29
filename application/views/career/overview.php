@@ -6,6 +6,25 @@
                 <div></div>
                 <div></div>
             </div>
+            <!-- /* =========================================
+                BST SCROLL IMAGE ANIMATION
+                ========================================= */ -->
+             
+            <!-- <section class="springs-scroll-effect" id="springsScrollEffect">
+
+                <div class="springs-scroll-effect__space">
+
+                    <div class="springs-scroll-effect__stage">
+
+                        <div class="springs-scroll-effect__image-wrap">
+                            <img src="https://www.gangarealty.com/images/career_banner_mobile.webp" alt="bst">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section> -->
             <!-- <div class="a-photos__images row row--top-xs pb-2 pb-0:md">
                 <div class="a-photos__img-box col col--xs-2 col--md-3 pr-0:md mx-layout:md" data-plugin="parallax" data-parallax-measure-selector=".sticky" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-100-0='{"transform": "translateY(60%)"}'
                 data-parallax--100-0='{"transform": "translateY(-60%)"}'>
@@ -99,6 +118,7 @@
                     </noscript>
                 </div>
             </div> -->
+            
             <div class="a-photos__inner row" data-plugin="parallax" data-parallax-clamp="true" data-parallax-enable-mq="md-up" data-parallax-100-0='{"transform": "translateY(30%)"}' data-parallax--100-0='{"transform": "translateY(-30%)"}'>
                 <h3 class="a-photos__text h2 px-layout px-0:lg col col--md-8 mb-1 offset--md-2 leading-trim">
                   JOIN OUR TEAM
@@ -579,4 +599,7 @@ backdrop-filter: blur(14px);
         setInterval(initAllCloneButtons, 2000);
     });
 })();
+
+
+
 </script>

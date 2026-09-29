@@ -21869,3 +21869,7 @@ p.text-justify {
     }
 
 }
+.overlayshadow{
+    padding: 25px;
+    background: #00000066;
+}

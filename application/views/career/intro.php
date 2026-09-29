@@ -1,7 +1,7 @@
 <div class="a-intro sticky sticky--full-height sticky--under-next" id="intro" data-plugin="reveal" data-scroll-snap-point='[{ "viewport": 0, "element": 0 }]'>
     <div class="sticky__layer sticky__layer--sticky" data-scroll data-scroll-sticky data-scroll-target="#intro">
         <div class="a-intro__inner px-layout pb-layout">
-            <div class="a-intro__background background background--bottom background--cover">
+            <div class="a-intro__background background background--bottom background--cover ">
                 <div class="dim dim--about"></div>
                 <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-parallax-clamp="true" data-parallax-enable-mq="null" data-parallax-0-0="{&quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1)&quot;}"
                 data-plugin="appear  parallax" draggable="false">
@@ -24,7 +24,7 @@
                     </picture>
                 </noscript>
             </div>
-            <div class="a-intro__content p-relative">
+            <div class="a-intro__content p-relative overlayshadow">
                 <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
                     Careers
                 </h1>
@@ -41,7 +41,7 @@
                     </picture>
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
-                    <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
+                    <p class="text-b1 leading-trim" data-reveal="title" data-reveal-distance="100px">
                       Build Your Career. Shape the Future.
                     </p>
                 </div>
@@ -60,6 +60,7 @@
         </div>
     </div>
 </div>
+
 <!-- <div class="a-about sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next sticky--under-next:lg-up" data-scroll-snap-point='[{ "viewport": -100, "element": 0 }]'>
     <div id="a-about" class="a-about__anchor"></div>
     <div class="sticky__layer sticky__layer--sticky sticky__layer--sticky:lg-up" data-scroll data-scroll-sticky>

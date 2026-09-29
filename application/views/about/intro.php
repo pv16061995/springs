@@ -24,7 +24,7 @@
                     </picture>
                 </noscript>
             </div>
-            <div class="a-intro__content p-relative">
+            <div class="a-intro__content p-relative overlayshadow">
                 <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
                 About
             </h1>
@@ -38,7 +38,7 @@
                     </picture>
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
-                    <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
+                    <p class="text-b1 leading-trim" data-reveal="title" data-reveal-distance="100px">
                         Designed for Life Built for Legacy
                     </p>
                 </div>

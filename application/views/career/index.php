@@ -8,6 +8,7 @@
     
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/channelPatner.css" />
+    <link rel="stylesheet" href="assets/stylesheets/career.css" />
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
@@ -48,6 +49,9 @@
         <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
         <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
         <script src="assets/javascripts/about.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 </body>
 
 </html>
