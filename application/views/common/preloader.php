@@ -3,7 +3,7 @@
     if($currentUrl == base_url()){
 ?>
     <a href="#top" class="sr-only sr-only--focusable">Skip to main content</a>
-    <div class="preloader js-preloader is-hidden" aria-hidden="true" data-plugin="preloader" data-preloader-visible="false">
+    <!-- <div class="preloader js-preloader is-hidden" aria-hidden="true" data-plugin="preloader" data-preloader-visible="false">
         <div class="preloader__content ui-dark ui-background">
             <div class="preloader__content ui-dark ui-background">
             <div class="background background--cover preloader__gradient-animation">
@@ -14,8 +14,8 @@
             </div>
             </div>
         </div>
-    </div>
-    <div class="preloader preloader--landing" data-plugin="preloaderLanding">
+    </div> -->
+    <!-- <div class="preloader preloader--landing" data-plugin="preloaderLanding">
         <div class="preloader__content ui-dark ui-background">
             <div class="preloader__gradient">
             <div></div>
@@ -72,7 +72,7 @@
             </div>
             <p class="preloader__content__cover h1"></p>
         </div>
-    </div>
+    </div> -->
 
 <?php }else{ ?>
     <a href="#top" class="sr-only sr-only--focusable">Skip to main content</a>
