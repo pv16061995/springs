@@ -39,7 +39,7 @@
                 Green Bhoomi
             </h2>
             <div class="mt-1">
-                <p class="text-c1 text-right leading-trim" data-reveal="title"
+                <p class="text-a1 text-right leading-trim" data-reveal="title"
                 data-reveal-distance="100px">
                 Crafted for Timeless Living
                 </p>
@@ -176,9 +176,9 @@
             <div class="mt-0.3">
                 <h2 class="text-right g1 leading-trim">Green Bhoomi</h2>
             </div>
-            <p class="mt-1 text-c1 leading-trim text-right">Crafted for Timeless Living</p>
+            <p class="mt-1 text-a1 overlayshadow leading-trim text-right">Crafted for Timeless Living</p>
             <div class="l-interiors__intro__text">
-                <p class="text-t1 leading-trim">
+                <p class="text-a1 overlayshadow leading-trim">
                     Your future begins with the right piece of land. Our thoughtfully planned plots combine prime locations, modern infrastructure, and natural surroundings to create the perfect foundation for your dream home or investment. Wide roads, green landscapes, and well-designed communities ensure lasting value for generations to come.
                 </p>
             </div>

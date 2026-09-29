@@ -41,7 +41,7 @@
                                         <div></div>
                                         <div></div>
                                     </div>
-                                    <div class="lo-intro__content h1 px-layout py-layout p-relative" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "60svh"}'>
+                                    <div class="lo-intro__content h1 px-layout py-layout p-relative overlayshadow" data-plugin="parallax" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-enable-mq="md-down" data-parallax-0-0='{"height": "100svh"}' data-parallax--50-0='{"height": "60svh"}'>
                                         <div class="background background--cover" data-plugin="parallax" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% calc(100% - var(--space-bottom) * 0), 0% calc(100% - var(--space-bottom) * 0))"}'
                                         data-parallax--100-0='{"clip-path": "polygon(50% 0%, 89% 0%, 89% calc(100% - var(--space-bottom) * 1), 50% calc(100% - var(--space-bottom) * 1))"}' data-parallax--200-0='{"clip-path": "polygon(52% 0%, 87% 0%, 87% calc(98% - var(--space-bottom) * 1), 52% calc(98% - var(--space-bottom) * 1))"}'>
                                             <picture class=" img-cover" data-parallax-enable-mq="lg-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0="{ &quot;transform&quot;: &quot;scale(1.1)&quot;}" data-parallax--100-0="{ &quot;transform&quot;: &quot;scale(1.02)&quot;}"
@@ -54,7 +54,7 @@
                                             <div class="dim is-hidden--md-down"></div>
                                         </div>
                                         <div class="lo-intro__caption p-relative" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax-0-0='{"opacity": "1", "transform": "translateY(0%)"}' data-parallax--50-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
-                                            <h1 class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
+                                            <h1 class="h1-sm leading-trim mt-0.5 mt-0:lg is-hidden--md-down" data-reveal="text">
                                             Location
                                         </h1>
                                             <div class="h0 leading-trim mt-0.5 mt-0:lg is-hidden--lg-up pr-3">
@@ -68,7 +68,7 @@
                                                     </picture>
                                                 </noscript>
                                             </div>
-                                            <div class="text-c1 leading-trim mt-1 mt-0.5:lg" data-reveal="text" data-reveal-distance="100px">
+                                            <div class="text-a1 leading-trim mt-1 mt-0.5:lg" data-reveal="text" data-reveal-distance="100px">
                                                 <p>
                                                     Natural Oasis
                                                     <br class="is-hidden--md-up"> in&nbsp;the&nbsp;Heart of&nbsp;the&nbsp;City

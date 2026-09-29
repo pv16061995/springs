@@ -38,7 +38,7 @@
     overflow: hidden;
 
     background: #092b20;
-    border: 1px solid rgba(191, 151, 55, 0.25);
+    border: 2px solid rgba(191, 151, 55, 0.25);
     border-radius: 16px;
 
     text-decoration: none;
@@ -104,7 +104,7 @@
     margin-bottom: 10px;
     padding: 4px 9px;
 
-    border: 1px solid rgba(191, 151, 55, 0.65);
+    border: 2px solid rgba(191, 151, 55, 0.65);
     border-radius: 20px;
 
     color: #bfa05a;
@@ -125,7 +125,7 @@
 
     color: #c9a227;
 
-    font-size: 21px;
+    font-size: 21.5px;
     font-weight: 500;
     line-height: 1.35;
 }
@@ -140,7 +140,7 @@
 
     color: rgba(255, 255, 255, 0.75);
 
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.55;
 }
@@ -157,7 +157,7 @@
 
     padding-top: 12px;
 
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    border-top: 2px solid rgba(191, 151, 55, 0.25);
 
     color: rgba(255, 255, 255, 0.65);
 
@@ -173,7 +173,7 @@
 }
 
 .news-card__icon {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -193,7 +193,7 @@
     }
 
     .news-card__content {
-        padding: 16px;
+        padding: 20px;
     }
 
     .news-card__title {

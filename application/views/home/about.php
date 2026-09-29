@@ -11,7 +11,7 @@
             </p>
         </div>
         <div class="col col--md-7 ml-layout">
-            <p class="l-intro__opening-subtitle leading-trim text-color-primary" data-reveal="text">
+            <p class="l-intro__opening-subtitle leading-trim text-color-primary overlayshadow" data-reveal="text">
                 BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian
                 real estate by creating developments that combine world-class planning, sustainable
                 infrastructure, and lasting value.
@@ -199,7 +199,7 @@
     data-parallax--230-0='{"transform": "translateY(0%)"}'
     data-parallax--500-0='{"transform": "translateY(110%)"}'
     data-parallax-measure-selector=".sticky">
-    <div class="l-intro__content-title col col--md-6 pl-1" data-reveal="title">
+    <div class="l-intro__content-title col col--md-6 pl-1 pr-1" data-reveal="title">
         <h2 class="h3 leading-trim pt-0.5">
             "Together, we're building communities that reflect quality, inspire trust, and shape the future of India."
         </h2>

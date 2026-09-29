@@ -25,7 +25,7 @@
                 </noscript>
             </div>
             <div class="a-intro__content p-relative overlayshadow">
-                <h1 class="h0 leading-trim is-hidden--md-down" data-reveal="title">
+                <h1 class="h1-sm leading-trim is-hidden--md-down" data-reveal="title">
                     JOIN BST <b><i>“INNER CIRCLE”</i></b>
                 </h1>
                 <h1 class="h0 leading-trim is-hidden--lg-up" data-reveal="title">
@@ -41,7 +41,7 @@
                     </picture>
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
-                    <p class="text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
+                    <p class="text-a1 leading-trim" data-reveal="title" data-reveal-distance="100px">
                       Channel Partners
                     </p>
                 </div>

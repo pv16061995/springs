@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/channelPatner.css" />
     <link rel="stylesheet" href="assets/stylesheets/career.css" />
+   <link rel="stylesheet" href="assets/stylesheets/infrastructure.css">
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
@@ -48,7 +49,8 @@
         <?php $this->load->view("common/cookies"); ?>
         <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
         <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
-        <script src="assets/javascripts/about.js"></script>
+        <script src="assets/javascripts/about.js"></script>        
+        <script fetchpriority="low" src="assets/javascripts/infrastructure.js"></script>
 </body>
 
 </html>

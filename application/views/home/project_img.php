@@ -125,7 +125,7 @@
         data-parallax--100-0='{"opacity": "0", "transform": "translate(-50%, 50%)"}'
         data-parallax--150-0='{"opacity": "1", "transform": "translate(-50%, -50%)"}'
         data-parallax--250-0='{"opacity": "0", "transform": "translate(-50%, -90%)"}'>
-        <h3 class="h3 leading-trim text-center" data-reveal="title">
+        <h3 class="h3 overlayshadow leading-trim text-center" data-reveal="title">
             <?php echo $project_img_slider['description2']; ?>
         </h3>
     </div>
@@ -275,7 +275,7 @@
 <div class="l-design__slide l-design__slide--2 ui-light is-hidden--lg-up py-2.5 px-layout"
     data-themed-class="ui-light">
     <div class="l-design__title col col--md-5 mx-auto">
-    <h3 class="h3 leading-trim text-center">
+    <h3 class="h3 overlayshadow leading-trim text-center">
         <?php echo $project_img_slider['description2']; ?>
     </h3>
     </div>

@@ -846,7 +846,7 @@
                 Statistics
             </h2>
             <div class="mt-1">
-                <p class="l-place-webgl-caption__subtitle text-c1 text-right leading-trim"
+                <p class="l-place-webgl-caption__subtitle text-b1 text-right leading-trim"
                 data-reveal="text" data-reveal-distance="100px">
                 Essence of Contemplation
                 </p>

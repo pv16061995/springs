@@ -21870,6 +21870,18 @@ p.text-justify {
 
 }
 .overlayshadow{
-    padding: 25px;
-    background: #00000066;
+       text-shadow: 2px 1px 2px #000;
+   
+}
+.text-a1 {
+    font-family: TT Commons Pro, Helvetica, Arial, sans-serif;
+    font-weight: var(--xxxxl, 500) var(--n-xxxxl, var(--xxxl, 400) var(--n-xxxl, 500));
+    --fos: -0.175em;
+    --foe: -0.125em;
+    font-size: 20px;
+    font-weight: 900;
+    --lh: var(--xxxxl, 1.5em) var(--n-xxxxl, var(--xxxl, 1.28571em) var(--n-xxxl, var(--xxl, 1.5em) var(--n-xxl, 1.4em)));
+    letter-spacing: .08em;
+    line-height: var(--lh);
+    text-transform: uppercase
 }
