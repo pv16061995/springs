@@ -60,7 +60,7 @@
         </div>
     </div>
 </div>
-<!-- 
+
 
  <div
                      class=" ui-dark ui-background i-video  sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next"
@@ -76,43 +76,7 @@
                            data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
                            data-parallax--0-0='{"transform": "scale(1)"}'
                            data-parallax--100-0='{"transform": "scale(1.2)"}'>
-                           <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
-                              draggable="false">
-                              <source
-                                 data-srcset="media/cache/infrastructure_video_bg_xxxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
-                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                 media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                              <source
-                                 data-srcset="media/cache/infrastructure_video_bg_xxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
-                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                 media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                              <source
-                                 data-srcset="media/cache/infrastructure_video_bg_md/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
-                                 srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                 media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                 width="1440" height="900">
-                              <img
-                                 data-src="media/cache/infrastructure_video_bg_xs/assets/images/media/infrastructure/2.video/background-xs%40xs.webp"
-                                 src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                 alt="" width="1440" height="900" draggable="false">
-                           </picture>
-                           <noscript>
-                              <picture class=" img-cover" draggable="false">
-                                 <source
-                                    srcset="media/cache/infrastructure_video_bg_xxxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
-                                    media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                 <source
-                                    srcset="media/cache/infrastructure_video_bg_xxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
-                                    media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                 <source
-                                    srcset="media/cache/infrastructure_video_bg_md/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
-                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
-                                    width="1440" height="900">
-                                 <img
-                                    src="media/cache/infrastructure_video_bg_xs/assets/images/media/infrastructure/2.video/background-xs%40xs.webp"
-                                    alt="" width="1440" height="900" draggable="false">
-                              </picture>
-                           </noscript>
+                         
                         </div>
                         <div class="i-video__video-wrapper  background background--cover" data-plugin="parallax"
                            data-parallax-pattern="videoTranslate" data-parallax-enable-mq="sm-down">
@@ -182,9 +146,9 @@
                         </div>
                         
                      </div>
-                  </div> -->
+                  </div> 
 
-                   <div
+                   <!-- <div
                      class=" ui-dark ui-background i-video sticky sticky--full-height sticky--under-previous sticky--under-previous:lg-up sticky--under-next"
                      id="i-video"
                      data-scroll-snap-point='[{ "viewport": -100, "element": 0}, { "viewport": -300, "element": 0}, { "viewport": -400, "element": 0}]'
@@ -354,4 +318,4 @@
                         </div>
                         
                      </div>
-                  </div>
+                  </div> -->
