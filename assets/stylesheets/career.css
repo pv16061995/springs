@@ -94,3 +94,42 @@
     }
 
 }
+.sizesectionimagescal {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+}
+
+
+.image-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    pointer-events: none;
+}
+
+.scroll-image {
+    position: absolute;
+
+    left: 50%;
+    bottom: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    object-fit: cover;
+
+    transform:
+        translate3d(-50%, 0, 0)
+        scale(0.35);
+
+    transform-origin: center center;
+
+    will-change: transform;
+
+    display: block;
+}
