@@ -1,5 +1,5 @@
                         <div class="container">
-                            <div class="brand-sub">BST Channel Partner</div>
+                            <!-- <div class="brand-sub">BST Channel Partner</div>
                             <div class="brand-title">CONNECT</div>
                             <div class="tagline">Teamwork begins by building trust.</div>
                             
@@ -8,7 +8,7 @@
                             </p>
                             <p class="description">
                                 If you are interested to work with BST, please register with us as a partner by filling in the form below and start on your journey of growth with BST Channel Partner Connect.
-                            </p>
+                            </p> -->
 
                             <form action="#" method="POST">
                                 <div class="form-grid">
