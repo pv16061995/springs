@@ -8,8 +8,9 @@
     
     <link rel="stylesheet" href="assets/stylesheets/theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/channelPatner.css" />
+    
+    <link rel="stylesheet" href="assets/stylesheets/infrastructure.css">
     <link rel="stylesheet" href="assets/stylesheets/career.css" />
-   <link rel="stylesheet" href="assets/stylesheets/infrastructure.css">
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
