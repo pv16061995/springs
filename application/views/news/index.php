@@ -6,8 +6,9 @@
     <title>BST Developers | News</title>
       <link rel="stylesheet" href="assets/stylesheets/theme.css">
     <link rel="stylesheet" href="assets/stylesheets/flats.css">
-    <link rel="stylesheet" href="assets/stylesheets/news.css">
+    
      <link rel="stylesheet" href="assets/stylesheets/about.css" />
+     <link rel="stylesheet" href="assets/stylesheets/news.css">
     
     <script>
         document.documentElement.classList.remove('no-js');

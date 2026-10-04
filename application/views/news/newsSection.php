@@ -1,30 +1,11 @@
-<section class="news-section">
+
+                         
+                                   
+<section class="news-section" margin-top:  margin-bottom: 50px;>
 
     <div class="news-container">
 
-        <!-- Header -->
-        <div class="news-header">
-
-            <h1>In The News</h1>
-
-            <div class="news-filters">
-
-                <div class="search-box">
-                    <input type="text" placeholder="Search">
-                    <span>⌕</span>
-                </div>
-
-                <select>
-                    <option>All Years</option>
-                    <option>2026</option>
-                    <option>2025</option>
-                    <option>2024</option>
-                    <option>2023</option>
-                </select>
-
-            </div>
-
-        </div>
+       
 
 
         <!-- News Grid -->
@@ -270,3 +251,5 @@
     </div>
 
 </section>
+
+                              

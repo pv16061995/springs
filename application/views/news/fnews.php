@@ -1,34 +1,6 @@
-                        <!-- <div class="l-callback__col col col--md-6 ui-dark ui-background mr-0 ml-auto px-layout py-layout js-form-content">
-                            <div class="l-callback__tablist" role="tablist" aria-labelledby="application">
-                                <a class="btn btn--outline btn--clone btn--md btn--text-small is-active"
-                                    data-plugin=" button" data-button-clone-content="true"
-                                    aria-controls="application" aria-selected="true" tabindex="0" role="tab">
-                                    <span class="btn__content">
-                                        <span class="btn__text">Enquiry request</span>
-                                    </span>
-                                </a>
-                                <a class="btn btn--outline btn--clone btn--md btn--text-small"
-                                    data-plugin="button" data-button-clone-content="true" aria-controls="call"
-                                    aria-selected="false" tabindex="0" role="tab">
-                                    <span class="btn__content">
-                                        <span class="btn__text">Book a site Visit</span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="tabs-contents">
-                                <div class="tabs-contents__content ui-background js-tab" id="application" role="tabpanel" aria-hidden="false">
-                                  abc
-                                </div>
-                                <div class="tabs-contents__content ui-background js-tab" id="call" role="tabpanel" aria-hidden="true">
-                                    def
-                                </div>
-                            </div>
-                        </div> -->
 
+<div class="news-tabs " style="margin-top: 190px; margin-bottom: 50px;">
 
-<div class="news-tabs">
-
-    <!-- Tab Navigation -->
     <div class="news-tabs__nav">
         <button class="news-tab active" data-tab="in-the-news">
             In The News
@@ -40,14 +12,11 @@
     </div>
 
 
-    <!-- Tab Content -->
     <div class="news-tabs__content">
 
-        <!-- In The News -->
         <div class="news-tab-content active" id="in-the-news">
             <div class="row">
                 
-                <!-- News cards -->
                 <div class="col-lg-4">
                     <div class="news-card">
                         <h3>Featured News Title</h3>
@@ -58,53 +27,94 @@
         </div>
 
 
-        <!-- Press Release -->
         <div class="news-tab-content" id="press-release">
             <div class="row">
 
-                <!-- Press release cards -->
-                <div class="col-lg-4">
-                    <div class="news-card">
-                        <h3>Press Release Title</h3>
-                    </div>
+                 <div class="news-grid">
+
+            
+            <article class="news-card">
+
+                <div class="news-date">
+                    <span class="news-icon">▤</span>
+                    <span>01 Oct '26</span>
                 </div>
+
+                <h2>
+                    Grade A Mall Vacancy Across the Top 7 Cities
+                    Fell to 5% in H1 2026
+                </h2>
+
+                <a href="#" class="read-more">
+                    Read More <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <article class="news-card">
+
+                <div class="news-date">
+                    <span class="news-icon">▤</span>
+                    <span>01 Oct '26</span>
+                </div>
+
+                <h2>
+                    Why are NCR Home Prices Rising so Fast?
+                </h2>
+
+                <a href="#" class="read-more">
+                    Read More <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <article class="news-card">
+
+                <div class="news-date">
+                    <span class="news-icon">▤</span>
+                    <span>01 Oct '26</span>
+                </div>
+
+                <h2>
+                    BST Consultants Files Draft
+                    Papers for Rs 1000 Crore IPO
+                </h2>
+
+                <a href="#" class="read-more">
+                    Read More <span>↗</span>
+                </a>
+
+            </article>
+
+
+            <article class="news-card">
+
+                <div class="news-date">
+                    <span class="news-icon">▤</span>
+                    <span>01 Oct '26</span>
+                </div>
+
+                <h2>
+                    BST Consultants files Draft
+                    Papers for ₹1,000 Crore IPO
+                </h2>
+
+                <a href="#" class="read-more">
+                    Read More <span>↗</span>
+                </a>
+
+            </article>
+            </div>
 
             </div>
         </div>
 
     </div>
 
-</div>
-<style>
-.news-tabs__nav {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 40px;
-}
+</div> 
 
-.news-tab {
-    border: 1px solid #ddd;
-    background: transparent;
-    padding: 12px 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.news-tab.active {
-    background: #111;
-    color: #fff;
-    border-color: #111;
-}
-
-.news-tab-content {
-    display: none;
-}
-
-.news-tab-content.active {
-    display: block;
-}
-</style>
 <script>
 document.querySelectorAll('.news-tab').forEach(tab => {
 
