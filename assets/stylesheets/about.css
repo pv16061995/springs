@@ -857,3 +857,15 @@ h2.h2.leading-trim {
     margin-bottom: 8px;
     padding-left: 5px;
 }
+.ExploreProjects{
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+.bgm-overlay{
+    z-index: 9999;
+     position: absolute;
+    inset: 0;
+
+    background: #0000003b;
+
+    pointer-events: none;
+}

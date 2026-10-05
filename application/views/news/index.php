@@ -118,7 +118,7 @@
             </div>
             <div class="news-tabs__content">
                 <div class="news-tab-content active" id="in-the-news">
-                      <h2 class="card-title"  style="color: #1e832a;">Featured News</h2>
+                      <h2 class="card-title"  style="text-align: center; margin-bottom: 20px;">Featured News</h2>
                     <div class="card-container">
                         
                           
@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <div class="news-tab-content" id="press-release">
-                    <h2 class="card-title mb-1" style="color: #1e832a;">Press Release</h2>
+                    <h2 class="card-title mb-1" style="text-align: center;">Press Release</h2>
                     <div class="row">
                         <div class="news-grid">
                             <article class="news-cards">

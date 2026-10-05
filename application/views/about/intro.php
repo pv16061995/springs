@@ -38,7 +38,7 @@
                     </picture>
                 </noscript>
                 <div class="a-intro__subtitle mt-1  pr-6">
-                    <p class="text-a1 leading-trim" data-reveal="title" data-reveal-distance="100px">
+                    <p class="text-a1 leading-trim" data-reveal="title" data-reveal-distance="100px" style="font-size: 24px; ">
                         Designed for Life Built for Legacy
                     </p>
                 </div>
