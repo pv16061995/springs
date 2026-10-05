@@ -9,7 +9,7 @@
 </div>
     <?php if(!empty($hero_caption)) :?>
     <div class="l-gallery__caption">
-        <div class="col col--xs-12 col--md-8 col--xxxl-8 offset--md-2 pt-3:md">
+        <div class="col col--xs-12 col--md-8 col--xxxl-8 offset--md-2 pt-3:md hidden-div" id="myDiv">
             <h1 class="text-center h0 leading-trim" data-reveal-delay="1000">
             <span>Building Tomorrow's Communities with</span>
             <br /> Trust, Innovation <span>&amp;</span> Sustainable Growth
@@ -76,3 +76,9 @@
         <div></div> -->
     </div>
 </div>
+
+<script>
+    setTimeout(function () {
+        document.getElementById("myDiv").classList.add("show");
+    }, 13000);
+</script>
