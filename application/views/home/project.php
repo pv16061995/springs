@@ -907,11 +907,11 @@
                 data-parallax-measure-selector=".sticky"
                 data-parallax--100-0='{"opacity": "1", "transform": "translateY(0vh)"}'
                 data-parallax--150-0='{"opacity": "0", "transform": "translateY(-50vh)"}'>
-                <h2 class="g1 leading-trim text-right">
+                <h2 class="g1 overlayshadow leading-trim text-right">
                 Our Projects
                 </h2>
                 <div class="mt-1">
-                <p class="l-nature-bg-caption__subtitle text-c1 leading-trim text-right">
+                <p class="l-nature-bg-caption__subtitle overlayshadow text-a1 leading-trim text-right">
                     Creating Destinations That Inspire Living, Business & Growth
                 </p>
                 </div>

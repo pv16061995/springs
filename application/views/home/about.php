@@ -6,7 +6,7 @@
         data-parallax--100-0='{"opacity": "1", "transform": "translateY(0%)"}'
         data-parallax--150-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
         <div class="col col--md-7 mb-1 ml-layout">
-            <p class=" h1 leading-trim text-color-primary" data-reveal="title">
+            <p class=" h1 overlayshadow leading-trim text-color-primary" data-reveal="title">
                 A Dream That Became a Vision
             </p>
         </div>
@@ -200,7 +200,7 @@
     data-parallax--500-0='{"transform": "translateY(110%)"}'
     data-parallax-measure-selector=".sticky">
     <div class="l-intro__content-title col col--md-6 pl-1 pr-1" data-reveal="title">
-        <h2 class="h3 leading-trim pt-0.5">
+        <h2 class="h3 overlayshadow leading-trim pt-0.5">
             "Together, we're building communities that reflect quality, inspire trust, and shape the future of India."
         </h2>
     </div>

@@ -21883,5 +21883,9 @@ p.text-justify {
     --lh: var(--xxxxl, 1.5em) var(--n-xxxxl, var(--xxxl, 1.28571em) var(--n-xxxl, var(--xxl, 1.5em) var(--n-xxl, 1.4em)));
     letter-spacing: .08em;
     line-height: var(--lh);
-    text-transform: uppercase
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+p.text-t1.overlayshadow.leading-trim {
+    letter-spacing: 1px;
 }

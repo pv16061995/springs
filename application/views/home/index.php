@@ -33,6 +33,7 @@
       h4,
       h5 {
          color: #d7ab3e !important;
+         font-weignt: 700 !important;
       }
       .l-gallery__caption h1.h0.leading-trim span {
          color: #fff !important;;

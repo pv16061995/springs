@@ -35,11 +35,11 @@
             </noscript>
         </div>
         <div class="px-layout l-interiors__intro-caption">
-            <h2 class="text-right g1 leading-trim" data-reveal="title">
+            <h2 class="text-right overlayshadow g1 leading-trim" data-reveal="title">
                 Green Bhoomi
             </h2>
             <div class="mt-1">
-                <p class="text-a1 text-right leading-trim" data-reveal="title"
+                <p class="text-a1 overlayshadow text-right leading-trim" data-reveal="title"
                 data-reveal-distance="100px">
                 Crafted for Timeless Living
                 </p>
@@ -47,7 +47,7 @@
         </div>
         <div class="px-layout">
             <div class="l-interiors__intro__text mt-3 col col--md-4">
-                <p class="text-t1 leading-trim" data-reveal="text">
+                <p class="text-t1 overlayshadow leading-trim" data-reveal="text">
                 Your future begins with the right piece of land. Our thoughtfully planned plots combine prime locations, modern infrastructure, and natural surroundings to create the perfect foundation for your dream home or investment. Wide roads, green landscapes, and well-designed communities ensure lasting value for generations to come.
                 </p>
             </div>
@@ -123,7 +123,7 @@
             </div>
             <div class="l-interiors__slider__caption">
                 <div class="mb-0.5">
-                <p class="text-t1 leading-trim" data-reveal="text">
+                <p class="text-t1 leading-trim" data-reveal="text" style="font-size:24px">
                     Designed for a healthier and more connected lifestyle, our thoughtfully planned community offers spaces where every generation can thrive. From lush green parks and a vibrant children's play area to an open-air gym, a serene yoga deck, and a community amphitheatre, every amenity is crafted to bring comfort, recreation, and togetherness into everyday living.
                 </p>
                 </div>

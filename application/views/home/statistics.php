@@ -88,10 +88,10 @@
             data-parallax-measure-selector=".l-place-bg-caption"
             data-parallax-0--100='{"transform": "translateY(20vh)"}'
             data-parallax-0-100='{"transform": "translateY(-6vh)"}'>
-            <h2 class="g1 leading-trim text-right">
+            <h2 class="g1 overlayshadow leading-trim text-right">
                 Statistics
             </h2>
-            <p class="l-nature-bg-caption__subtitle text-c1 leading-trim text-right mt-1">
+            <p class="overlayshadow l-nature-bg-caption__subtitle text-c1 leading-trim text-right mt-1">
                 Essence of Contemplation
             </p>
         </div>
@@ -100,7 +100,7 @@
             data-parallax-measure-selector=".l-place-bg-caption"
             data-parallax-0--100='{"transform": "translateY(10vh)"}'
             data-parallax-0-100='{"transform": "translateY(-10vh)"}'>
-            <p class="text-t1 leading-trim">
+            <p class="text-t1 overlayshadow leading-trim">
                 BST Developers is situated in the prestigious Western District
                 of the capital, surrounded by parks and close
                 to the embankment. It is adjacent to the highway, one
@@ -395,7 +395,7 @@
         </picture>
     </noscript>
     </div>
-    <h3 class="l-place-description__title leading-trim h3 px-layout pt-0.5 pb-3">
+    <h3 class="l-place-description__title overlayshadow leading-trim h3 px-layout pt-0.5 pb-3">
     We are helping people find the right property with confidence. Our growing presence across 100+ prime locations reflects our commitment to making real estate simple, transparent, and accessible for everyone. With trusted guidance and a wide range of opportunities, we make every property journey easier and more rewarding.
     </h3>
     <div class="l-place-description__gradient"></div>

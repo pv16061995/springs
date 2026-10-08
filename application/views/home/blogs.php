@@ -19,8 +19,8 @@
     <div class="blogs-slider-header">
 
         <div class="blogs-slider-title">
-            <h2 class="h2 text-heading-dark">Latest Real Estate Insights</h2>
-            <div class="underline"></div>
+            <h2 class="h2 text-heading-dark" style="color:white !important;">Latest Real Estate Insights</h2>
+            <div class="underline overlayshadow"></div>
             <p>
                 Expert perspectives. Market trends. Smarter decisions.
             </p> 
