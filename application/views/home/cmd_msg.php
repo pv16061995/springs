@@ -213,7 +213,7 @@
                 "changeHide": {"name": "fadeOut", "duration": "fast"}
                 }' data-content-animation-plugins="controller events height counter"
                 class="js-wellness-controller-selector" data-content-animation-link-event="click">
-                <h3 class="h3 mt-2 pl-1">THE BST PHILOSOPHY</h3>
+                <h3 class="h3 overlayshadow mt-2 pl-1">THE BST PHILOSOPHY</h3>
                 <div
                 class="l-wellness__slider__caption-titles col col--md-6 ml-auto mr-0 pt-1 pr-1 text-right"
                 data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true"
@@ -234,8 +234,8 @@
                 data-parallax--20-0='{"transform": "translateY(30%)"}'
                 data-parallax--420-0='{"transform": "translateY(-30%)"}'>
                 <div data-content-animation-item="1" class="" aria-hidden="false">
-                    <h3 class="h3 leading-trim mb-0.5">Best of Everything</h3>
-                    <p class="text-t1 leading-trim">
+                    <h3 class="h3 overlayshadow leading-trim mb-0.5">Best of Everything</h3>
+                    <p class="text-t1 leading-trim ls2">
                         We strive to deliver excellence in every aspect—from strategic locations and
                         premium planning to superior infrastructure, quality construction, and
                         customer experience. Every BST project reflects our commitment to offering
@@ -243,8 +243,8 @@
                     </p>
                 </div>
                 <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
-                    <h3 class="h3 leading-trim mb-0.5">Sustainable Future</h3>
-                    <p class="text-t1 leading-trim">
+                    <h3 class="h3 leading-trim overlayshadow mb-0.5">Sustainable Future</h3>
+                    <p class="text-t1 leading-trim ls2">
                         Our developments are designed with tomorrow in mind. Green landscapes, open
                         spaces, efficient planning, and environmentally responsible practices help us
                         create communities that are healthier, smarter, and built to last for future
@@ -252,8 +252,8 @@
                     </p>
                 </div>
                 <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
-                    <h3 class="h3 leading-trim mb-0.5">Trust & Technology</h3>
-                    <p class="text-t1 leading-trim">
+                    <h3 class="h3 overlayshadow leading-trim mb-0.5">Trust & Technology</h3>
+                    <p class="text-t1 leading-trim ls2">
                         Trust forms the foundation of every relationship we build. By integrating
                         transparency, ethical business practices, and modern technology into every
                         stage of development, we ensure confidence, reliability, and seamless
@@ -295,7 +295,7 @@
             </div>
         </div>
         <div class="l-wellness__webgl-caption px-layout pt-3">
-            <p class="col col--md-6 text-t1 leading-trim">
+            <p class="col col--md-6 text-t1 leading-trim ls2">
                 BST Developers brings wellness right into your home. With a thoughtfully
                 designed infrastructure for relaxation, it rejuvenates your body and mind,
                 leaving you refreshed and perfectly balanced.
@@ -456,11 +456,11 @@
             <div class="l-wellness__slider__caption-text content-animation col col--md-6">
                 <div data-content-animation-item="1" class="" aria-hidden="false">
                 <div class="mb-1">
-                    <p class="h3 leading-trim">
+                    <p class="h3 overlayshadow leading-trim">
                         Best of Everything
                     </p>
                 </div>
-                <p class="text-t1 leading-trim">
+                <p class="text-t1  leading-trim ls2">
                     We strive to deliver excellence in every aspect—from strategic locations and
                     premium planning to superior infrastructure, quality construction, and
                     customer experience. Every BST project reflects our commitment to offering
@@ -469,11 +469,11 @@
                 </div>
                 <div data-content-animation-item="2" class="is-hidden" aria-hidden="true">
                 <div class="mb-1">
-                    <p class="h3 leading-trim">
+                    <p class="h3 overlayshadow leading-trim">
                         Sustainable Future
                     </p>
                 </div>
-                <p class="text-t1 leading-trim">
+                <p class="text-t1 leading-trim ls2">
                     Our developments are designed with tomorrow in mind. Green landscapes, open
                     spaces, efficient planning, and environmentally responsible practices help us
                     create communities that are healthier, smarter, and built to last for future
@@ -482,11 +482,11 @@
                 </div>
                 <div data-content-animation-item="3" class="is-hidden" aria-hidden="true">
                 <div class="mb-1">
-                    <p class="h3 leading-trim">
+                    <p class="h3 overlayshadow leading-trim">
                         Trust & Technology
                     </p>
                 </div>
-                <p class="text-t1 leading-trim">
+                <p class="text-t1 leading-trim ls2">
                     Trust forms the foundation of every relationship we build. By integrating
                     transparency, ethical business practices, and modern technology into every
                     stage of development, we ensure confidence, reliability, and seamless

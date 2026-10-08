@@ -21678,7 +21678,7 @@ p.text-justify {
 
 /* Call */
 .sticky-btn.call {
-    background: #2e79b5;
+    background: #d7ab3e;
 }
 
 .sticky-btn.call:hover {
@@ -21687,7 +21687,7 @@ p.text-justify {
 
 /* WhatsApp */
 .sticky-btn.whatsapp {
-    background: #25D366;
+    background: #d7ab3e ;
 }
 
 .sticky-btn.whatsapp:hover {
@@ -21888,4 +21888,16 @@ p.text-justify {
 }
 p.text-t1.overlayshadow.leading-trim {
     letter-spacing: 1px;
+}
+.fs24{
+    font-size: 24px;
+} 
+.fs20{
+    font-size: 20px;
+}
+.ls2{
+    letter-spacing: 1.5px;
+}
+.ftw{
+    color: white
 }

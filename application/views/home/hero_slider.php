@@ -14,7 +14,7 @@
             <span>Building Tomorrow's Communities with</span>
             <br /> Trust, Innovation <span>&amp;</span> Sustainable Growth
             </h1>
-            <p role="heading" aria-level="1" class="text-center mt-1 text-t1 leading-trim"
+            <p role="heading" aria-level="1" class="overlayshadow text-center mt-1 text-t1 leading-trim"
             data-reveal-delay="1000">
             <?= nl2br(htmlspecialchars($hero_caption['sub_heading'] ?? '', ENT_QUOTES, 'UTF-8')); ?>
             </p>

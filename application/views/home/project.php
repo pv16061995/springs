@@ -14,14 +14,14 @@
                 </div>
             </div>
             <div class="col col--md-12 l-nature-bg-caption pt-6:md pt-4:xxxl pl-layout" data-plugin="parallax" data-parallax-enable-mq="md-up" data-parallax-clamp="true" data-parallax-measure-selector=".sticky" data-parallax--0-0='{"opacity": "1", "transform": "translateY(20%)"}' data-parallax--100-0='{"opacity": "1", "transform": "translateY(0%)"}' data-parallax--150-0='{"opacity": "0", "transform": "translateY(-20%)"}'>
-                <h1 class="h1 leading-trim" data-reveal="title">OUR PROJECTS</h1>
+                <h1 class="h1 overlayshadow  leading-trim" data-reveal="title">OUR PROJECTS</h1>
                 <div class="mt-1">
-                <p class="l-nature-bg-caption__subtitle text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
-                    Creating Destinations That Inspire Living, Business & Growth
+                <p class="fs20 overlayshadow l-nature-bg-caption__subtitle text-c1 leading-trim" data-reveal="title" data-reveal-distance="100px">
+                    Creating Destinations That Inspire Living,<br> Business & Growth
                 </p>
                 </div>
                 <div class="l-nature-bg-caption__text mr-0 ml-auto col col--md-4 mt-3">
-                <p class="text-t1 leading-trim" data-reveal="text">
+                <p class="text-t1 overlayshadow ls2 leading-trim" data-reveal="text">
                     BST Developers is building a diverse portfolio of developments designed to meet
                     the evolving aspirations of modern India. From premium residential communities to
                     commercial destinations and future hospitality ventures, every project reflects
@@ -173,7 +173,7 @@
                 data-parallax-measure-selector=".sticky"
                 data-parallax--220-0='{"margin-top": "0px"}'
                 data-parallax--320-0='{"margin-top": "35px"}'>
-                <h3 class="h3 leading-trim" data-reveal="text">
+                <h3 class="h3 overlayshadow leading-trim" data-reveal="text">
                     Enjoy nature&rsquo;s embrace that shields you from the world outside.
                     Climbing rooftop plants, winding layouts of flowerbeds, emerald lawns.
                     BST Developers lets you learn the art of leisure.
@@ -842,11 +842,11 @@
         ]'>
     <div class="l-place-webgl">
         <div class="l-place-webgl-caption pt-6:md pt-4:xxxl px-layout">
-            <h2 class="text-right g1 leading-trim" data-reveal="title">
+            <h2 class="text-right overlayshadow g1 leading-trim" data-reveal="title">
                 Statistics
             </h2>
             <div class="mt-1">
-                <p class="l-place-webgl-caption__subtitle text-b1 text-right leading-trim"
+                <p class="l-place-webgl-caption__subtitle overlayshadow fs24 ls2 text-b1 text-right leading-trim"
                 data-reveal="text" data-reveal-distance="100px">
                 Essence of Contemplation
                 </p>
@@ -854,7 +854,7 @@
         </div>
         <div class="px-layout">
             <div class="l-place-webgl__text mt-3 col col--md-4">
-                <p class="text-t1 leading-trim" data-reveal="text">
+                <p class="overlayshadow text-t1 leading-trim" data-reveal="text">
                 BST Developers is situated in the prestigious Western District
                 of the capital, surrounded by parks and close
                 to the embankment. It is adjacent to the highway, one
@@ -868,7 +868,7 @@
         data-parallax--700-0='{"transform": "translateY(0%)"}'
         data-parallax--950-0='{"transform": "translateY(120%)"}'
         data-parallax-measure-selector=".sticky">
-        <h3 class="h3 mt-6 offset--md-6 leading-trim" data-reveal="text">
+        <h3 class="h3 mt-6 offset--md-6 overlayshadow leading-trim" data-reveal="text">
             We are helping people find the right property with confidence. Our growing presence across 100+ prime locations reflects our commitment to making real estate simple, transparent, and accessible for everyone. With trusted guidance and a wide range of opportunities, we make every property journey easier and more rewarding.
         </h3>
     </div>

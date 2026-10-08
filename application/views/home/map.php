@@ -54,7 +54,7 @@
                 </picture>
             </noscript>
             <div class="l-map-caption__text col col--md-5 pl-layout py-layout">
-                <h3 class="h3 overlayshadow leading-trim">
+                <h3 class="h3 overlayshadow leading-trim" style="text-shadow: -2px 1px 0px #000;">
                 Easy access to Nature Park. Landscapes of watercolor tenderness that
                 belong only </br> to you.
                 </h3>
@@ -90,7 +90,7 @@
         <div class=" col col--xs-4 col--md-12" data-themed-class="ui-dark"></div>
         <div class="col col--xs-4 col--md-12 ui-light ui-background" data-themed-class="ui-light">
             <div class="l-map-caption__text col col--md-6 px-layout pt-layout">
-                <h3 class="h3 overlayshadow leading-trim mb-1">
+                <h3 class="h3 overlayshadow leading-trim mb-1" style="text-shadow: -2px 1px 0px #000;">
                 Easy access to Nature Park. Landscapes of watercolor tenderness that
                 belong only </br> to you.
                 </h3>

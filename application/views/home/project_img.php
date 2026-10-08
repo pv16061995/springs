@@ -27,10 +27,10 @@
     </div>
         <?php if(!empty($project_img_slider)): ?>
             <div class="l-design__caption">
-                <div class="l-design__caption-title px-layout">
+                <div class="l-design__caption-title overlayshadow ls2 px-layout">
                     <h2 class="text-right g1 leading-trim" data-reveal="title"><?php echo $project_img_slider['title']; ?></h2>
                     <div class="mt-1">
-                        <p class="l-design__caption__subtitle text-c1 text-right leading-trim" data-reveal="title"><?php echo $project_img_slider['sub_title']; ?></p>
+                        <p class="l-design__caption__subtitle text-c1 fs20 text-right leading-trim" data-reveal="title"><?php echo $project_img_slider['sub_title']; ?></p>
                     </div>
                 </div>
                 <div class="px-layout">
@@ -216,7 +216,7 @@
             data-parallax-measure-selector=".sticky" data-parallax-enable-touch="false"
             data-parallax--100-0='{"transform": "translateY(0%)"}'
             data-parallax--250-0='{"transform": "translateY(-250%)"}'>
-            <h3 class="h3 leading-trim" data-reveal="title"><?php echo $project_img_slider['description3']; ?></h3>
+            <h3 class="h3 leading-trim overlayshadow" data-reveal="title"><?php echo $project_img_slider['description3']; ?></h3>
         </div>
     </div>
     </div>
