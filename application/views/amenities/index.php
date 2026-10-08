@@ -845,7 +845,7 @@
                                  data-parallax--150-0='{"opacity": "0", "transform": "translateY(-30vh)"}'
                                  data-reveal="text">
                                  <h3 class="h1 leading-trim">
-                                    Open Air Theatre
+                                    Open Air Gym
                                  </h3>
                               </div>
                               <div class="i-opening__gradient blur-fix is-hidden--md-down">
@@ -1139,7 +1139,7 @@
                         <div></div>
                      </div>
                   </div>
-                  <div
+                  <!-- <div
                      class="ui-dark ui-background-light i-nature sticky sticky--full-height sticky--under-previous sticky--under-next"
                      id="i-nature" data-scroll-snap-point='[
                         { "viewport": -100, "element": 0}
@@ -2464,7 +2464,7 @@
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div> -->
                </section>
             </main>
             <?php $this->load->view('common/footer'); ?>
