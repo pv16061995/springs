@@ -750,6 +750,7 @@
 
                   <?php $this->load->view('home/blogs'); ?>
                   <?php $this->load->view('home/testimonials'); ?>
+                    <?php $this->load->view('home/contact'); ?>
                </section>
             </main>
             <?php $this->load->view('common/footer'); ?>
