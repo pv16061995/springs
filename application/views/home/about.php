@@ -1,7 +1,7 @@
 <div class="sticky sticky--full-height sticky--under-previous sticky--under-next l-intro ui-background is-hidden--md-down" id="about" data-plugin="reveal" data-themed-class="ui-dark">
     <div class="sticky__layer sticky__layer--sticky sticky--full-height" data-scroll data-scroll-sticky
     data-scroll-target="#about">
-    <div class="l-intro__opening pt-2.5" data-plugin="parallax" data-parallax-enable-mq="md-up"
+    <div class="l-intro__opening pt-2.5 " data-plugin="parallax" data-parallax-enable-mq="md-up"
         data-parallax-clamp="true" data-parallax-measure-selector=".sticky"
         data-parallax--100-0='{"opacity": "1", "transform": "translateY(0%)"}'
         data-parallax--150-0='{"opacity": "0", "transform": "translateY(-50%)"}'>
@@ -11,7 +11,7 @@
             </p>
         </div>
         <div class="col col--md-7 ml-layout">
-            <p class="l-intro__opening-subtitle leading-trim text-color-primary overlayshadow" data-reveal="text">
+            <p class="l-intro__opening-subtitle leading-trim text-color-primary overlayshadow fs24" data-reveal="text" style="color: #fff;">
                 BST Developers India Pvt. Ltd. was born from a vision—to redefine the future of Indian
                 real estate by creating developments that combine world-class planning, sustainable
                 infrastructure, and lasting value.
