@@ -743,7 +743,7 @@
                      </div>
                   </div> -->
                  <?php $this->load->view('home/map'); ?>
-                  <?php $this->load->view('home/project_img'); ?>
+                  <?php //$this->load->view('home/project_img'); ?>
                   <?php $this->load->view('home/amenties'); ?>
                   <?php $this->load->view('home/interiors'); ?>
                   <?php $this->load->view('home/reward'); ?>
