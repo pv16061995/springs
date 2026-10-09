@@ -31,7 +31,7 @@
                 </div>
                 <h3 class="h0-sm leading-trim mt-0.3 mt-0:lg p-relative ExploreProjects " data-reveal="text" data-reveal-distance="100px 0px" style="color: #fff;">Explore<br>Projects</h3>
                 <a class="btn more-block__button btn--outline btn--square btn--lg more-block__button--left" href="flats.html" data-reveal="fade-in" data-reveal-distance="100px 0px" style="margin-top: 70px;">
-                    <span class="btn__content">
+                    <span class="btn__content" style="background-color: #538f26db;">
                         <span class="btn__icon ">
                             <svg class="icon icon-arrow-right" width="17" height="16" aria-hidden="true" viewBox="0 0 17 16" style="--icon-width: 17; --icon-height: 16;">
                                 <use href="assets/images/icons.svg#arrow-right" xlink:href="assets/images/icons.svg#arrow-right"> </use>
