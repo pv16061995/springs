@@ -106,12 +106,14 @@
             </div>
             <?php endforeach; ?>
         </div>
+       
         <div class="l-interiors__slider-thumb col col--md-6 px-1 py-1 px-layout:lg py-layout:lg"
             data-plugin="parallax " data-parallax-enable-mq="md-up" data-parallax-clamp="true"
             data-parallax-measure-selector=".sticky"
             data-parallax--120-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"}'
             data-parallax--220-0='{"clip-path": "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}'>
             <div class="l-interiors__slider-thumb__links mb-2:md mb-3:xxxl">
+                 
                 <?php $i = 0; foreach($interior_images as $image): $i++;  if ($i > 5) { break; }?>
                 <div class="l-interiors__slider-thumb__links__item js-content-animation-link is-active" data-content-animation-id="<?php echo $i; ?>">
                     <img class="img-full is-invisible--js is-hidden--no-js" alt="" draggable="false" width="60" height="60" data-plugin="appear " data-src="<?php echo $image['thumb']; ?>" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2260%22%20height=%2260%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%2060%2060%22%3E%3C/svg%3E">
@@ -121,7 +123,9 @@
                 </div>
                 <?php endforeach; ?>
             </div>
+             <h3 class="h3 leading-trim overlayshadow" data-reveal="title" style="margin-bottom: 50%;"> A Glimpse Into Our World of Lifestyle</h3>
             <div class="l-interiors__slider__caption">
+                
                 <div class="mb-0.5">
                 <p class="text-t1 leading-trim" data-reveal="text" style="font-size:24px">
                     Designed for a healthier and more connected lifestyle, our thoughtfully planned community offers spaces where every generation can thrive. From lush green parks and a vibrant children's play area to an open-air gym, a serene yoga deck, and a community amphitheatre, every amenity is crafted to bring comfort, recreation, and togetherness into everyday living.

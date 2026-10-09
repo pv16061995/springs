@@ -21609,7 +21609,7 @@ p.text-justify {
 .sticky-contact {
     position: fixed;
     left: 15px;
-    bottom: 100px;
+    bottom: 44%;
     z-index: 9999;
 
     display: flex;
@@ -21900,4 +21900,7 @@ p.text-t1.overlayshadow.leading-trim {
 }
 .ftw{
     color: white
+}
+.tlc{
+    text-align: center;
 }
