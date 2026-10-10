@@ -326,116 +326,30 @@
                                         </div>
                                     </div>
                                       <div class="col col--lg-12 col--md-12 col--12 pr-1 pl-1 pt-0.5">
-                                       <!-- VIDEO GALLERY GRID -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-            
-            <!-- TOP ROW: 2 Larger Cards -->
-            <!-- 1. BST Masterplan Overview -->
-            <div class="video-card h-[280px] sm:h-[320px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'BST Masterplan Overview')">
-                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1000&auto=format&fit=crop" alt="BST Masterplan Overview" loading="lazy">
-                <div class="play-btn">
-                    <svg class="w-6 h-6 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                </div>
-                <div class="video-overlay">
-                    <div></div>
-                    <div class="flex justify-between items-end text-white">
-                        <span class="font-semibold text-base sm:text-lg drop-shadow-md">BST Masterplan Overview</span>
-                        <span class="text-xs sm:text-sm font-medium bg-black/40 px-2.5 py-1 rounded backdrop-blur-md">1:26</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 2. Luxury Villas at BST -->
-            <div class="video-card h-[280px] sm:h-[320px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Luxury Villas at BST')">
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop" alt="Luxury Villas at BST" loading="lazy">
-                <div class="play-btn">
-                    <svg class="w-6 h-6 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                </div>
-                <div class="video-overlay">
-                    <div></div>
-                    <div class="flex justify-between items-end text-white">
-                        <span class="font-semibold text-base sm:text-lg drop-shadow-md">Luxury Villas at BST</span>
-                        <span class="text-xs sm:text-sm font-medium bg-black/40 px-2.5 py-1 rounded backdrop-blur-md">1:10</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- BOTTOM ROW: 3 Smaller Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
-            
-            <!-- 3. Amenities & Lifestyle -->
-            <div class="video-card h-[220px] sm:h-[250px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Amenities & Lifestyle')">
-                <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=800&auto=format&fit=crop" alt="Amenities & Lifestyle" loading="lazy">
-                <div class="play-btn scale-90">
-                    <svg class="w-5 h-5 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                </div>
-                <div class="video-overlay">
-                    <div></div>
-                    <div class="flex justify-between items-end text-white">
-                        <span class="font-semibold text-sm sm:text-base drop-shadow-md">Amenities & Lifestyle</span>
-                        <span class="text-xs font-medium bg-black/40 px-2 py-0.5 rounded backdrop-blur-md">1:05</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 4. Strategic Location – Bhiwadi -->
-            <div class="video-card h-[220px] sm:h-[250px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Strategic Location – Bhiwadi')">
-                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop" alt="Strategic Location – Bhiwadi" loading="lazy">
-                <div class="play-btn scale-90">
-                    <svg class="w-5 h-5 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                </div>
-                <div class="video-overlay">
-                    <div></div>
-                    <div class="flex justify-between items-end text-white">
-                        <span class="font-semibold text-sm sm:text-base drop-shadow-md">Strategic Location – Bhiwadi</span>
-                        <span class="text-xs font-medium bg-black/40 px-2 py-0.5 rounded backdrop-blur-md">1:12</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 5. Community Living -->
-            <div class="video-card h-[220px] sm:h-[250px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Community Living')">
-                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop" alt="Community Living" loading="lazy">
-                <div class="play-btn scale-90">
-                    <svg class="w-5 h-5 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                </div>
-                <div class="video-overlay">
-                    <div></div>
-                    <div class="flex justify-between items-end text-white">
-                        <span class="font-semibold text-sm sm:text-base drop-shadow-md">Community Living</span>
-                        <span class="text-xs font-medium bg-black/40 px-2 py-0.5 rounded backdrop-blur-md">0:58</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-   
-
-    <!-- VIDEO MODAL LIGHTBOX -->
-    <div id="videoModal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
-        <div class="relative max-w-4xl w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl flex flex-col">
-            <!-- Close Button -->
-            <button onclick="closeVideoModal()" class="absolute top-4 right-4 z-20 p-2.5 bg-black/60 hover:bg-black/90 rounded-full text-white transition">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-            </button>
-            <!-- Video Player container -->
-            <div class="relative bg-black aspect-video flex items-center justify-center">
-                <video id="modalVideo" controls autoplay class="w-full h-full object-contain">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <!-- Footer info -->
-            <div class="p-4 bg-slate-900 text-white flex justify-between items-center">
-                <span id="modalVideoTitle" class="text-base font-medium">Video Title</span>
-                <span class="text-xs text-slate-400">Press Esc or click X to close</span>
-            </div>
-        </div>
-    </div>
-
-    
+                                        <div class="project-feature-panel">
+                                            <div class="row">
+                                                <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>BST Masterplan Overview</h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Luxury Villas at BST</h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Amenities & Lifestyle</h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Strategic Location – Bhiwadi</h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Community Living</h4>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -507,38 +421,6 @@
                 'equalTo': 'Passwords don\'t match'
             }
         };
-    </script>
-    <script>
-        const videoModal = document.getElementById('videoModal');
-        const modalVideo = document.getElementById('modalVideo');
-        const modalVideoTitle = document.getElementById('modalVideoTitle');
-
-        function openVideoModal(videoSrc, title) {
-            modalVideo.src = videoSrc;
-            modalVideoTitle.textContent = title;
-            videoModal.classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
-            modalVideo.play().catch(e => console.log("Autoplay prevented:", e));
-        }
-
-        function closeVideoModal() {
-            modalVideo.pause();
-            modalVideo.src = "";
-            videoModal.classList.add('hidden');
-            document.body.style.overflow = 'auto';
-        }
-
-        videoModal.addEventListener('click', function(e) {
-            if (e.target === videoModal) {
-                closeVideoModal();
-            }
-        });
-
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-                closeVideoModal();
-            }
-        });
     </script>
     <script src="assets/javascripts/blogs.js"></script>
 </body>
