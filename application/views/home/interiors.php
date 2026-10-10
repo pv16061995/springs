@@ -123,7 +123,7 @@
                 </div>
                 <?php endforeach; ?>
             </div>
-             <h3 class="h3 leading-trim overlayshadow" data-reveal="title" style="margin-bottom: 50%;"> A Glimpse Into Our World of Lifestyle</h3>
+             <h3 class="h3 leading-trim overlayshadow" data-reveal="title" style="margin-bottom: 40%;"> A Glimpse Into Our World of Lifestyle</h3>
             <div class="l-interiors__slider__caption">
                 
                 <div class="mb-0.5">

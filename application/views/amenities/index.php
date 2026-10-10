@@ -134,7 +134,7 @@
                               Luxury Clubhouse
                            </h3> -->
                            <p class="text-t1 leading-trim">
-                              A thoughtfully planned community where every amenity creates more opportunities to <b>move, connect, relax and grow.</b></br></br>
+                              A thoughtfully planned community where every amenity creates more opportunities to <b> move, connect, relax and grow.</b></br></br>
                               From peaceful green spaces to active recreational zones, BST brings everyday experiences closer to home—creating a neighbourhood designed for people of every age.
                            </p>
                         </div>
@@ -170,37 +170,37 @@
                            <picture class="is-invisible--js is-hidden--no-js img-cover" data-plugin="appear "
                               draggable="false">
                               <source
-                                 data-srcset="media/cache/infrastructure_video_bg_xxxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
+                                 data-srcset="assets/images/media/infrastructure/community_park/design-bg@xxxl.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                               <source
-                                 data-srcset="media/cache/infrastructure_video_bg_xxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
+                                 data-srcset="assets/images/media/infrastructure/community_park/design-bg@xxl.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                               <source
-                                 data-srcset="media/cache/infrastructure_video_bg_md/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
+                                 data-srcset="assets/images/media/infrastructure/community_park/design-bg@md.webp"
                                  srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                  width="1440" height="900">
                               <img
-                                 data-src="media/cache/infrastructure_video_bg_xs/assets/images/media/infrastructure/2.video/background-xs%40xs.webp"
+                                 data-src="assets/images/media/infrastructure/community_park/design-bg@xs.webp"
                                  src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
                                  alt="" width="1440" height="900" draggable="false">
                            </picture>
                            <noscript>
                               <picture class=" img-cover" draggable="false">
                                  <source
-                                    srcset="media/cache/infrastructure_video_bg_xxxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
+                                    srcset="assets/images/media/infrastructure/community_park/design-bg@xxxl.webp"
                                     media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
                                  <source
-                                    srcset="media/cache/infrastructure_video_bg_xxl/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
+                                    srcset="assets/images/media/infrastructure/community_park/design-bg@xxl.webp"
                                     media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
                                  <source
-                                    srcset="media/cache/infrastructure_video_bg_md/assets/images/media/infrastructure/2.video/background-md%40xxxl.webp"
+                                    srcset="assets/images/media/infrastructure/community_park/design-bg@md.webp"
                                     media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
                                     width="1440" height="900">
                                  <img
-                                    src="media/cache/infrastructure_video_bg_xs/assets/images/media/infrastructure/2.video/background-xs%40xs.webp"
+                                    src="assets/images/media/infrastructure/community_park/design-bg@md.webp"
                                     alt="" width="1440" height="900" draggable="false">
                               </picture>
                            </noscript>
@@ -251,14 +251,14 @@
                                  <iframe
                                     style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;"
                                     width="640" height="360" loading="lazy"
-                                    src="https://player.vimeo.com/video/1086359103?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                                    src="https://player.vimeo.com/video/1223603556?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                                     allow="autoplay; encrypted-media" allowfullscreen></iframe>
                               </div>
                               <div class="vimeo-background background background--cover is-hidden--md-up">
                                  <iframe
                                     style="--ratio: 0.5625; --aspect-ratio: 360 / 640; overflow: hidden; border: none;"
                                     width="360" height="640" loading="lazy"
-                                    src="https://player.vimeo.com/video/1086359033?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                                    src="https://player.vimeo.com/video/1223603556?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
                                     allow="autoplay; encrypted-media" allowfullscreen></iframe>
                               </div>
                            </div>
