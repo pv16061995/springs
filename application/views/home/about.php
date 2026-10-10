@@ -200,7 +200,7 @@
     data-parallax--500-0='{"transform": "translateY(110%)"}'
     data-parallax-measure-selector=".sticky">
     <div class="l-intro__content-title col col--md-6 pl-1 pr-1" data-reveal="title">
-        <h2 class="h3 overlayshadow leading-trim pt-0.5 ls2 tlc" >
+        <h2 class="h3 overlayshadow leading-trim pt-0.5 ls2" >
             "Together, we're building communities that reflect quality, inspire trust, and shape the future of India."
         </h2>
     </div>

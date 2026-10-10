@@ -228,7 +228,7 @@
                 </div>
                <div class="background--cover background video-box">
                     <iframe
-                        src="https://player.vimeo.com/video/1223603556?loop=1&muted=1&autoplay=1&autopause=0&background=1"
+                        src="https://player.vimeo.com/video/1224540641?loop=1&muted=1&autoplay=1&autopause=0&background=1"
                         allow="autoplay; encrypted-media"
                         allowfullscreen>
                     </iframe>

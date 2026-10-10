@@ -21668,7 +21668,8 @@ p.text-justify {
 
 /* Hover */
 .sticky-btn:hover {
-    width: 155px;
+    /* width: 155px; */
+    width: 205px;
 }
 
 .sticky-btn:hover .sticky-text {
