@@ -46,32 +46,26 @@
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-content pl-1">
 
                                         <div class="project-eyebrow">
-                                            RESIDENTIAL PLOTS
+                                            INVESTOR GUIDE
                                         </div>
 
-                                        <h1 class="h1 leading-trim">
-                                            BST GREEN BHOOMI
+                                        <h1 class="h1  leading-trim">
+                                            A Smarter
                                         </h1>
+                                          <h1 class="h1 leading-trim">
+                                            Tomorrow
+                                        </h1>
+                                         <h1 class="h1 leading-trim" data-reveal="text" style="color: #d7ab3e !important;">Begins Here.</h1>
 
-                                        <p class="h3 leading-trim pt-0.5 pb-0.5">
-                                            Where Your Plot Becomes the<br />
-                                            Foundation of Better Living.
+                                        <p class="fs24 leading-trim pt-0.5 pb-0.5">
+                                            Explore opportunities, growth potential and <br> a future-ready destination with BST.
                                         </p>
-
-                                        <div class="project-location-info">
-                                            <span>📍 Sector 99A, Gurgaon</span>
-                                            <span>Near Dwarka Expressway</span>
-                                        </div>
-
-                                        <div class="project-plot-size">
-                                            Plot Sizes: 100 – 179 Gaj
-                                        </div>
 
                                         <div class="project-actions">
                                             <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
-                                                        ENQUIRE NOW
+                                                       Get Investor Guide
                                                         <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                                                             viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
                                                             <use href="assets/images/icons.svg#arrow-right"
@@ -80,18 +74,7 @@
                                                     </span>
                                                 </span>
                                             </a>
-                                            <a href="#" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
-                                                <span class="btn__content">
-                                                    <span class="btn__text btn__text--clone">
-                                                        SCHEDULE A SITE VISIT
-                                                        <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
-                                                            viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                                            <use href="assets/images/icons.svg#arrow-right"
-                                                                xlink:href="assets/images/icons.svg#arrow-right"></use>
-                                                        </svg>
-                                                    </span>
-                                                </span>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
@@ -104,229 +87,113 @@
                                 </div>
                             </div>
 
-                            <div class="project-360">
+                            <div class="project-360 bgclwht">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-6 col--md-6 col--12 project-about-content pl-1">
-                                        <h2 class="h2 leading-trim">
-                                            360° About Green Bhoomi
+                                         <div class="project-eyebrow">
+                                            WHY BST?
+                                        </div>
+                                        <h2 class="h1 leading-trim blkfc">
+                                            Built for <br>Long-Term Value
                                         </h2>
                                         <div class="project-divider"></div>
-                                        <h3>A community planned around the way you want to live.</h3>
-                                        <p>
-                                            BST Green Bhoomi brings together thoughtfully planned
-                                            residential plots and everyday amenities in Sector 99A,
-                                            Gurgaon. With plot options from 100 to 179 Gaj, it gives
-                                            you the freedom to build a home that reflects your
-                                            lifestyle, while enjoying the advantages of a
-                                            well-designed community.
+                                       
+                                        <p class="fs24 leading-trim pt-0.5 pb-0.5">
+                                            BST is a trusted real estate developer with a proven track record of delivering high-quality residential and commercial projects. With a focus on sustainable growth, we create communities that offer long-term value to investors and residents alike.
+                                           At BST, we create more than just real estate. We build future-ready communities with thoughtful planning, modern infrastructure and a vision for sustained growth.
                                         </p>
+                                        <div class="project-actions">
+                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned mb-0.5" data-plugin=" button" data-button-clone-content="true">
+                                                <span class="btn__content">
+                                                    <span class="btn__text btn__text--clone">
+                                                       Know More About BST
+                                                        <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
+                                                            viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
+                                                            <use href="assets/images/icons.svg#arrow-right"
+                                                                xlink:href="assets/images/icons.svg#arrow-right"></use>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            
+                                        </div>
                                     </div>
                                     <div class="col col--lg-6 col--md-6 col--12 pr-1">
                                         <div class="project-feature-panel">
                                             <div class="row">
                                                 <div class="col col--4 project-feature-item">
-                                                    <div class="project-feature-icon">◎</div>
-                                                    <h4>Ideally<br>Located</h4>
-                                                </div>
-                                                <div class="col col--4 project-feature-item">
                                                     <div class="project-feature-icon">⌂</div>
-                                                    <h4>Well-Planned<br>Plots</h4>
+                                                    <h5 class="textgreen">Trusted <br>Developer</h5>
                                                 </div>
                                                 <div class="col col--4 project-feature-item">
                                                     <div class="project-feature-icon">♧</div>
-                                                    <h4>Green<br>Open Spaces</h4>
+                                                    <h5 class="textgreen">Integrated <br>Development</h5>
+                                                </div>
+                                                <div class="col col--4 project-feature-item">
+                                                    <div class="project-feature-icon">◎</div>
+                                                    <h5 class="textgreen">Premium <br>Amenities</h5>
                                                 </div>
                                             </div>
-                                            <div class="project-feature-separator"></div>
-                                            <p>
-                                                Designed for a better tomorrow.
-                                            </p>
+                                            <div class="row">
+                                                
+                                                <div class="col col--4 project-feature-item">
+                                                    <div class="project-feature-icon">⌂</div>
+                                                    <h5 class="textgreen">Sustainable <br>Growth</h5>
+                                                </div>
+                                                <div class="col col--4 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h5 class="textgreen">Future-Ready <br>Communities</h5>
+                                                </div>
+                                                <div class="col col--4 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h5 class="textgreen">Strong <br>Investment Potential</h5>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="col col--lg-12 col--md-12 col--12 pr-1 pl-1 pt-0.5">
+                                        <div class="project-feature-panel bgcolr">
+                                            <div class="row">
+                                                <div class="col col--3 project-feature-item">
+                                                    <h5 class="textwhite">Strategic  <br>Land Bank</h5>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <h5 class="textwhite">Thoughtfully  <br>Planned Community</h5>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <h5 class="textwhite">Modern <br> Infrastructure</h5>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <h5 class="textwhite">High Growth  <br>Opportunity</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
 
-                            <div class="project-speciality pl-1 pr-1">
-                                <div class="project-intro">
-                                    <h2 class="h2 leading-trim">Why Green Bhoomi?</h2>
-                                    <p>
-                                        More Than Just a Plot. A Better Way of Living.
-                                    </p>
-                                </div>
-                                <div class="project-speciality-grid">
-                                    <div class="project-speciality-item">
-                                        <div class="project-speciality-icon">◎</div>
-                                        <div>
-                                            <h3>Strategic Location</h3>
-                                            <p>
-                                                Located in Sector 99A, Gurgaon,
-                                                with easy access to Dwarka Expressway.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="project-speciality-item">
-                                        <div class="project-speciality-icon">⌂</div>
-                                        <div>
-                                            <h3>Thoughtfully Sized Plots</h3>
-                                            <p>
-                                                Choose from 100 – 179 Gaj.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="project-speciality-item">
-                                        <div class="project-speciality-icon">♧</div>
-                                        <div>
-                                            <h3>A Community, Not Just an Address</h3>
-                                            <p>
-                                                Designed with shared spaces for
-                                                an active, social lifestyle.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="project-speciality-item">
-                                        <div class="project-speciality-icon">⌁</div>
-                                        <div>
-                                            <h3>75-Metre Road Advantage</h3>
-                                            <p>
-                                                Prominent road frontage for
-                                                easy accessibility.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="project-speciality-item">
-                                        <div class="project-speciality-icon">♧</div>
-                                        <div>
-                                            <h3>Green & Open Spaces</h3>
-                                            <p>
-                                                Parks and landscaped areas for
-                                                a healthier, happier life.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="project-speciality-item">
-                                        <div class="project-speciality-icon">◇</div>
-                                        <div>
-                                            <h3>Lifestyle-Focused Amenities</h3>
-                                            <p>
-                                                Spaces for fitness, wellness,
-                                                children and community living.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
 
-                            <div class="project-amenity">
-                                <div class="project-intro">
-                                    <h2 class="h2 leading-trim">
-                                        Amenities
-                                    </h2>
-                                    <p>
-                                        Spaces Designed for Everyday Moments
-                                    </p>
-                                </div>
-                                <div class="row g-3 pl-1 pr-1">
-                                    <div class="col col--lg-4 col--md-6 col--12">
-                                        <div class="project-amenity-card">
-                                            <div class="project-media">
-                                                <span>OPEN-AIR GYM IMAGE</span>
-                                            </div>
-                                            <div class="project-amenity-title">
-                                                Open-Air Gym
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-4 col--md-6 col--12">
-                                        <div class="project-amenity-card">
-                                            <div class="project-media">
-                                                <span>PARKS IMAGE</span>
-                                            </div>
-                                            <div class="project-amenity-title">
-                                                Parks
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-4 col--md-6 col--12">
-                                        <div class="project-amenity-card">
-                                            <div class="project-media">
-                                                <span>CHILDREN PLAYGROUND IMAGE</span>
-                                            </div>
-                                            <div class="project-amenity-title">
-                                                Children's Play Playground
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-4 col--md-6 col--12">
-                                        <div class="project-amenity-card">
-                                            <div class="project-media">
-                                                <span>YOGA DECK IMAGE</span>
-                                            </div>
-                                            <div class="project-amenity-title">
-                                                Yoga Deck
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-4 col--md-6 col--12">
-                                        <div class="project-amenity-card">
-                                            <div class="project-media">
-                                                <span>AMPHITHEATRE IMAGE</span>
-                                            </div>
-                                            <div class="project-amenity-title">
-                                                Amphitheatre
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-4 col--md-6 col--12">
-                                        <div class="project-amenity-card">
-                                            <div class="project-media">
-                                                <span>BASKETBALL COURT IMAGE</span>
-                                            </div>
-
-                                            <div class="project-amenity-title">
-                                                Basketball Court
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="project-advantages">
+                            <div class="project-advantages bgclwht">
+                                 
                                 <div class="row row--middle-lg">
-                                    <div class="col col--lg-6 col--md-6 col--12 pl-1">
-                                        <h2 class="h2 leading-trim">Location Advantage</h2>
-                                        <div class="project-divider"></div>
-                                        <h3>Connected to Gurgaon. Close to What's Next.</h3>
-                                        <p>
-                                            Strategically located in Sector 99A, Gurgaon,
-                                            Green Bhoomi benefits from excellent connectivity
-                                            to Dwarka Expressway and key destinations in the NCR.
-                                        </p>
-                                        <div class="project-location-list">
-                                            <div>
-                                                <span>◎</span>
-                                                <p>Sector 99A, Gurgaon</p>
-                                            </div>
-                                            <div>
-                                                <span>◎</span>
-                                                <p>Near Dwarka Expressway</p>
-                                            </div>
-                                            <div>
-                                                <span>◎</span>
-                                                <p>75-Metre Road</p>
-                                            </div>
-                                            <div>
-                                                <span>◇</span>
-                                                <p>Excellent road connectivity</p>
-                                            </div>
-                                            <div>
-                                                <span>◇</span>
-                                                <p>Proximity to residential & commercial zones</p>
-                                            </div>
+                                   
+                                    <div class="col col--lg-4 col--md-4 col--12 pl-1">
+                                        <div class="project-eyebrow pb-1">
+                                            WHY BHIWADI?
                                         </div>
-                                        <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                        <h2 class="h1 leading-trim blkfc">A Location <br>That Works Today<br> and Tomorrow</h2>
+                                        <div class="project-divider"></div>
+                                        <!-- <h3>A Location <br>That Works Today<br> and Tomorrow</h3> -->
+                                        <p class="fs24 pb-1">
+                                           Bhiwadi is emerging as one of NCR's most promising <br>investment destinations with excellent connectivity, <br>rapid development and strong demand for residential <br>and commercial spaces.
+                                        </p>
+                                      
+                                        <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned " data-plugin=" button" data-button-clone-content="true">
                                             <span class="btn__content">
                                                 <span class="btn__text btn__text--clone">
-                                                    EXPLORE THE LOCATION
+                                                   Explore Bhiwadi
                                                     <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                                                         viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
                                                         <use href="assets/images/icons.svg#arrow-right"
@@ -335,36 +202,260 @@
                                                 </span>
                                             </span>
                                         </a>
+
                                     </div>
-                                    <div class="col col--lg-6 col--md-6 col--12 pr-1">
-                                        <div class="project-media project-location-map">
-                                            <span>LOCATION MAP</span>
+                                   
+                                    <div class="col col--lg-8 col--md-8 col--12 pr-1">
+                                        <!-- ASYMMETRIC GALLERY GRID LAYOUT -->
+                                        <div class="gallery-grid">
+                                            
+                                            <!-- LEFT FEATURED IMAGE (Spans full height of grid container) -->
+                                            <div class="gallery-card h-full" style="cursor: pointer; height: 750px;" >
+                                                <img 
+                                                    src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1000&auto=format&fit=crop" 
+                                                    alt="Main Highway and Modern Expressway"
+                                                    loading="lazy"
+                                                >
+                                                <div class="gallery-overlay">
+                                                    <span class="text-white font-medium text-base tracking-wide">Main Highway & Connectivity</span>
+                                                </div>
+                                            </div>
+
+                                            <!-- RIGHT STACKED IMAGES CONTAINER (3 rows, equal heights) -->
+                                            <div class="grid grid-rows-3 gap-3 sm:gap-4 h-full">
+                                                
+                                                <!-- TOP IMAGE -->
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 250px;" ">
+                                                    <img 
+                                                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop" 
+                                                        alt="Commercial Business Hub"
+                                                        loading="lazy"
+                                                    >
+                                                    <div class="gallery-overlay">
+                                                        <span class="text-white font-medium text-sm">Industrial & Tech Hub</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- MIDDLE IMAGE -->
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 235px; margin-top: 15px;" >
+                                                    <img 
+                                                        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=800&auto=format&fit=crop" 
+                                                        alt="Lush Parks & Urban Green Spaces"
+                                                        loading="lazy"
+                                                    >
+                                                    <div class="gallery-overlay">
+                                                        <span class="text-white font-medium text-sm">Lush Green Parks</span>
+                                                    </div>
+                                                </div>
+
+                                                <!-- BOTTOM IMAGE -->
+                                                <div class="gallery-card h-full" style="cursor: pointer; height: 235px; margin-top: 15px;">
+                                                    <img 
+                                                        src="https://images.unsplash.com/photo-1577495508048-b635879837f1?q=80&w=800&auto=format&fit=crop" 
+                                                        alt="Modern Residential Architecture"
+                                                        loading="lazy"
+                                                    >
+                                                    <div class="gallery-overlay">
+                                                        <span class="text-white font-medium text-sm">Modern Infrastructure</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                   
+                                      <div class="col col--lg-12 col--md-12 col--12 pr-1 pl-1 pt-0.5">
+                                        <div class="project-feature-panel">
+                                            <div class="row">
+                                                <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Excellent <br>Connectivity</h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Growing Industrial <br>& Residential Hub </h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Proximity to <br>Gurugram & Delhi</h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>Expanding <br>Employment Opportunities</h4>
+                                                </div>
+                                                 <div class="col col--3 project-feature-item">
+                                                    <div class="project-feature-icon">♧</div>
+                                                    <h4>High <br>Appreciation Potential</h4>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="project-advantages bgclwht">
+                                 
+                                <div class="row row--middle-lg">
+                                   
+                                    <div class="col col--lg-9 col--md-9 col--12 pl-1">
+                                        <div class="project-eyebrow pb-1">
+                                            GALLERY
+                                        </div>
+                                        <h2 class="h1 leading-trim blkfc">Explore BST Through Videos</h2>
+                                        <div class="project-divider"></div>
+                                       
+
+                                    </div>
+                                   
+                                    <div class="col col--lg-3 col--md-3 col--12 pr-1 pt-1">
+                                         <div class="project-actions">
+                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned mb-0.5" data-plugin=" button" data-button-clone-content="true">
+                                                <span class="btn__content">
+                                                    <span class="btn__text btn__text--clone">
+                                                       View All Videos
+                                                        <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
+                                                            viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
+                                                            <use href="assets/images/icons.svg#arrow-right"
+                                                                xlink:href="assets/images/icons.svg#arrow-right"></use>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+                                      <div class="col col--lg-12 col--md-12 col--12 pr-1 pl-1 pt-0.5">
+                                       <!-- VIDEO GALLERY GRID -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            
+            <!-- TOP ROW: 2 Larger Cards -->
+            <!-- 1. BST Masterplan Overview -->
+            <div class="video-card h-[280px] sm:h-[320px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'BST Masterplan Overview')">
+                <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1000&auto=format&fit=crop" alt="BST Masterplan Overview" loading="lazy">
+                <div class="play-btn">
+                    <svg class="w-6 h-6 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <div class="video-overlay">
+                    <div></div>
+                    <div class="flex justify-between items-end text-white">
+                        <span class="font-semibold text-base sm:text-lg drop-shadow-md">BST Masterplan Overview</span>
+                        <span class="text-xs sm:text-sm font-medium bg-black/40 px-2.5 py-1 rounded backdrop-blur-md">1:26</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Luxury Villas at BST -->
+            <div class="video-card h-[280px] sm:h-[320px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Luxury Villas at BST')">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop" alt="Luxury Villas at BST" loading="lazy">
+                <div class="play-btn">
+                    <svg class="w-6 h-6 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <div class="video-overlay">
+                    <div></div>
+                    <div class="flex justify-between items-end text-white">
+                        <span class="font-semibold text-base sm:text-lg drop-shadow-md">Luxury Villas at BST</span>
+                        <span class="text-xs sm:text-sm font-medium bg-black/40 px-2.5 py-1 rounded backdrop-blur-md">1:10</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BOTTOM ROW: 3 Smaller Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
+            
+            <!-- 3. Amenities & Lifestyle -->
+            <div class="video-card h-[220px] sm:h-[250px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Amenities & Lifestyle')">
+                <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=800&auto=format&fit=crop" alt="Amenities & Lifestyle" loading="lazy">
+                <div class="play-btn scale-90">
+                    <svg class="w-5 h-5 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <div class="video-overlay">
+                    <div></div>
+                    <div class="flex justify-between items-end text-white">
+                        <span class="font-semibold text-sm sm:text-base drop-shadow-md">Amenities & Lifestyle</span>
+                        <span class="text-xs font-medium bg-black/40 px-2 py-0.5 rounded backdrop-blur-md">1:05</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Strategic Location – Bhiwadi -->
+            <div class="video-card h-[220px] sm:h-[250px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Strategic Location – Bhiwadi')">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop" alt="Strategic Location – Bhiwadi" loading="lazy">
+                <div class="play-btn scale-90">
+                    <svg class="w-5 h-5 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <div class="video-overlay">
+                    <div></div>
+                    <div class="flex justify-between items-end text-white">
+                        <span class="font-semibold text-sm sm:text-base drop-shadow-md">Strategic Location – Bhiwadi</span>
+                        <span class="text-xs font-medium bg-black/40 px-2 py-0.5 rounded backdrop-blur-md">1:12</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Community Living -->
+            <div class="video-card h-[220px] sm:h-[250px]" onclick="openVideoModal('https://www.w3schools.com/html/mov_bbb.mp4', 'Community Living')">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop" alt="Community Living" loading="lazy">
+                <div class="play-btn scale-90">
+                    <svg class="w-5 h-5 text-slate-900 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <div class="video-overlay">
+                    <div></div>
+                    <div class="flex justify-between items-end text-white">
+                        <span class="font-semibold text-sm sm:text-base drop-shadow-md">Community Living</span>
+                        <span class="text-xs font-medium bg-black/40 px-2 py-0.5 rounded backdrop-blur-md">0:58</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+   
+
+    <!-- VIDEO MODAL LIGHTBOX -->
+    <div id="videoModal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="relative max-w-4xl w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl flex flex-col">
+            <!-- Close Button -->
+            <button onclick="closeVideoModal()" class="absolute top-4 right-4 z-20 p-2.5 bg-black/60 hover:bg-black/90 rounded-full text-white transition">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <!-- Video Player container -->
+            <div class="relative bg-black aspect-video flex items-center justify-center">
+                <video id="modalVideo" controls autoplay class="w-full h-full object-contain">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Footer info -->
+            <div class="p-4 bg-slate-900 text-white flex justify-between items-center">
+                <span id="modalVideoTitle" class="text-base font-medium">Video Title</span>
+                <span class="text-xs text-slate-400">Press Esc or click X to close</span>
+            </div>
+        </div>
+    </div>
+
+    
+                                    </div>
+                                </div>
+                            </div>
+
+                          
 
                             <div class="project-options">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-5 col--md-5 col--12 pl-1">
-                                        <h2 class="h2 leading-trim">Plot Options</h2>
+                                        <h2 class="h1 leading-trim blkfc">Invest in a <br>Brighter Tomorrow</h2>
                                         <p>
-                                            A Plot That Gives You the Freedom to Build Your Way.
+                                           Explore investment opportunities with BST and secure <br>your place in a future-ready community.
                                         </p>
-                                        <div class="project-plot-options">
-                                            <span>100 Gaj</span>
-                                            <span>125 Gaj</span>
-                                            <span>150 Gaj</span>
-                                            <span>179 Gaj</span>
-                                        </div>
-                                        <small>
-                                            *Plot sizes and availability subject to inventory.
-                                        </small>
-                                        <div class="project-option-action">
+                                       
+                                       
+                                        <div class="project-option-action pt-1">
                                             <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
-                                                        CHECK AVAILABLE PLOTS
+                                                       Download Investor Kit
                                                         <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                                                             viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
                                                             <use href="assets/images/icons.svg#arrow-right"
@@ -375,95 +466,13 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col col--lg-7 col--md-7 col--12 pr-1">
-                                        <div class="project-media project-plot-image">
-                                            <span>PLOT IMAGE</span>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
 
-                            <div class="project-experience">
-                                <div class="row g-3 pl-1 pr-1">
-                                    <div class="col col--lg-3 col--md-6 col--12">
-                                        <div class="project-experience-intro">
-                                            <h2>Experience<br>Green Bhoomi</h2>
-                                            <p>
-                                                A Lifestyle Surrounded by Greenery
-                                            </p>
-                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
-                                                <span class="btn__content">
-                                                    <span class="btn__text btn__text--clone">
-                                                        VIEW GALLERY
-                                                        <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
-                                                            viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                                            <use href="assets/images/icons.svg#arrow-right"
-                                                                xlink:href="assets/images/icons.svg#arrow-right"></use>
-                                                        </svg>
-                                                    </span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-3 col--md-6 col--12">
-                                        <div class="project-media project-gallery-large">
-                                            <span>GALLERY IMAGE 01</span>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-2 col--md-4 col--12">
-                                        <div class="project-media project-gallery-small">
-                                            <span>GALLERY IMAGE 02</span>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-2 col--md-4 col--12">
-                                        <div class="project-media project-gallery-small">
-                                            <span>GALLERY IMAGE 03</span>
-                                        </div>
-                                    </div>
-                                    <div class="col col--lg-2 col--md-4 col--12">
-                                        <div class="project-media project-gallery-small">
-                                            <span>GALLERY IMAGE 04</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           
 
-                            <div class="project-cta">
-                                <div class="px-layout">
-                                    <h2 class="h2 leading-trim">
-                                        Your Plot. Your Plans. Your Future.
-                                    </h2>
-                                    <p>
-                                        Join a thriving community at BST Green Bhoomi.
-                                    </p>
-                                    <div class="project-actions project-actions-center">
-                                        <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
-                                            <span class="btn__content">
-                                                <span class="btn__text btn__text--clone">
-                                                    ENQUIRE NOW
-                                                    <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
-                                                        viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                                        <use href="assets/images/icons.svg#arrow-right"
-                                                            xlink:href="assets/images/icons.svg#arrow-right"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </a>
-                                        <a href="#" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
-                                            <span class="btn__content">
-                                                <span class="btn__text btn__text--clone">
-                                                    SCHEDULE A SITE VISIT
-                                                    <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
-                                                        viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                                        <use href="assets/images/icons.svg#arrow-right"
-                                                            xlink:href="assets/images/icons.svg#arrow-right"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </section>
                 </main>
@@ -498,6 +507,38 @@
                 'equalTo': 'Passwords don\'t match'
             }
         };
+    </script>
+    <script>
+        const videoModal = document.getElementById('videoModal');
+        const modalVideo = document.getElementById('modalVideo');
+        const modalVideoTitle = document.getElementById('modalVideoTitle');
+
+        function openVideoModal(videoSrc, title) {
+            modalVideo.src = videoSrc;
+            modalVideoTitle.textContent = title;
+            videoModal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            modalVideo.play().catch(e => console.log("Autoplay prevented:", e));
+        }
+
+        function closeVideoModal() {
+            modalVideo.pause();
+            modalVideo.src = "";
+            videoModal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        videoModal.addEventListener('click', function(e) {
+            if (e.target === videoModal) {
+                closeVideoModal();
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeVideoModal();
+            }
+        });
     </script>
     <script src="assets/javascripts/blogs.js"></script>
 </body>
