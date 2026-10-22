@@ -44,29 +44,23 @@
                             <div class="project-hero-section">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-content pl-1">
-
                                         <div class="project-eyebrow">
                                             RESIDENTIAL PLOTS
                                         </div>
-
                                         <h1 class="h1 leading-trim">
                                             BST GREEN BHOOMI
                                         </h1>
-
                                         <p class="h3 leading-trim pt-0.5 pb-0.5">
                                             Where Your Plot Becomes the<br />
                                             Foundation of Better Living.
                                         </p>
-
                                         <div class="project-location-info">
                                             <span>📍 Sector 99A, Gurgaon</span>
                                             <span>Near Dwarka Expressway</span>
                                         </div>
-
                                         <div class="project-plot-size">
                                             Plot Sizes: 100 – 179 Sq. Yards
                                         </div>
-
                                         <div class="project-actions">
                                             <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
@@ -338,7 +332,26 @@
                                     </div>
                                     <div class="col col--lg-6 col--md-6 col--12 pr-1">
                                         <div class="project-media project-location-map">
-                                            <span>LOCATION MAP</span>
+                                            <!-- <span>LOCATION MAP</span> -->
+                                             <div class="col col--md-9 col--xxxl-7 ui-light ui-background">
+                                                <picture class="is-invisible--js is-hidden--no-js img-full" data-plugin="appear "
+                                                    draggable="false">
+                                                    <source data-srcset="assets/images/media/landing/5.map/map-eng@xxxl.webp"
+                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22680%22%20height=%22416%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20680%20416%22%3E%3C/svg%3E"
+                                                    media="(min-width: 1920px) and (min-height: 700px)" width="680" height="416">
+                                                    <img data-src="assets/images/media/landing/5.map/map-eng@xxl.webp"
+                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22680%22%20height=%22416%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20680%20416%22%3E%3C/svg%3E"
+                                                    alt="" width="680" height="416" draggable="false">
+                                                </picture>
+                                                <noscript>
+                                                    <picture class=" img-full" draggable="false">
+                                                    <source srcset="assets/images/media/landing/5.map/map-eng@xxxl.webp"
+                                                        media="(min-width: 1920px) and (min-height: 700px)" width="680" height="416">
+                                                    <img src="assets/images/media/landing/5.map/map-eng%40xxl.webp" alt="" width="680"
+                                                        height="416" draggable="false">
+                                                    </picture>
+                                                </noscript>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
