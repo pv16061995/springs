@@ -1,0 +1,167 @@
+
+.main-section {
+    min-height: 100vh;
+    padding: 60px 6%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+/* LEFT CONTENT */
+.content {
+    max-width: 100%
+}
+
+.subtitle {
+    color: #a17c37;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: clamp(36px, 4vw, 60px);
+    line-height: 1.12;
+    margin-bottom: 24px;
+}
+
+.content p {
+    color: #656565;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.explore-btn {
+    display: inline-block;
+    background: #203b2d;
+    color: white;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 4px;
+    transition: background .3s;
+}
+
+.explore-btn:hover {
+    background: #a17c37;
+}
+
+/* CONTENT TRANSITION */
+.content-inner {
+    transition: opacity .3s ease, transform .3s ease;
+}
+
+.content-inner.changing {
+    opacity: 0;
+    transform: translateY(12px);
+}
+
+/* RIGHT IMAGE AREA */
+.slider-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 0;
+}
+
+.vertical-slider {
+    height: 540px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.vertical-track {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform .7s ease;
+}
+
+.slide {
+    flex: 0 0 172px;
+    height: 172px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform .4s;
+}
+
+.slide:hover img {
+    transform: scale(1.04);
+}
+
+/* NAVIGATION */
+.slider-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.slider-buttons button {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #c9c5bb;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.slider-buttons button:hover {
+    background: #203b2d;
+    color: white;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+    .main-section {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 40px 5%;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+
+    .vertical-slider {
+        height: 440px;
+    }
+
+    .slide {
+        flex-basis: 138px;
+        height: 138px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 34px;
+    }
+
+    .vertical-slider {
+        height: 350px;
+    }
+
+    .slide {
+        flex-basis: 109px;
+        height: 109px;
+    }
+
+    .slider-buttons button {
+        width: 36px;
+        height: 36px;
+    }
+}
+

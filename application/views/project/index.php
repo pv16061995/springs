@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/stylesheets/theme.css">
     <link rel="stylesheet" href="assets/stylesheets/projects.css">
     <link rel="stylesheet" href="assets/stylesheets/investorguide.css">
+    <link rel="stylesheet" href="assets/stylesheets/investorguideslider.css">
     <?php $this->load->view('common/meta'); ?>
     <script>
         document.documentElement.classList.remove('no-js');
@@ -187,179 +188,91 @@
                                  
                                 <div class="row row--middle-lg">
                                    
-                                    <div class="col col--lg-4 col--md-4 col--12 pl-1">
-                                        <div class="tag-container  pb-1">
-                                            <span class="tag-line"></span>
-                                            <span class="tag-text" style="color: #162d24;"> WHY BHIWADI?</span>
-                                        </div>
-                                        
-                                        <h2 class="h1 leading-trim blkfc">A Location <br>That Works Today<br> and Tomorrow</h2>
-                                        <div class="project-divider"></div>
-                                        <!-- <h3>A Location <br>That Works Today<br> and Tomorrow</h3> -->
-                                        <p class="fs24 blkfc pb-1">
-                                           Bhiwadi is emerging as one of NCR's most promising <br>investment destinations with excellent connectivity, <br>rapid development and strong demand for residential <br>and commercial spaces.
-                                        </p>
-                                      
-                                        <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned " data-plugin=" button" data-button-clone-content="true">
-                                            <span class="btn__content">
-                                                <span class="btn__text btn__text--clone">
-                                                   Explore Bhiwadi
-                                                    <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
-                                                        viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
-                                                        <use href="assets/images/icons.svg#arrow-right"
-                                                            xlink:href="assets/images/icons.svg#arrow-right"></use>
-                                                    </svg>
-                                                </span>
-                                            </span>
-                                        </a> -->
-
-                                    </div>
                                    
-                                    <div class="col col--lg-8 col--md-8 col--12 pr-1">
-                                        <!-- ASYMMETRIC GALLERY GRID LAYOUT -->
-                                        <div class="gallery-grid">
-                                            
-                                            <!-- LEFT FEATURED IMAGE (Spans full height of grid container) -->
-                                            <div class="gallery-card h-full" style="cursor: pointer; height: 560px;" >
-                                                <!-- <img 
-                                                    src="assets/images/bhiwadi.png" 
-                                                    alt="Main Highway and Modern Expressway"
-                                                    loading="lazy"
-                                                >
-                                                <div class="gallery-overlay">
-                                                    <span class="text-white font-medium text-base tracking-wide">Main Highway & Connectivity</span>
-                                                </div> -->
-                                                <div class="background background--cover ">
-                                                    <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
-                                                        <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                        <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                        <source data-srcset="assets/images/media/investor_guide/bhiwadi/md.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                        <img data-src="assets/images/media/investor_guide/bhiwadi/xs.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                                        alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                        draggable="false">
-                                                    </picture>
+<section class="main-section slider-container">
 
-                                                    <noscript>
-                                                        <picture class=" img-cover parallax-image-move" draggable="false">
-                                                            <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source srcset="assets/images/media/investor_guide/bhiwadi/xxl.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source srcset="assets/images/media/investor_guide/bhiwadi/md.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                            <img src="assets/images/media/investor_guide/bhiwadi/xs.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                            draggable="false">
-                                                        </picture>
-                                                    </noscript>
-                                                </div>
-                                            </div>
+    <!-- LEFT: CONTENT CHANGES WITH SLIDE -->
+    <div class="content">
+        <div class="content-inner content-section" id="contentInner">
 
-                                            <!-- RIGHT STACKED IMAGES CONTAINER (3 rows, equal heights) -->
-                                            <div class="grid grid-rows-3 gap-3 sm:gap-4 h-full">
-                                                <!-- TOP IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 178px;">
-                                                    <!-- <img 
-                                                        src="assets/images/bhiwadi2.png" 
-                                                        alt="Commercial Business Hub"
-                                                        loading="lazy"
-                                                    >
-                                                    <div class="gallery-overlay">
-                                                        <span class="text-white font-medium text-sm">Industrial & Tech Hub</span>
-                                                    </div> -->
-                                                    <div class="background background--cover ">
-                                                        <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl_1.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl_1.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/md_1.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                            <img data-src="assets/images/media/investor_guide/bhiwadi/xs_1.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                                            alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                            draggable="false">
-                                                        </picture>
-                                                        <noscript>
-                                                            <picture class=" img-cover parallax-image-move" draggable="false">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl_1.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxl_1.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/md_1.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                                <img src="assets/images/media/investor_guide/bhiwadi/xs_1.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                                draggable="false">
-                                                            </picture>
-                                                        </noscript>
-                                                    </div>
-                                                </div>
-                                                <!-- MIDDLE IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 178px; margin-top: 15px;" >
-                                                    <!-- <img 
-                                                        src="assets/images/bhiwadi3.png" 
-                                                        alt="Lush Parks & Urban Green Spaces"
-                                                        loading="lazy"
-                                                    >
-                                                    <div class="gallery-overlay">
-                                                        <span class="text-white font-medium text-sm">Lush Green Parks</span>
-                                                    </div> -->
-                                                    <div class="background background--cover ">
-                                                        <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl_2.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl_2.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/md_2.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                            <img data-src="assets/images/media/investor_guide/bhiwadi/xs_2.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E"
-                                                            alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                            draggable="false">
-                                                        </picture>
+            <div class="subtitle" id="subtitle">
+                WHY BHIWADI?
+            </div>
 
-                                                        <noscript>
-                                                            <picture class=" img-cover parallax-image-move" draggable="false">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl_2.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxl_2.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/md_2.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                                <img src="assets/images/media/investor_guide/bhiwadi/xs_2.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                                draggable="false">
-                                                            </picture>
-                                                        </noscript>
-                                                    </div>
-                                                </div>
-                                                <!-- Below IMAGE -->
-                                                <div class="gallery-card h-full" style="cursor: pointer; height: 178px; margin-top: 15px;" >
-                                                    <!-- <img 
-                                                        src="assets/images/bhiwadi3.png" 
-                                                        alt="Lush Parks & Urban Green Spaces"
-                                                        loading="lazy"
-                                                    >
-                                                    <div class="gallery-overlay">
-                                                        <span class="text-white font-medium text-sm">Lush Green Parks</span>
-                                                    </div> -->
-                                                    <div class="background background--cover ">
-                                                        <picture class="is-invisible--js is-hidden--no-js img-cover parallax-image-move" data-plugin="appear " draggable="false">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxxl_3.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/xxl_3.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                            <source data-srcset="assets/images/media/investor_guide/bhiwadi/md_3.webp" srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221440%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201440%20900%22%3E%3C/svg%3E"
-                                                            media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                            <img data-src="assets/images/media/investor_guide/bhiwadi/xs_3.webp" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%221280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%201280%22%3E%3C/svg%3E">
-                                                        </picture>
+            <h1 id="heading">
+               A Location <br>
+That Works Today<br>
+and Tomorrow
+            </h1>
 
-                                                        <noscript>
-                                                            <picture class=" img-cover parallax-image-move" draggable="false">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxxl_3.webp" media="(min-width: 1920px) and (min-height: 700px)" width="1440" height="900">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/xxl_3.webp" media="(min-width: 1440px) and (min-height: 700px)" width="1440" height="900">
-                                                                <source srcset="assets/images/media/investor_guide/bhiwadi/md_3.webp" media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)" width="1440" height="900">
-                                                                <img src="assets/images/media/investor_guide/bhiwadi/xs_3.webp" alt="" width="720" height="1280" data-plugin="parallax" data-parallax-enable-mq="null" data-parallax-clamp="true" data-parallax-100-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}" data-parallax--100-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
-                                                                draggable="false">
-                                                            </picture>
-                                                        </noscript>
-                                                    </div>
-                                                </div>
-                                            </div>
+            <p id="description">
+                Bhiwadi is emerging as one of NCR's most promising
+                investment destinations with excellent connectivity,
+                rapid development and strong demand for residential
+                and commercial spaces.
+            </p>
 
-                                        </div>
+            <a href="#explore" class="explore-btn" id="exploreBtn">
+                Explore BHIWADI &rarr;
+            </a>
 
-                                    </div>
+        </div>
+    </div>
+
+    <!-- RIGHT: THREE VISIBLE IMAGES -->
+    <div class="slider-area ">
+
+        <div class="vertical-slider" id="verticalSlider">
+            <div class="vertical-track" id="verticalTrack">
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
+                         alt="Modern buildings">
+                </div>
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
+                         alt="Industrial warehouse">
+                </div>
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85"
+                         alt="Contemporary architecture">
+                </div>
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85"
+                         alt="Commercial office">
+                </div>
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85"
+                         alt="Luxury residential property">
+                </div>
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
+                         alt="Modern interior">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="slider-buttons">
+            <button type="button" id="prevBtn" aria-label="Previous slide">
+                &uarr;
+            </button>
+            <button type="button" id="nextBtn" aria-label="Next slide">
+                &darr;
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+                                   
+                                    
                                    
                                       <div class="col col--lg-12 col--md-12 col--12 pr-1 pl-1 pt-0.5">
                                         <div class="project-feature-panel">
@@ -556,6 +469,131 @@
         };
     </script>
     <script src="assets/javascripts/blogs.js"></script>
+    
+<script>
+const track = document.getElementById("verticalTrack");
+const viewport = document.getElementById("verticalSlider");
+const contentInner = document.getElementById("contentInner");
+
+const subtitle = document.getElementById("subtitle");
+const heading = document.getElementById("heading");
+const description = document.getElementById("description");
+const exploreBtn = document.getElementById("exploreBtn");
+
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+
+const slides = Array.from(track.children);
+
+/*
+  Exactly 2 content slides.
+  Each content slide controls its own group of 3 images.
+*/
+const pageContent = [
+    {
+        subtitle: "WHY BHIWADI?",
+        heading: "A Location That Works Today and Tomorrow",
+        description: "Bhiwadi is emerging as one of NCR's most promising investment destinations with excellent connectivity, rapid development and strong demand for residential and commercial spaces.",
+        button: "Explore Bhiwadi",
+        link: "#explore"
+    },
+    {
+        subtitle: "Designed for the Future",
+        heading: "Spaces That Inspire Growth",
+        description: "Gurgaon is emerging as one of NCR's most promising investment destinations with excellent connectivity, rapid development and strong demand for residential and commercial spaces.",
+        button: "Discover Gurgaon",
+        link: "#projects"
+    }
+];
+
+let currentPage = 0;
+let currentPosition = 0;
+let timer;
+
+/* Show the content associated with the selected page */
+function updateContent(page) {
+    contentInner.classList.add("changing");
+
+    setTimeout(() => {
+        const data = pageContent[page];
+
+        subtitle.textContent = data.subtitle;
+        heading.textContent = data.heading;
+        description.textContent = data.description;
+        exploreBtn.textContent = data.button + " →";
+        exploreBtn.href = data.link;
+
+        contentInner.classList.remove("changing");
+    }, 300);
+}
+
+/* Show three images for each content slide */
+function updateSlider() {
+    const firstSlide = track.querySelector(".slide");
+    const gap = parseFloat(getComputedStyle(track).gap) || 0;
+    const step = firstSlide.getBoundingClientRect().height + gap;
+
+    // Each page moves by three images
+    currentPosition = currentPage * 3;
+
+    track.style.transform =
+        `translateY(-${currentPosition * step}px)`;
+
+    updateContent(currentPage);
+}
+
+/* Only two pages */
+function nextPage() {
+    currentPage = (currentPage + 1) % 2;
+    updateSlider();
+}
+
+function prevPage() {
+    currentPage = (currentPage - 1 + 2) % 2;
+    updateSlider();
+}
+
+nextBtn.addEventListener("click", () => {
+    nextPage();
+    restartAutoSlide();
+});
+
+prevBtn.addEventListener("click", () => {
+    prevPage();
+    restartAutoSlide();
+});
+
+/* Clicking an image selects its corresponding page */
+track.addEventListener("click", event => {
+    const slide = event.target.closest(".slide");
+    if (!slide) return;
+
+    const index = slides.indexOf(slide);
+    currentPage = index < 3 ? 0 : 1;
+
+    updateSlider();
+    restartAutoSlide();
+});
+
+/* Automatic change every 5 seconds */
+function startAutoSlide() {
+    clearInterval(timer);
+    timer = setInterval(nextPage, 5000);
+}
+
+function restartAutoSlide() {
+    startAutoSlide();
+}
+
+viewport.addEventListener("mouseenter", () => clearInterval(timer));
+viewport.addEventListener("mouseleave", startAutoSlide);
+
+window.addEventListener("resize", updateSlider);
+
+updateSlider();
+startAutoSlide();
+</script>
+
 </body>
 
 </html>
