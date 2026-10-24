@@ -324,20 +324,28 @@
                                             <div
                                                 class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
                                                 <!-- Desktop Button -->
-                                                <button
+                                                <!-- <button
                                                     class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
                                                     type="submit"
                                                     data-plugin="button"
                                                     data-button-clone-content="true">
                                                     <span class="btn__content">
                                                         <span class="btn__text">
-                                                            Submit a request
+                                                            Submit a request1
                                                         </span>
                                                     </span>
+                                                </button> -->
+                                                <button type="submit" class="btn btn--secondary  golden mobbtngolden is-hidden--sm-down" 
+                                                    style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                    Submit a request   <span class="blogs-view-arrow">&#8594;</span>         
                                                 </button>
                                                 <!-- Mobile Button -->
-                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+                                                <!-- <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
                                                     <span class="btn__content"><span class="btn__text">Submit a request</span></span>
+                                                </button> -->
+                                                <button type="submit" class="btn btn--secondary  golden mobbtngolden is-hidden--md-up" 
+                                                    style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                    Submit a request   <span class="blogs-view-arrow">&#8594;</span>         
                                                 </button>
                                                 <!-- Privacy Policy -->
                                                 <div class="text l-callback__limited-width ml-layout">
@@ -693,32 +701,35 @@
                                             <!-- Submit -->
                                             <div class="l-callback__buttons row row--nowrap row--middle-xs row--between-xs mt-1:lg">
                                                 <!-- Desktop -->
-                                                <button class="btn btn--primary btn--text-small is-hidden--sm-down" type="submit">
+                                                <button type="submit" class="btn btn--secondary  golden mobbtngolden is-hidden--sm-down" 
+                                                    style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                    Book Site Visit   <span class="blogs-view-arrow">&#8594;</span>         
+                                                </button>
+                                                <!-- <button class="btn btn--primary btn--text-small is-hidden--sm-down" type="submit">
                                                     <span class="btn__content">
                                                         <span class="btn__text">Book Site Visit</span>
                                                     </span>
-                                                </button>
+                                                </button> -->
                                                 <!-- Mobile -->
-                                                <button
+                                                <!-- <button
                                                     class="btn btn--sm btn--primary btn--text-small is-hidden--md-up"
                                                     type="submit">
-
                                                     <span class="btn__content">
                                                         <span class="btn__text">
                                                             Book Site Visit
                                                         </span>
                                                     </span>
-
+                                                </button> -->
+                                                <button type="submit" class="btn btn--secondary  golden mobbtngolden is-hidden--md-up" 
+                                                    style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                    Book Site Visit   <span class="blogs-view-arrow">&#8594;</span>         
                                                 </button>
 
                                                 <!-- Privacy -->
                                                 <div class="text l-callback__limited-width ml-layout">
                                                     <p class="leading-trim text-color-small text-c2-small text-right:md">
 
-                                                        By clicking the button, you agree
-                                                        <br>
-
-                                                        to our
+                                                        By clicking the button, you agree <br> to our
                                                         <a
                                                             class="btn--link btn--clone text-c2-small mt-1"
                                                             href="<?php echo base_url('privacy');?>"

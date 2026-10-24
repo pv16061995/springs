@@ -588,12 +588,16 @@
                         <li>Ideal for Leisure & Business Stays</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true" onclick="window.location.href=this.href; return false;">
+                        <!-- <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true" onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
                                 </span>
                             </span>
+                        </a> -->
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                            View Details            
                         </a>
                     </p>
                 </div>
@@ -622,12 +626,16 @@
                         <li>High appreciation potential</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
+                        <!-- <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
                                 </span>
                             </span>
+                        </a> -->
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                            View Details            
                         </a>
                     </p>
                 </div>
@@ -655,12 +663,16 @@
                         <li>Community-focused planning</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                      <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
+                      <!-- <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
                                 </span>
                             </span>
+                        </a> -->
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                            View Details            
                         </a>
                     </p>
                 </div>
@@ -689,12 +701,16 @@
                         <li>Caf'és & Casual Dining</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
+                        <!-- <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
                                 </span>
                             </span>
+                        </a> -->
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                            View Details            
                         </a>
                     </p>
                 </div>
@@ -723,12 +739,16 @@
                         <li>Exclusive Community Living</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
+                        <!-- <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
                                 </span>
                             </span>
+                        </a> -->
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                            View Details            
                         </a>
                     </p>
                 </div>
@@ -757,12 +777,16 @@
                         <li>Excellent Brand Visibility</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
+                        <!-- <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
                                 </span>
                             </span>
+                        </a> -->
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                            View Details            
                         </a>
                     </p>
                 </div>
@@ -791,12 +815,16 @@
                         <li>Dedicated Parking</li>
                     </ul>
                     <p class="text-left mt-0.5">
-                        <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
+                        <!-- <a href="<?php echo base_url('detail');?>" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true"  onclick="window.location.href=this.href; return false;">
                             <span class="btn__content">
                                 <span class="btn__text btn__text--clone">
                                     View Details
                                 </span>
                             </span>
+                        </a> -->
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                            View Details            
                         </a>
                     </p>
                 </div>

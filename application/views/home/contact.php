@@ -50,39 +50,29 @@
 
 
             <div class="sales-enquiry">
-
                 <h2>Sales Enquiries</h2>
-
                 <h4>GURUGRAM</h4>
-
                 <a href="tel:8929303303">
                     <span class="contact-icon">☎</span>
                     +91 89293 03303
                 </a>
-
                 <a href="mailto:info@bstdevelopers.com">
                     <span class="contact-icon">✉</span>
                     info@bstdevelopers.com
                 </a>
-
             </div>
-
         </div>
 
 
         <!-- RIGHT SIDE -->
         <div class="contact-form-wrapper">
-
             <h1>
                 GET <span>IN TOUCH</span>
             </h1>
-
             <p class="form-intro">
                 Have questions about a property or investment opportunity?<br>
                 Our team is here to help you find the right path forward.
             </p>
-
-
             <form class="contact-form">
 <!-- 
                 <div class="form-row">
@@ -180,18 +170,16 @@
                     <div class="form-group comments-box">
                         <textarea placeholder="Comments (if any)"></textarea>
                     </div>
-
-                 
-
                 </div>
-
-
                 <div class="submit-wrapper">
-                    <button type="submit">
+                    <!-- <button type="submit">
                         SUBMIT
+                    </button> -->
+                    <button type="submit" class="btn btn--secondary  golden mobbtngolden" 
+                        style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                        SUBMIT  <span class="blogs-view-arrow">&#8594;</span>         
                     </button>
                 </div>
-
             </form>
 
         </div>

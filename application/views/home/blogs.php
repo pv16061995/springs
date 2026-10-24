@@ -27,106 +27,66 @@
         </div>
 
         <div class="blogs-slider-arrows">
-
             <button
                 type="button"
                 class="blogs-slider-arrow blogs-slider-prev"
                 aria-label="Previous article">
                 <span>&#10094;</span>
             </button>
-
             <button
                 type="button"
                 class="blogs-slider-arrow blogs-slider-next"
                 aria-label="Next article">
                 <span>&#10095;</span>
             </button>
-
         </div>
-
     </div>
 
 
     <!-- Slider -->
     <div class="blogs-slider">
-
         <div class="blogs-slider-track">
-             <?php foreach ($blogs as $blog): ?>
-
-            <!-- CARD 5 -->
-            <article class="blogs-slide">
-
-                <a href="#">
-
-                    <div class="blogs-slide-image">
-                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
-                    </div>
-
-                    <div class="blogs-slide-content">
-
-                        <span class="blogs-slide-category">
-                            <?php echo $blog['category']; ?>
-                        </span>
-
-                        <h3>
-                           <?php echo $blog['heading']; ?>
-                        </h3>
-
-                        <p>
-                            <?php echo $blog['description']; ?>
-                        </p>
-
-                        <div class="blogs-slide-meta">
-
-                              <span class="meta-">❤️ Likes <span><?php echo $blog['total_likes']; ?></span></span>
+            <?php foreach ($blogs as $blog): ?>
+                <article class="blogs-slide">
+                    <a href="#">
+                        <div class="blogs-slide-image">
+                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200" alt="">
+                        </div>
+                        <div class="blogs-slide-content">
+                            <span class="blogs-slide-category">
+                                <?php echo $blog['category']; ?>
+                            </span>
+                            <h3><?php echo $blog['heading']; ?></h3>
+                            <p><?php echo $blog['description']; ?></p>
+                            <div class="blogs-slide-meta">
+                                <span class="meta-">❤️ Likes <span><?php echo $blog['total_likes']; ?></span></span>
                                 <span class="meta-">💬 Comments <span><?php echo $blog['total_comments']; ?></span></span>
                                 <span class="meta-">👁️ Views <span><?php echo $blog['total_view']; ?></span></span>
+                            </div>
                         </div>
-
-                    </div>
-
-                </a>
-
-            </article>
-
- <?php endforeach; ?>
+                    </a>
+                </article>
+            <?php endforeach; ?>
         </div>
-
     </div>
 
 
     <!-- Bottom -->
     <div class="blogs-slider-bottom">
-
-        <a href="<?php echo base_url('blog');?>" class="blogs-view-all">
+        <!-- <a href="<?php echo base_url('blog');?>" class="blogs-view-all">
             <span>VIEW ALL ARTICLES</span>
             <span class="blogs-view-arrow">&#8594;</span>
+        </a> -->
+        <a href="<?php echo base_url('blog'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+            VIEW ALL ARTICLES   <span class="blogs-view-arrow">&#8594;</span>         
         </a>
-
         <div class="blogs-slider-dots">
-
-            <button
-                type="button"
-                class="blogs-dot active"
-                data-slide="0">
-            </button>
-
-            <button
-                type="button"
-                class="blogs-dot"
-                data-slide="1">
-            </button>
-
-            <button
-                type="button"
-                class="blogs-dot"
-                data-slide="2">
-            </button>
-
+            <button type="button" class="blogs-dot active" data-slide="0"></button>
+            <button type="button" class="blogs-dot" data-slide="1"></button>
+            <button type="button" class="blogs-dot" data-slide="2"></button>
         </div>
-
     </div>
-
 </section>
 
     <!-- <div class="coverflow">

@@ -62,7 +62,7 @@
                                             Plot Sizes: 100 – 179 Sq. Yards
                                         </div>
                                         <div class="project-actions">
-                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                            <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
                                                         Download Brochure
@@ -73,6 +73,10 @@
                                                         </svg>
                                                     </span>
                                                 </span>
+                                            </a> -->
+                                            <a href="<?php echo base_url('assets/uploads/brochure.pdf'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                                                style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                Download Brochure   <span class="blogs-view-arrow">&#8594;</span>         
                                             </a>
                                             <a href="#" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
@@ -317,7 +321,7 @@
                                                 <p>Proximity to residential & commercial zones</p>
                                             </div>
                                         </div>
-                                        <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                        <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                             <span class="btn__content">
                                                 <span class="btn__text btn__text--clone">
                                                     EXPLORE THE LOCATION
@@ -328,6 +332,10 @@
                                                     </svg>
                                                 </span>
                                             </span>
+                                        </a> -->
+                                         <a target="_blank" href="https://maps.app.goo.gl/5KUW7YrQ5jdG7hhT7" class="btn btn--secondary  golden mobbtngolden" 
+                                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                            EXPLORE THE LOCATION   <span class="blogs-view-arrow">&#8594;</span>         
                                         </a>
                                     </div>
                                     <div class="col col--lg-6 col--md-6 col--12 pr-1">
@@ -374,7 +382,7 @@
                                             *Plot sizes and availability subject to inventory.
                                         </small>
                                         <div class="project-option-action">
-                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                            <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
                                                         CHECK AVAILABLE PLOTS
@@ -385,6 +393,10 @@
                                                         </svg>
                                                     </span>
                                                 </span>
+                                            </a> -->
+                                            <a href="# class="btn btn--secondary  golden mobbtngolden" 
+                                                style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                CHECK AVAILABLE PLOTS   <span class="blogs-view-arrow">&#8594;</span>         
                                             </a>
                                         </div>
                                     </div>
@@ -404,7 +416,7 @@
                                             <p>
                                                 A Lifestyle Surrounded by Greenery
                                             </p>
-                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                            <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
                                                         VIEW GALLERY
@@ -415,6 +427,10 @@
                                                         </svg>
                                                     </span>
                                                 </span>
+                                            </a> -->
+                                            <a href="<?php echo base_url('gallery'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                                                style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                VIEW GALLERY   <span class="blogs-view-arrow">&#8594;</span>         
                                             </a>
                                         </div>
                                     </div>
@@ -450,7 +466,7 @@
                                         Join a thriving community at BST Green Bhoomi.
                                     </p>
                                     <div class="project-actions project-actions-center">
-                                        <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                        <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                             <span class="btn__content">
                                                 <span class="btn__text btn__text--clone">
                                                     DOWNLOAD BROCHURE
@@ -461,6 +477,10 @@
                                                     </svg>
                                                 </span>
                                             </span>
+                                        </a> -->
+                                        <a href="<?php echo base_url('assets/uploads/brochure.pdf'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                            Download Brochure   <span class="blogs-view-arrow">&#8594;</span>         
                                         </a>
                                         <a href="#" class="btn btn--secondary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                             <span class="btn__content">

@@ -72,15 +72,15 @@
                                 </span>
                             </span>
                         </a>
-                        <a class="btn btn--text-small  btn--link btn--clone is-hidden--hover" href="flats.html"
+                        <!-- <a class="btn btn--text-small  btn--link btn--clone is-hidden--hover" href="flats.html"
                             data-plugin=" button" data-button-clone-content="true">
                             <span class="btn__content">
                                 <span class="btn__text">Residences</span>
                             </span>
-                        </a>
+                        </a> -->
                     </div>
                     <div class="header__center is-hidden--sm-down" data-custom-scroll-theme-target="right">
-                        <a class="header__logo" href="index.html" aria-label="Homepage">
+                        <a class="header__logo" href="<?php echo base_url(); ?>" aria-label="Homepage">
                             <span class="header__logo__inner header-animation-logo">
                                 <span class="header__logo__left">
                                     <img class="icon icon-logo-left" aria-hidden="true"
@@ -204,7 +204,7 @@
                                 <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumbs">
                                     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"
                                         class="breadcrumbs__item  ">
-                                        <a class="btn btn--link btn--clone" href="index.html" data-plugin=" button"
+                                        <a class="btn btn--link btn--clone" href="<?php echo base_url(); ?>" data-plugin=" button"
                                             data-button-clone-content="true" itemprop="item">
                                             <span class="btn__content">
                                                 <span class="btn__text  text-c2-small" itemprop="name">
@@ -239,7 +239,7 @@
                             </div>
                             <div class="row row--between-xs">
                                 <div class="col col--xs-4 col--md-12 group group--center pt-4 pb-5 py-2:md">
-                                    <a href="index.html" class="footer__logo" aria-label="homepage"
+                                    <a href="<?php echo base_url(); ?>" class="footer__logo" aria-label="homepage"
                                         data-ajax-page-ignore>
                                         <img class="img-full " alt="" draggable="false" width="661" height="218"
                                             src="assets/images/bst-new-logo.png">
@@ -250,16 +250,16 @@
                                 <div class="col col--xs-4 row row--nowrap row--between-xs footer-relative">
                                     <div class="col col--xs-2 col--md-6">
                                         <a class="text-c2-small leading-trim text-color-small"
-                                            href="privacy-policy.html" target="_blank">legal information</a>
+                                            href="<?php echo base_url('privacy'); ?>" target="_blank">legal information</a>
                                     </div>
                                     <div class="col col--xs-2 col--md-6 row row--end-xs">
-                                        <a target="_blank"
+                                        <!-- <a target="_blank"
                                             class="text-c2-small leading-trim row row--middle-xs text-color-small text-right"
                                             href="https://pixeltechnosoft.com/">
                                             Site by <span> PixelTechnoSoft</span>
                                             <img class="icon icon-vig-logo footer__copy-logo"
                                                 src="assets/images/PixelTechnoSoft_Logo.png" alt="PixelTechnoSoft" />
-                                        </a>
+                                        </a> -->
                                     </div>
                                 </div>
                             </div>

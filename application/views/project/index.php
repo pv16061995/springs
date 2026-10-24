@@ -61,7 +61,7 @@
                                             Explore opportunities, growth potential and <br> a future-ready destination with BST.
                                         </p>
 
-                                        <div class="project-actions  ml-1 ">
+                                        <!-- <div class="project-actions  ml-1 ">
                                             <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
@@ -75,7 +75,7 @@
                                                 </span>
                                             </a>
                                             
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
                                       <!--   <div class="project-media project-media-hero">
@@ -106,7 +106,7 @@
                                            At BST, we create more than just real estate. We build future-ready communities with thoughtful planning, modern infrastructure and a vision for sustained growth.
                                         </p>
                                         <div class="project-actions">
-                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned mb-0.5" data-plugin=" button" data-button-clone-content="true">
+                                            <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned mb-0.5" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
                                                        Know More About BST
@@ -117,6 +117,11 @@
                                                         </svg>
                                                     </span>
                                                 </span>
+                                            </a> -->
+
+                                            <a href="<?php echo base_url('about'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                                                style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                Know More About BST   <span class="blogs-view-arrow">&#8594;</span>         
                                             </a>
                                             
                                         </div>
@@ -195,7 +200,7 @@
                                            Bhiwadi is emerging as one of NCR's most promising <br>investment destinations with excellent connectivity, <br>rapid development and strong demand for residential <br>and commercial spaces.
                                         </p>
                                       
-                                        <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned " data-plugin=" button" data-button-clone-content="true">
+                                        <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned " data-plugin=" button" data-button-clone-content="true">
                                             <span class="btn__content">
                                                 <span class="btn__text btn__text--clone">
                                                    Explore Bhiwadi
@@ -206,7 +211,7 @@
                                                     </svg>
                                                 </span>
                                             </span>
-                                        </a>
+                                        </a> -->
 
                                     </div>
                                    
@@ -396,7 +401,7 @@
                                             <h2 class="main-title" style="color: #162d24;">Explore BST Through Videos</h2>
                                         </div>
                                     
-                                        <a href="#" class="view-all-btn btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned " data-plugin=" button" data-button-clone-content="true">
+                                        <!-- <a href="#" class="view-all-btn btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned " data-plugin=" button" data-button-clone-content="true">
                                             <span class="btn__content">
                                                 <span class="btn__text btn__text--clone">
                                                     View All Videos
@@ -407,6 +412,10 @@
                                                     </svg>
                                                 </span>
                                             </span>
+                                        </a> -->
+                                        <a href="<?php echo base_url('gallery'); ?>" class="btn btn--secondary  golden mobbtngolden" 
+                                            style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                            View All Videos   <span class="blogs-view-arrow">&#8594;</span>         
                                         </a>
                                     </div>
 
@@ -480,14 +489,8 @@
 
                                     </div>
                                 </div>  
-                               
-
-   
 
                             </div>
-
-                          
-
                             <div class="project-options imgbackgrnd">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-5 col--md-5 col--12 pl-1">
@@ -499,13 +502,11 @@
                                         <p>
                                            Explore investment opportunities with BST and secure <br>your place in a future-ready community.
                                         </p>
-                                       
-                                       
                                         <div class="project-option-action pt-1">
-                                            <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
+                                            <a href="<?php echo base_url('assets/uploads/brochure.pdf'); ?>" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">
-                                                       Download Investor Kit
+                                                       Download Brochure
                                                         <svg class="icon icon-arrow-right" width="14" height="16" aria-hidden="true"
                                                             viewBox="0 0 14 16" style="--icon-width: 14; --icon-height: 16;">
                                                             <use href="assets/images/icons.svg#arrow-right"
@@ -519,10 +520,6 @@
                                     
                                 </div>
                             </div>
-
-                           
-
-                            
                         </div>
                     </section>
                 </main>

@@ -223,7 +223,7 @@
                                             <label for="terms" style="text-transform: none; font-weight: normal;">I agree with <a href="#"> T & C</a></label>
                                         </div>
                                           <div class="submit-container">
-                                                <button
+                                                <!-- <button
                                                     class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down"
                                                     type="submit"
                                                     data-plugin="button"
@@ -233,11 +233,20 @@
                                                             Submit request
                                                         </span>
                                                     </span>
+                                                </button> -->
+
+                                                 <button type="submit" class="btn btn--secondary  golden mobbtngolden is-hidden--sm-down" 
+                                                    style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                    Submit a request   <span class="blogs-view-arrow">&#8594;</span>         
                                                 </button>
                                                 
                                                 <!-- Mobile Button -->
-                                                <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
+                                                <!-- <button class="btn btn--sm btn--primary btn--text-small is-hidden--md-up" type="submit">
                                                     <span class="btn__content"><span class="btn__text">Submit request</span></span>
+                                                </button> -->
+                                                <button type="submit" class="btn btn--secondary  golden mobbtngolden is-hidden--md-up" 
+                                                    style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;">
+                                                    Submit a request   <span class="blogs-view-arrow">&#8594;</span>         
                                                 </button>
                                             </div>
                                     </div>
