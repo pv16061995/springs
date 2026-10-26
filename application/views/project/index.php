@@ -194,25 +194,25 @@
     <!-- LEFT: CONTENT CHANGES WITH SLIDE -->
     <div class="content">
         <div class="content-inner content-section" id="contentInner">
-
-            <div class="subtitle" id="subtitle">
-                WHY BHIWADI?
+<span class="tag-line"></span> 
+            <div class="subtitle" id="subtitle" style="color: #162d24;">
+               WHY BHIWADI?
             </div>
 
-            <h1 id="heading">
+            <h1 id="heading" class="h1 leading-trim blkfc pt-1 pb-1">
                A Location <br>
 That Works Today<br>
 and Tomorrow
             </h1>
 
-            <p id="description">
+            <p id="description" class="fs24 blkfc pb-1">
                 Bhiwadi is emerging as one of NCR's most promising
                 investment destinations with excellent connectivity,
                 rapid development and strong demand for residential
                 and commercial spaces.
             </p>
 
-            <a href="#explore" class="explore-btn" id="exploreBtn">
+            <a href="#explore" class="btn btn--secondary  golden mobbtngolden" id="exploreBtn">
                 Explore BHIWADI &rarr;
             </a>
 
@@ -492,13 +492,13 @@ const slides = Array.from(track.children);
 const pageContent = [
     {
         subtitle: "WHY BHIWADI?",
-        heading: "A Location That Works Today and Tomorrow",
+        heading: `A Location That Works Today and Tomorrow`,
         description: "Bhiwadi is emerging as one of NCR's most promising investment destinations with excellent connectivity, rapid development and strong demand for residential and commercial spaces.",
         button: "Explore Bhiwadi",
         link: "#explore"
     },
     {
-        subtitle: "Designed for the Future",
+        subtitle: "Gurgaon for the Future",
         heading: "Spaces That Inspire Growth",
         description: "Gurgaon is emerging as one of NCR's most promising investment destinations with excellent connectivity, rapid development and strong demand for residential and commercial spaces.",
         button: "Discover Gurgaon",
@@ -578,12 +578,13 @@ track.addEventListener("click", event => {
 /* Automatic change every 5 seconds */
 function startAutoSlide() {
     clearInterval(timer);
-    timer = setInterval(nextPage, 5000);
+    timer = setInterval(nextPage, 6000);
 }
 
 function restartAutoSlide() {
     startAutoSlide();
 }
+
 
 viewport.addEventListener("mouseenter", () => clearInterval(timer));
 viewport.addEventListener("mouseleave", startAutoSlide);
