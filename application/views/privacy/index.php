@@ -195,7 +195,7 @@
                 }
             };
         </script>
-        <!-- <script src="assets/javascripts/privacy-policy.js"></script> -->
+      <script src="assets/javascripts/privacy-policy.js"></script> 
 </body>
 
 </html>

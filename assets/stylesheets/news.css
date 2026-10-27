@@ -5,7 +5,7 @@
 .flats {
     overflow: hidden;
     position: relative;
-    background: #105d0b;
+    background: #04292d;
 }
 
 
@@ -55,7 +55,7 @@
 
 .news-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
@@ -696,4 +696,10 @@
     .news-card__icon {
         font-size: 14px;
     }
+}
+h3 {
+    color: #114507;
+}
+.has-hover a:hover, .has-hover a:hover:active, a.is-active {
+    color: #674912;
 }

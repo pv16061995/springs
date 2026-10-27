@@ -187,10 +187,10 @@
                                     <span class="news-icon">▤</span>
                                     <span>01 Oct '26</span>
                                 </div>
-                                <h2>
+                                <h3>
                                     Grade A Mall Vacancy Across the Top 7 Cities
                                     Fell to 5% in H1 2026
-                                </h2>
+                                </h3>
                                 <a href="#" class="read-more">
                                     Read More <span>↗</span>
                                 </a>
@@ -200,35 +200,23 @@
                                     <span class="news-icon">▤</span>
                                     <span>01 Oct '26</span>
                                 </div>
-                                <h2>
+                                <h3>
                                     Why are NCR Home Prices Rising so Fast?
-                                </h2>
+                                </h3>
                                 <a href="#" class="read-more">
                                     Read More <span>↗</span>
                                 </a>
                             </article>
+                            
                             <article class="news-cards">
                                 <div class="news-date">
                                     <span class="news-icon">▤</span>
                                     <span>01 Oct '26</span>
                                 </div>
-                                <h2>
-                                    BST Developers India Files Draft
-                                    Papers for Rs 1000 Crore IPO
-                                </h2>
-                                <a href="#" class="read-more">
-                                    Read More <span>↗</span>
-                                </a>
-                            </article>
-                            <article class="news-cards">
-                                <div class="news-date">
-                                    <span class="news-icon">▤</span>
-                                    <span>01 Oct '26</span>
-                                </div>
-                                <h2>
+                                <h3>
                                     BST Developers India files Draft
                                     Papers for ₹1,000 Crore IPO
-                                </h2>
+                                </h3>
                                 <a href="#" class="read-more">
                                     Read More <span>↗</span>
                                 </a>
@@ -438,10 +426,10 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h2>
+                                                        <h3>
                                                             Grade A Mall Vacancy Across the Top 7 Cities
                                                             Fell to 5% in H1 2026
-                                                        </h2>
+                                                        </h3>
                                                         <a href="#" class="read-more">
                                                             Read More <span>↗</span>
                                                         </a>
@@ -451,9 +439,9 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h2>
+                                                        <h3>
                                                             Why are NCR Home Prices Rising so Fast?
-                                                        </h2>
+                                                        </h3>
                                                         <a href="#" class="read-more">
                                                             Read More <span>↗</span>
                                                         </a>
@@ -463,27 +451,15 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h2>
+                                                        <h3>
                                                             BST Developers India Files Draft
                                                             Papers for Rs 1000 Crore IPO
-                                                        </h2>
+                                                        </h3>
                                                         <a href="#" class="read-more">
                                                             Read More <span>↗</span>
                                                         </a>
                                                     </article>
-                                                    <article class="news-cards">
-                                                        <div class="news-date">
-                                                            <span class="news-icon">▤</span>
-                                                            <span>01 Oct '26</span>
-                                                        </div>
-                                                        <h2>
-                                                            BST Developers India files Draft
-                                                            Papers for ₹1,000 Crore IPO
-                                                        </h2>
-                                                        <a href="#" class="read-more">
-                                                            Read More <span>↗</span>
-                                                        </a>
-                                                    </article>
+                                                   
                                               </div>
                                               <div class="news-grid mt-0.5:lg">
                                                     <article class="news-cards">
@@ -492,10 +468,10 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h2>
+                                                        <h3>
                                                             Grade A Mall Vacancy Across the Top 7 Cities
                                                             Fell to 5% in H1 2026
-                                                        </h2>
+                                                        </h3>
                                                         <a href="#" class="read-more">
                                                             Read More <span>↗</span>
                                                         </a>
@@ -505,9 +481,9 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h2>
+                                                        <h3>
                                                             Why are NCR Home Prices Rising so Fast?
-                                                        </h2>
+                                                        </h3>
                                                         <a href="#" class="read-more">
                                                             Read More <span>↗</span>
                                                         </a>
@@ -517,27 +493,15 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h2>
+                                                        <h3>
                                                             BST Developers India Files Draft
                                                             Papers for Rs 1000 Crore IPO
-                                                        </h2>
+                                                        </h3>
                                                         <a href="#" class="read-more">
                                                             Read More <span>↗</span>
                                                         </a>
                                                     </article>
-                                                    <article class="news-cards">
-                                                        <div class="news-date">
-                                                            <span class="news-icon">▤</span>
-                                                            <span>01 Oct '26</span>
-                                                        </div>
-                                                        <h2>
-                                                            BST Developers India files Draft
-                                                            Papers for ₹1,000 Crore IPO
-                                                        </h2>
-                                                        <a href="#" class="read-more">
-                                                            Read More <span>↗</span>
-                                                        </a>
-                                                    </article>
+                                                   
                                               </div>
 
                                              </div>

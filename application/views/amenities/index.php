@@ -118,7 +118,7 @@
                            <!-- <h3 class="h3 leading-trim mb-1">
                               Luxury Clubhouse
                            </h3> -->
-                           <p class="text-t1 leading-trim">
+                           <p class="text-t1 leading-trim" style="margin-bottom:35%">
                               A thoughtfully planned community where every amenity creates more opportunities to <b> move, connect, relax and grow.</b></br></br>
                               From peaceful green spaces to active recreational zones, BST brings everyday experiences closer to home—creating a neighbourhood designed for people of every age.
                            </p>
@@ -252,7 +252,7 @@
                            data-parallax-pattern="videoTitle">
                            <div class="text-t1 leading-trim ml-layout:lg i-video__text" data-reveal="text"
                               data-reveal-distance="0">
-                              <p>
+                              <p class="overlayshadow goldenColor" style="margin-top:26% ">
                                  Green open spaces designed for morning walks, evening strolls and unhurried moments with nature.
                               </p>
                            </div>

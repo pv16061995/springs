@@ -430,6 +430,11 @@ and Tomorrow
                                             </a>
                                         </div>
                                     </div>
+                                    <div class="col col--lg-7 col--md-7 col--12 pr-1">
+                                        <div class="project-media project-plot-image">
+                                            <span> IMAGE</span>
+                                        </div>
+                                    </div>
                                     
                                 </div>
                             </div>
