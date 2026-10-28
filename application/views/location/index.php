@@ -140,7 +140,7 @@
                                             </noscript>
                                         </div>
                                         <div class="vimeo-background background background--cover is-hidden--md-up">
-                                            <iframe style="--ratio: 0.5625; --aspect-ratio: 360 / 640; overflow: hidden; border: none;" width="360" height="640" loading="lazy" src="https://player.vimeo.com/video/1086359332?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1" allow="autoplay; encrypted-media"
+                                            <iframe style="--ratio: 0.5625; --aspect-ratio: 360 / 640; overflow: hidden; border: none;" width="360" height="640" loading="lazy" src="https://player.vimeo.com/video/1224540641?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1" allow="autoplay; encrypted-media"
                                             allowfullscreen></iframe>
                                         </div>
                                     </div>
@@ -184,7 +184,7 @@
                                             </noscript>
                                         </div>
                                         <div class="vimeo-background background background--cover is-hidden--sm-down">
-                                            <iframe style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;" width="640" height="360" loading="lazy" src="https://player.vimeo.com/video/1223554112?loop=1&muted=1&autoplay=1&autopause=0&background=1"
+                                            <iframe style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;" width="640" height="360" loading="lazy" src="https://player.vimeo.com/video/1224540641?loop=1&muted=1&autoplay=1&autopause=0&background=1"
                                             allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                         </div>
                                     </div>
