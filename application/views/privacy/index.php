@@ -1,32 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html dir="ltr" lang="en" class="has-hover no-js not-ready">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>BST Developers | Privacy policy</title>
-    <!-- <link rel="preconnect" href="https://storage.googleapis.com/" crossorigin> -->
-    <style>
-        .js.not-ready,
-        .js.not-ready * {
-            transition: none !important;
-        }
-    </style>
-    <link rel="stylesheet" href="assets/stylesheets/theme.css">
-    <link rel="stylesheet" href="assets/stylesheets/privacy-policy.css">
-    <?php $this->load->view('common/meta'); ?>
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
+        <title>Springs | Privacy policy</title>
 
-        if (navigator.platform.toUpperCase().indexOf('WIN') >= 0) {
-            document.documentElement.classList.add('is-win');
-        }
-    </script>
-</head>
+        <link rel="preconnect" href="https://storage.googleapis.com" crossorigin />
 
-<body data-barba="wrapper">
+        <style>
+            body {
+                background: #f5e8d1 !important;
+                color: #f5e8d1 !important;
+            }
+            a {
+                color: #f5e8d1 !important;
+            }
+            .js.not-ready,
+            .js.not-ready * {
+                transition: none !important;
+            }
+        </style>
+
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/theme.css?v=1786519310" />
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/privacy-policy.css?v=1786519310" />
+
+        <script>
+            document.documentElement.classList.remove("no-js");
+            document.documentElement.classList.add("js");
+
+            if (navigator.platform.toUpperCase().indexOf("WIN") >= 0) {
+                document.documentElement.classList.add("is-win");
+            }
+        </script>
+
+        <link rel="manifest" href="assets/manifest/manifest.webmanifest?v=1786519310" />
+        <meta name="theme-color" content="#162D24" />
+        <meta name="msapplication-config" content="assets/manifest/browserconfig.xml?v=1786519310" />
+
+        <link rel="shortcut icon" media="(prefers-color-scheme: light)" href="favicon-light.png?v=1786519310" />
+        <link
+            rel="icon"
+            type="image/png"
+            media="(prefers-color-scheme: light)"
+            sizes="96x96"
+            href="assets/manifest/favicon-96x96-dark.png?v=1786519310"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            media="(prefers-color-scheme: light)"
+            sizes="32x32"
+            href="assets/manifest/favicon-32x32-dark.png?v=1786519310"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            media="(prefers-color-scheme: light)"
+            sizes="16x16"
+            href="assets/manifest/favicon-16x16-dark.png?v=1786519310"
+        />
+
+        <link rel="shortcut icon" media="(prefers-color-scheme: dark)" href="favicon.ico?v=1786519310" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            media="(prefers-color-scheme: dark)"
+            href="assets/manifest/favicon-96x96-light.png?v=1786519310"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            media="(prefers-color-scheme: dark)"
+            href="assets/manifest/favicon-32x32-light.png?v=1786519310"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            media="(prefers-color-scheme: dark)"
+            href="assets/manifest/favicon-16x16-light.png?v=1786519310"
+        />
+        <link rel="apple-touch-icon" href="assets/manifest/apple-touch-icon.png?v=1786519310" />
+        <link rel="mask-icon" href="assets/manifest/safari-pinned-tab.svg?v=1786519310" color="#ffffff" />
+
+        <meta name="description" content="Welness-residences" />
+        <meta name="keywords" content="" />
+        <meta name="format-detection" content="telephone=no" />
+
+        <link rel="canonical" href="https://springs.estate/privacy-policy" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://springs.estate/privacy-policy" />
+        <meta property="og:title" content="Springs | Privacy policy" />
+        <meta property="og:description" content="Welness-residences" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:image" content="https://springs.estate/assets/manifest/og.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Springs | Privacy policy" />
+        <meta name="twitter:description" content="Welness-residences" />
+        <meta name="twitter:image" content="https://springs.estate/assets/manifest/og.jpg" />
+    </head>
+    <body data-barba="wrapper">
     <?php $this->load->view("common/preloader"); ?>
     <div class="page-content-wrapper ui-light-background" data-barba="container" data-barba-namespace="page" data-plugin="utmSave">
         <div class="page-content-wrapper__inner js-page-content-wrapper">
@@ -197,5 +275,4 @@
         </script>
       <script src="assets/javascripts/privacy-policy.js"></script> 
 </body>
-
 </html>
