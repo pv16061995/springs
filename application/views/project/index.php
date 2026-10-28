@@ -337,66 +337,65 @@ and Tomorrow
                                         
                                         <!-- Card 1: Masterplan Overview (Large 8 cols) -->
                                         <div class="video-card span-8" onclick="openVideoModal('BST Masterplan Overview')">
-                                            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1400&auto=format&fit=crop" alt="BST Masterplan Overview" loading="lazy">
-                                            <div class="video-overlay"></div>
-                                            <div class="play-button">
-                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                           <div class="vimeo-video">
+                                                <iframe
+                                                    src="https://player.vimeo.com/video/1239749674?autoplay=1&muted=1&loop=1&background=1"
+                                                    title="Vimeo Video"
+                                                    allow="autoplay; fullscreen; picture-in-picture"
+                                                    allowfullscreen>
+                                                </iframe>
                                             </div>
                                             <div class="card-footer">
                                                 <h3 class="card-title">BST Masterplan Overview</h3>
-                                                <span class="card-duration">1:28</span>
+                                                
                                             </div>
                                         </div>
 
                                         <!-- Card 2: Luxury Villas (4 cols) -->
                                         <div class="video-card span-4" onclick="openVideoModal('Luxury Villas at BST')">
-                                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop" alt="Luxury Villas at BST" loading="lazy">
-                                            <div class="video-overlay"></div>
-                                            <div class="play-button">
-                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                                            </div>
+                                              <div class="vimeo-video">
+                                                    <iframe src="https://player.vimeo.com/video/1239749624?autoplay=1&muted=1&loop=1&background=1"
+                                                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
                                             <div class="card-footer">
                                                 <h3 class="card-title">Luxury Villas at BST</h3>
-                                                <span class="card-duration">1:10</span>
+                                              
                                             </div>
                                         </div>
 
                                         <!-- Card 3: Amenities & Lifestyle (4 cols) -->
                                         <div class="video-card span-4" onclick="openVideoModal('Amenities & Lifestyle')">
-                                            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=800&auto=format&fit=crop" alt="Amenities & Lifestyle" loading="lazy">
-                                            <div class="video-overlay"></div>
-                                            <div class="play-button">
-                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                                            </div>
+                                                <div class="vimeo-video">
+                                                    <iframe src="https://player.vimeo.com/video/1239749625?autoplay=1&muted=1&loop=1&background=1"
+                                                        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
                                             <div class="card-footer">
                                                 <h3 class="card-title">Amenities & Lifestyle</h3>
-                                                <span class="card-duration">1:05</span>
+                                               
                                             </div>
                                         </div>
 
                                         <!-- Card 4: Strategic Location (4 cols) -->
                                         <div class="video-card span-4" onclick="openVideoModal('Strategic Location - Bhiwadi')">
-                                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800&auto=format&fit=crop" alt="Strategic Location - Bhiwadi" loading="lazy">
-                                            <div class="video-overlay"></div>
-                                            <div class="play-button">
-                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            <div class="vimeo-video">
+                                                <iframe src="https://player.vimeo.com/video/1239749623?autoplay=1&muted=1&loop=1&background=1"
+                                                    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                             <div class="card-footer">
                                                 <h3 class="card-title">Strategic Location - Bhiwadi</h3>
-                                                <span class="card-duration">1:12</span>
+                                                
                                             </div>
                                         </div>
 
                                         <!-- Card 5: Community Living (4 cols) -->
                                         <div class="video-card span-4" onclick="openVideoModal('Community Living')">
-                                            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop" alt="Community Living" loading="lazy">
-                                            <div class="video-overlay"></div>
-                                            <div class="play-button">
-                                                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                                            <div class="vimeo-video">
+                                                <iframe src="https://player.vimeo.com/video/1239749626?autoplay=1&muted=1&loop=1&background=1"
+                                                    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                             <div class="card-footer">
                                                 <h3 class="card-title">Community Living</h3>
-                                                <span class="card-duration">0:58</span>
+                                                
                                             </div>
                                         </div>
 
@@ -474,7 +473,23 @@ and Tomorrow
         };
     </script>
     <script src="assets/javascripts/blogs.js"></script>
-    
+    <style>
+.vimeo-video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.vimeo-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+</style>
 <script>
 const track = document.getElementById("verticalTrack");
 const viewport = document.getElementById("verticalSlider");
@@ -598,6 +613,23 @@ window.addEventListener("resize", updateSlider);
 
 updateSlider();
 startAutoSlide();
+</script>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<script>
+document.querySelectorAll('.vimeo-video').forEach(function (container) {
+    const iframe = container.querySelector('iframe');
+    const player = new Vimeo.Player(iframe);
+
+    container.addEventListener('mouseenter', function () {
+        player.play();
+    });
+
+    container.addEventListener('mouseleave', function () {
+        player.pause();
+    });
+});
 </script>
 
 </body>
