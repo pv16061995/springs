@@ -53,11 +53,11 @@
     <div class="footer-col">
       <h3>Company</h3>
       <ul>
-        <li><a href="#">About us</a></li>
+        <li><a href="#">About Us</a></li>
          <li><a href="#">Terms & Conditions</a></li>
-         <li><a href="#">Privacy policy</a></li>
+         <li><a href="#">Privacy Policy</a></li>
          <li><a href="#">Disclaimer</a></li>
-         <li><a href="#">GOLDEN CLUB</a></li>
+         <!-- <li><a href="#">GOLDEN CLUB</a></li> -->
       </ul>
     </div>
 
@@ -86,8 +86,8 @@
       <h3>Quick Links</h3>
       <ul>
          <li><a href="#">Become a CP</a></li>
-         <li><a href="#">Book a plot</a></li>
-         <li><a href="#">Chat with Us</a></li>
+         <li><a href="#">Book a Plot</a></li>
+         <li><a href="#">Chat With Us</a></li>
       </ul>
     </div>
   </div>
