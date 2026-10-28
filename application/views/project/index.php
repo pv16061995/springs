@@ -409,7 +409,7 @@ and Tomorrow
                                     <div class="col col--lg-5 col--md-5 col--12 pl-1">
                                          <div class="tag-container  pb-1">
                                             <span class="tag-line"></span>
-                                            <span class="tag-text" > be a part of the growth story</span>
+                                            <span class="tag-text" > be a part of growth story</span>
                                         </div>
                                         <h2 class="h1 leading-trim ">Invest in a <br>Brighter Tomorrow</h2>
                                         <p>

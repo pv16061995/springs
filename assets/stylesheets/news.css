@@ -697,9 +697,9 @@
         font-size: 14px;
     }
 }
-h3 {
+h3.news-headlineStyle {
     color: #114507;
 }
-.has-hover a:hover, .has-hover a:hover:active, a.is-active {
+a.read-more:hover{
     color: #674912;
 }

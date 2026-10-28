@@ -339,6 +339,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
   font-weight: bold;
   margin-bottom: 20px;
   position: relative;
+      color: #d7ab3e !important;
 }
 .footer-col ul {
   list-style: none;
@@ -365,9 +366,7 @@ if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push
 .footer-col ul li a.view-all {
   text-decoration: underline;
 }
-main {
-    background: #162d24 !important;
-}
+
 @media screen and (max-width: 1376px) {
   
     .footer-container {

@@ -252,7 +252,7 @@
                            data-parallax-pattern="videoTitle">
                            <div class="text-t1 leading-trim ml-layout:lg i-video__text" data-reveal="text"
                               data-reveal-distance="0">
-                              <p class="overlayshadow goldenColor" style="margin-top:26% ">
+                              <p class="overlayshadow goldenColor" style="margin-top:27%; font-size: 24px; ">
                                  Green open spaces designed for morning walks, evening strolls and unhurried moments with nature.
                               </p>
                            </div>

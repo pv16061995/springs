@@ -187,7 +187,7 @@
                                     <span class="news-icon">▤</span>
                                     <span>01 Oct '26</span>
                                 </div>
-                                <h3>
+                                <h3 class="news-headlineStyle">
                                     Grade A Mall Vacancy Across the Top 7 Cities
                                     Fell to 5% in H1 2026
                                 </h3>
@@ -200,7 +200,7 @@
                                     <span class="news-icon">▤</span>
                                     <span>01 Oct '26</span>
                                 </div>
-                                <h3>
+                                <h3 class="news-headlineStyle">
                                     Why are NCR Home Prices Rising so Fast?
                                 </h3>
                                 <a href="#" class="read-more">
@@ -213,7 +213,7 @@
                                     <span class="news-icon">▤</span>
                                     <span>01 Oct '26</span>
                                 </div>
-                                <h3>
+                                <h3 class="news-headlineStyle">
                                     BST Developers India files Draft
                                     Papers for ₹1,000 Crore IPO
                                 </h3>
@@ -426,7 +426,7 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h3>
+                                                        <h3 class="news-headlineStyle">
                                                             Grade A Mall Vacancy Across the Top 7 Cities
                                                             Fell to 5% in H1 2026
                                                         </h3>
@@ -439,7 +439,7 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h3>
+                                                        <h3 class="news-headlineStyle">
                                                             Why are NCR Home Prices Rising so Fast?
                                                         </h3>
                                                         <a href="#" class="read-more">
@@ -451,7 +451,7 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h3>
+                                                        <h3 class="news-headlineStyle">
                                                             BST Developers India Files Draft
                                                             Papers for Rs 1000 Crore IPO
                                                         </h3>
@@ -468,7 +468,7 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h3>
+                                                        <h3 class="news-headlineStyle">
                                                             Grade A Mall Vacancy Across the Top 7 Cities
                                                             Fell to 5% in H1 2026
                                                         </h3>
@@ -481,7 +481,7 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h3>
+                                                        <h3 class="news-headlineStyle">
                                                             Why are NCR Home Prices Rising so Fast?
                                                         </h3>
                                                         <a href="#" class="read-more">
@@ -493,7 +493,7 @@
                                                             <span class="news-icon">▤</span>
                                                             <span>01 Oct '26</span>
                                                         </div>
-                                                        <h3>
+                                                        <h3 class="news-headlineStyle">
                                                             BST Developers India Files Draft
                                                             Papers for Rs 1000 Crore IPO
                                                         </h3>
