@@ -68,7 +68,6 @@
         }
 
         .main-title {
-            font-family: 'Playfair Display', serif;
             font-size: clamp(2rem, 4vw, 3.25rem);
             font-weight: 500;
             letter-spacing: -0.02em;
@@ -77,90 +76,149 @@
         }
 
         /* Video Grid Layout */
-        .video-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 24px;
-        }
+       .video-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 15px;
+    width: 100%;
+}
 
-        @media (min-width: 1024px) {
-            .video-grid {
-                grid-template-columns: repeat(12, 1fr);
-            }
-        }
+/* Video Card */
+.video-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 9 / 15;
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
 
-        /* Video Card Base Styles */
-        .video-card {
-            position: relative;
-            border-radius: var(--card-radius);
-            overflow: hidden;
-            background-color: #1a1a1a;
-            cursor: pointer;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-            aspect-ratio: 16 / 10;
-        }
+/* Vimeo Container */
+.vimeo-video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    overflow: hidden;
+    background: transparent;
+}
 
-        @media (min-width: 1024px) {
-            .video-card.span-8 {
-                grid-column: span 8;
-            }
-            .video-card.span-4 {
-                grid-column: span 4;
-            }
-        }
+/* Vimeo iframe */
+.vimeo-video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
 
-        .video-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: 0.9;
-            transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-        }
+/* Video Title */
+.card-footer {
+    padding: 10px 0;
+    background: transparent;
+}
 
-        .video-card:hover img {
-            transform: scale(1.05);
-        }
+.card-title {
+    margin: 0;
+    font-size: 15px;
+    color: inherit;
+}
 
-        /* Gradient Overlay for Readability */
-        .video-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
-            pointer-events: none;
-        }
+/* Tablet: 3 columns */
+@media (max-width: 1023px) {
+    .video-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
 
-        /* Play Button Icon Container */
-        .play-button {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 56px;
-            height: 56px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #ffffff;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            transition: var(--transition-smooth);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-        }
+/* Mobile: 2 columns */
+@media (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
 
-        .video-card:hover .play-button {
-            transform: translate(-50%, -50%) scale(1.1);
-            background: rgba(255, 255, 255, 0.35);
-        }
+    .video-card {
+        aspect-ratio: 4 / 3;
+    }
 
-        .play-button svg {
-            width: 24px;
-            height: 24px;
-            fill: currentColor;
-            transform: translateX(1px); /* optical centering */
-        }
+    .card-title {
+        font-size: 13px;
+    }
+}
+/* Clickable overlay on video thumbnails */
+.video-open {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* Fullscreen modal */
+.video-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    align-items: center;
+    justify-content: center;
+}
+
+.video-modal.active {
+    display: flex;
+}
+
+/* Fullscreen video */
+.modal-video-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Close button */
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: 1000000;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    font-size: 38px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+body.video-modal-open {
+    overflow: hidden;
+}
 
         /* Card Footer (Title & Duration) */
         .card-footer {

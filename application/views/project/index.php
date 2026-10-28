@@ -336,65 +336,65 @@ and Tomorrow
                                     <div class="video-grid">
                                         
                                         <!-- Card 1: Masterplan Overview (Large 8 cols) -->
-                                        <div class="video-card span-8" onclick="openVideoModal('BST Masterplan Overview')">
+                                        <div class="video-card span-5" onclick="openVideoModal('BST Masterplan Overview')">
                                            <div class="vimeo-video">
-                                                <iframe
+                                                 <iframe
                                                     src="https://player.vimeo.com/video/1239749674?autoplay=1&muted=1&loop=1&background=1"
-                                                    title="Vimeo Video"
+                                                    title="BST Masterplan Overview"
                                                     allow="autoplay; fullscreen; picture-in-picture"
                                                     allowfullscreen>
                                                 </iframe>
                                             </div>
                                             <div class="card-footer">
-                                                <h3 class="card-title">BST Masterplan Overview</h3>
+                                                <!-- <h3 class="card-title">BST Masterplan Overview</h3> -->
                                                 
                                             </div>
                                         </div>
 
                                         <!-- Card 2: Luxury Villas (4 cols) -->
-                                        <div class="video-card span-4" onclick="openVideoModal('Luxury Villas at BST')">
+                                        <div class="video-card span-5" onclick="openVideoModal('Luxury Villas at BST')">
                                               <div class="vimeo-video">
                                                     <iframe src="https://player.vimeo.com/video/1239749624?autoplay=1&muted=1&loop=1&background=1"
                                                         allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                                 </div>
                                             <div class="card-footer">
-                                                <h3 class="card-title">Luxury Villas at BST</h3>
+                                                <!-- <h3 class="card-title">Luxury Villas at BST</h3> -->
                                               
                                             </div>
                                         </div>
 
                                         <!-- Card 3: Amenities & Lifestyle (4 cols) -->
-                                        <div class="video-card span-4" onclick="openVideoModal('Amenities & Lifestyle')">
+                                        <div class="video-card span-5" onclick="openVideoModal('Amenities & Lifestyle')">
                                                 <div class="vimeo-video">
                                                     <iframe src="https://player.vimeo.com/video/1239749625?autoplay=1&muted=1&loop=1&background=1"
                                                         allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                                 </div>
                                             <div class="card-footer">
-                                                <h3 class="card-title">Amenities & Lifestyle</h3>
+                                                <!-- <h3 class="card-title">Amenities & Lifestyle</h3> -->
                                                
                                             </div>
                                         </div>
 
                                         <!-- Card 4: Strategic Location (4 cols) -->
-                                        <div class="video-card span-4" onclick="openVideoModal('Strategic Location - Bhiwadi')">
+                                        <div class="video-card span-5" onclick="openVideoModal('Strategic Location - Bhiwadi')">
                                             <div class="vimeo-video">
                                                 <iframe src="https://player.vimeo.com/video/1239749623?autoplay=1&muted=1&loop=1&background=1"
                                                     allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                             <div class="card-footer">
-                                                <h3 class="card-title">Strategic Location - Bhiwadi</h3>
+                                                <!-- <h3 class="card-title">Strategic Location - Bhiwadi</h3> -->
                                                 
                                             </div>
                                         </div>
 
                                         <!-- Card 5: Community Living (4 cols) -->
-                                        <div class="video-card span-4" onclick="openVideoModal('Community Living')">
+                                        <div class="video-card span-5" onclick="openVideoModal('Community Living')">
                                             <div class="vimeo-video">
                                                 <iframe src="https://player.vimeo.com/video/1239749626?autoplay=1&muted=1&loop=1&background=1"
                                                     allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                                             </div>
                                             <div class="card-footer">
-                                                <h3 class="card-title">Community Living</h3>
+                                                <!-- <h3 class="card-title">Community Living</h3> -->
                                                 
                                             </div>
                                         </div>
@@ -473,23 +473,7 @@ and Tomorrow
         };
     </script>
     <script src="assets/javascripts/blogs.js"></script>
-    <style>
-.vimeo-video {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-}
 
-.vimeo-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-</style>
 <script>
 const track = document.getElementById("verticalTrack");
 const viewport = document.getElementById("verticalSlider");
@@ -630,7 +614,56 @@ document.querySelectorAll('.vimeo-video').forEach(function (container) {
         player.pause();
     });
 });
+<script>
+function openVideoModal(event, title, videoId) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+
+    const modal = document.getElementById('videoModal');
+    const frame = document.getElementById('modalVideoFrame');
+
+    frame.title = title;
+
+    frame.src =
+        'https://player.vimeo.com/video/' +
+        videoId +
+        '?autoplay=1&title=0&byline=0&portrait=0';
+
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('video-modal-open');
+}
+
+function closeVideoModal() {
+    const modal = document.getElementById('videoModal');
+    const frame = document.getElementById('modalVideoFrame');
+
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+
+    // Stop playback when closing
+    frame.src = '';
+
+    document.body.classList.remove('video-modal-open');
+}
+
+// Close with Escape
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeVideoModal();
+    }
+});
+
+// Close when clicking the modal background
+document.getElementById('videoModal').addEventListener('click', function(event) {
+    if (event.target === this) {
+        closeVideoModal();
+    }
+});
 </script>
+
 
 </body>
 
