@@ -184,13 +184,13 @@
                                             </noscript>
                                         </div>
                                         <div class="vimeo-background background background--cover is-hidden--sm-down">
-                                            <iframe style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;" width="640" height="360" loading="lazy" src="https://player.vimeo.com/video/1086359361?loop=1&amp;muted=1&amp;autoplay=1&amp;autopause=0&amp;background=1"
+                                            <iframe style="--ratio: 1.7777777777778; --aspect-ratio: 640 / 360; overflow: hidden; border: none;" width="640" height="360" loading="lazy" src="https://player.vimeo.com/video/1223554112?loop=1&muted=1&autoplay=1&autopause=0&background=1"
                                             allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                     <div class="pt-2.5 lo-video__text-container p-relative">
                                         <div class="lo-video__text col col--md-4 pl-layout:md text-t1 leading-trim" data-reveal="text" data-reveal-distance="100px 0px">
-                                            <p>
+                                            <p class="overlayshadow goldenColor">
                                                 BST Developers provides excellent connectivity, so that you can accomplish all your goals. With&nbsp;easy access to&nbsp;main avenues, you will reach the&nbsp;business hubs effortlessly to&nbsp;stay on&nbsp;top of&nbsp;your affairs or to&nbsp;hold the&nbsp;hand
                                                 of&nbsp;your loved one in&nbsp;a&nbsp;lavish restaurant.
                                             </p>
