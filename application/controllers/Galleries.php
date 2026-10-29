@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Policy extends CI_Controller {
+class Galleries extends CI_Controller {
 
     function __construct()
     {
@@ -10,6 +10,6 @@ class Policy extends CI_Controller {
     {
         $data = array();
         
-        $this->load->view('po;icy/index', $data);
+        $this->load->view('galleries/index', $data);
     }
 }
