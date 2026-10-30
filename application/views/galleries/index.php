@@ -285,18 +285,7 @@
                 </div>
         </div>
     </div>
-    <?php $this->load->view('common/cookies'); ?>
-
-        <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
-        <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
-        <script fetchpriority="low" src="assets/javascripts/location.js"></script>
-        <script src="assets/javascripts/tour.js"></script>
-        <script src="assets/pano/tour.js" async></script>
-        <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/lightgallery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/zoom/lg-zoom.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/thumbnail/lg-thumbnail.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/fullscreen/lg-fullscreen.min.js"></script>
-<script>
+    <script>
 document.addEventListener("DOMContentLoaded", function () {
 
     const modal = document.getElementById("imageModal");
@@ -383,7 +372,59 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const galleryItems = document.querySelectorAll(".gallery-item");
+
+    filterButtons.forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            // Get selected category
+            const filterValue = this.getAttribute("data-filter");
+
+            // Remove active class from all buttons
+            filterButtons.forEach(function (btn) {
+                btn.classList.remove("active");
+            });
+
+            // Add active class to clicked button
+            this.classList.add("active");
+
+            // Show or hide gallery images
+            galleryItems.forEach(function (item) {
+
+                const category = item.getAttribute("data-category");
+
+                if (filterValue === "all" || category === filterValue) {
+                    item.classList.remove("hidden");
+                } else {
+                    item.classList.add("hidden");
+                }
+
+            });
+
+        });
+
+    });
+
+});
+
 </script>
+    <?php $this->load->view('common/cookies'); ?>
+
+        <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
+        <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
+        <script fetchpriority="low" src="assets/javascripts/location.js"></script>
+        <script src="assets/javascripts/tour.js"></script>
+        <script src="assets/pano/tour.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/zoom/lg-zoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/thumbnail/lg-thumbnail.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/plugins/fullscreen/lg-fullscreen.min.js"></script>
+
 </body>
 
 </html>
