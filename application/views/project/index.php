@@ -255,6 +255,21 @@ and Tomorrow
                          alt="Modern interior">
                 </div>
 
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
+                         alt="Modern buildings">
+                </div>
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
+                         alt="Industrial warehouse">
+                </div>
+
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85"
+                         alt="Contemporary architecture">
+                </div>
+
             </div>
         </div>
 
@@ -495,18 +510,25 @@ const slides = Array.from(track.children);
 */
 const pageContent = [
     {
-        subtitle: "WHY BHIWADI?",
-        heading: `A Location That Works Today and Tomorrow`,
-        description: "Bhiwadi is emerging as one of NCR's most promising investment destinations with excellent connectivity, rapid development and strong demand for residential and commercial spaces.",
-        button: "Explore Bhiwadi",
-        link: "#explore"
+        subtitle: "Why Invest in Gurgaon?",
+        heading: `Where Corporate Growth, World-Class Infrastructure and Real Estate Opportunities Come Together.`,
+        description: "Gurugram has evolved into one of India's most prominent business and real estate destinations. With a strong presence of multinational corporations, IT companies, financial institutions and global businesses, the city continues to attract professionals, entrepreneurs and investors from across the country.",
+        button: "Explore Gurgaon",
+        link: "#gurgoan"
     },
     {
-        subtitle: "Gurgaon for the Future",
-        heading: "Spaces That Inspire Growth",
-        description: "Gurgaon is emerging as one of NCR's most promising investment destinations with excellent connectivity, rapid development and strong demand for residential and commercial spaces.",
-        button: "Discover Gurgaon",
-        link: "#projects"
+        subtitle: "Why Invest in Bhiwadi?",
+        heading: "The Emerging Investment Destination of NCR, Where Industrial Growth Meets Affordable Real Estate Opportunities.",
+        description: "Strategically located at the Rajasthan-Haryana border, Bhiwadi is emerging as one of the promising industrial and real estate destinations within the wider Delhi NCR region. With its proximity to Gurugram, Delhi and major industrial corridors, the city offers a strategic advantage for businesses, homebuyers and property investors.",
+        button: "Explore Bhiwadi",
+        link: "#bhiwadi"
+    },
+    {
+        subtitle: "Why Invest in Jhajjar?",
+        heading: "The Next Growth Frontier of NCR, Powered by Industrial Expansion and Planned Infrastructure.",
+        description: "Strategically positioned within the Delhi NCR region, Jhajjar is emerging as an important destination for industrial, residential and commercial development. Its proximity to Gurugram, Bahadurgarh, Rohtak and Delhi, combined with connectivity through the Kundli-Manesar-Palwal (KMP) Expressway, is strengthening its position on the NCR growth map.",
+        button: "Explore Jhajjar",
+        link: "#jhajjar"
     }
 ];
 
@@ -546,14 +568,16 @@ function updateSlider() {
     updateContent(currentPage);
 }
 
-/* Only two pages */
+/* Show all 3 content slides */
 function nextPage() {
-    currentPage = (currentPage + 1) % 2;
+    // currentPage = (currentPage + 1) % 2;
+    currentPage = (currentPage + 1) % pageContent.length;
     updateSlider();
 }
 
 function prevPage() {
-    currentPage = (currentPage - 1 + 2) % 2;
+    // currentPage = (currentPage - 1 + 2) % 2;
+    currentPage = (currentPage - 1 + pageContent.length) % pageContent.length;
     updateSlider();
 }
 

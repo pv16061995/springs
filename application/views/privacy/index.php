@@ -125,7 +125,7 @@
                             </div>
                             <hr>
                             <div class="row">
-                                <div class="col col--xs-4 col--md-12 offset--md-5 pb-4 pb-2:md">
+                                <div class="col col--xs-4 col--md-12 pb-4 pb-2:md">
                                     <div class="text text--policy">
                                         <p>1. Key Terms and Definitions
                                             <br /> For the purposes of this Personal Data Processing Policy (the "Policy"), the following terms, definitions, and abbreviations are used:
