@@ -2,6 +2,10 @@
 .gallery-section {
     padding: 80px 0;
 }
+.sticky--under-previous.sticky--under-next .sticky__layer--sticky {
+    max-height: 300svh;
+    overflow: scroll;
+}
 
 .gallery-container {
     width: 90%;
@@ -32,7 +36,6 @@
 
 .gallery-heading p {
     color: #b7bfbb;
-    font-size: 15px;
     line-height: 1.8;
 }
 
