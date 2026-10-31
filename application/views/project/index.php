@@ -201,8 +201,8 @@
 
             <h1 id="heading" class="h1 leading-trim blkfc pt-1 pb-1">
                A Location <br>
-That Works Today<br>
-and Tomorrow
+                That Works Today<br>
+                and Tomorrow
             </h1>
 
             <p id="description" class="fs24 blkfc pb-1">
@@ -212,7 +212,7 @@ and Tomorrow
                 and commercial spaces.
             </p>
 
-            <a href="#explore" class="btn btn--secondary  golden mobbtngolden" id="exploreBtn">
+            <a href="#explore" class="btn btn--secondary  golden mobbtngolden" style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;" id="exploreBtn">
                 Explore BHIWADI &rarr;
             </a>
 
@@ -226,20 +226,17 @@ and Tomorrow
             <div class="vertical-track" id="verticalTrack">
 
                 <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
+                    <img src="assets/images/media/investor_guide/bhiwadi/xxxl.webp"
                          alt="Modern buildings">
                 </div>
-
                 <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
+                    <img src="assets/images/media/investor_guide/bhiwadi/xxxl_1.webp"
                          alt="Industrial warehouse">
                 </div>
-
                 <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85"
+                    <img src="assets/images/media/investor_guide/bhiwadi/xxxl_3.webp"
                          alt="Contemporary architecture">
                 </div>
-
                 <div class="slide">
                     <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85"
                          alt="Commercial office">
