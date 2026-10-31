@@ -65,6 +65,8 @@
             text-transform: uppercase;
             letter-spacing: 4px;
             color: var(--gold-muted);
+            line-height: 1.1;
+
         }
 
         .main-title {
@@ -77,11 +79,14 @@
 
         /* Video Grid Layout */
        .video-grid {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 15px;
-    width: 100%;
-}
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 15px;
+            width: 100%;
+        }
+        #subtitle{
+            line-height:1.1;
+        }
 
 /* Video Card */
 .video-card {
