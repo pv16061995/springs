@@ -212,7 +212,7 @@
                 and commercial spaces.
             </p>
 
-            <a href="#explore" class="btn btn--secondary  golden mobbtngolden" style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;" id="exploreBtn">
+            <a href="<?php echo base_url('bhiwadi');?>" class="btn btn--secondary  golden mobbtngolden" style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;" id="exploreBtn">
                 Explore BHIWADI &rarr;
             </a>
 
@@ -518,7 +518,7 @@ const pageContent = [
         heading: "The Emerging Investment Destination of NCR, Where Industrial Growth Meets Affordable Real Estate Opportunities.",
         description: "Strategically located at the Rajasthan-Haryana border, Bhiwadi is emerging as one of the promising industrial and real estate destinations within the wider Delhi NCR region. With its proximity to Gurugram, Delhi and major industrial corridors, the city offers a strategic advantage for businesses, homebuyers and property investors.",
         button: "Explore Bhiwadi",
-        link: "#bhiwadi"
+        link: "<?php echo base_url('bhiwadi');?>"
     },
     {
         subtitle: "Why Invest in Jhajjar?",
