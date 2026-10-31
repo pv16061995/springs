@@ -10,12 +10,13 @@ class Gallery extends CI_Controller {
     {
         $data = array();
         
-        $this->load->view('gallery/index', $data);
+        // $this->load->view('gallery/index', $data);
+        $this->load->view('galleries/index', $data);
     }
-    public function architecture()
-    {
-        $data = array();
+    // public function architecture()
+    // {
+    //     $data = array();
         
-        $this->load->view('gallery/architecture', $data);
-    }
+    //     $this->load->view('gallery/architecture', $data);
+    // }
 }
