@@ -195,17 +195,17 @@
     <div class="content">
         <div class="content-inner content-section" id="contentInner">
 <span class="tag-line"></span> 
-            <div class="subtitle" id="subtitle" style="color: #162d24;">
+            <div class="subtitle" id="subtitle" style="color: #162d24; font-size: 30px;">
                WHY BHIWADI?
             </div>
 
-            <h1 id="heading" class="h1 leading-trim blkfc pt-1 pb-1">
+            <h1 id="heading" class=" leading-trim blkfc " style="font-size: 28px; font-weight: 500; margin: 45px 0px 45px;">
                A Location <br>
                 That Works Today<br>
                 and Tomorrow
             </h1>
 
-            <p id="description" class="fs24 blkfc pb-1">
+            <p id="description" class="fs24 blkfc" style=" margin-bottom: 38px;">
                 Bhiwadi is emerging as one of NCR's most promising
                 investment destinations with excellent connectivity,
                 rapid development and strong demand for residential
@@ -557,7 +557,7 @@ function updateSlider() {
     const step = firstSlide.getBoundingClientRect().height + gap;
 
     // Each page moves by three images
-    currentPosition = currentPage * 3;
+    currentPosition = currentPage * 2;
 
     track.style.transform =
         `translateY(-${currentPosition * step}px)`;
