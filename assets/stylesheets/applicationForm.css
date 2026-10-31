@@ -948,3 +948,149 @@ h2.h2.leading-trim {
      position: relative;
      margin-top: -30px;
  }
+
+
+
+
+/* Tablet Responsive */
+@media (max-width: 991px) {
+    .form-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form-container > .column {
+        width: 100%;
+    }
+
+    .form-container .col--md-5 {
+        width: 50%;
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 0 10px;
+    }
+
+    .address-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+    .a-photos {
+    height: 1206px;
+    overflow: hidden;
+    z-index: var(--md, auto) var(--n-md, 1);
+}
+
+    .glass-card {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .form-container {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-container > .column {
+        width: 100%;
+        display: block;
+    }
+
+    .form-container .col--md-5 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100% !important;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .address-box {
+        width: 100%;
+    }
+
+    .address-row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .address-row input {
+        width: 100% !important;
+        min-width: 0;
+    }
+
+    .relation-container select {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    /* PAN and Aadhar fields */
+    .form-group > div[style*="display: flex"] {
+        display: flex !important;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .form-group > div[style*="display: flex"] input {
+        width: 100% !important;
+        flex: 1 1 100% !important;
+    }
+
+    .form-group input[type="file"] {
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .submit-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .submit-container button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .note {
+        font-size: 13px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+     .a-photos {
+    height: 1206px;
+            overflow: scroll;
+}
+    .glass-card {
+        padding: 12px;
+    }
+
+    .form-group label {
+        font-size: 13px;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 14px;
+        min-height: 42px;
+    }
+}
