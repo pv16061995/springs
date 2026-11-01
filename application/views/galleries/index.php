@@ -130,27 +130,19 @@
                             </div>
                            
                         </section>
-                          <section class="section ui-dark ui-background" data-scroll-section>
+                        <section class="section ui-dark ui-background" data-scroll-section>
                             <div class="flats pb-2:md pt-4 pt-2:lg" id="flats" data-themed-class="ui-dark">
-                                
-
-                                <div
-                                    class="flats__content mt-1:lg"
+                                 <div class="flats__content mt-1:lg"
                                     data-plugin="ajaxlist filterFormReset"
                                     data-ajaxlist-endpoint="/api/flats.json"
                                     data-ajaxlist-endpoint-method="GET"
                                     data-ajaxlist-remove-siblings="true"
                                     data-ajaxlist-scroll-to-list="true"
-                                    data-ajaxlist-counter-selector=":root .js-ajax-list-counter"
-                                >
-                                    <div
-                                        class="js-ajax-filters js-ajax-filters-inline"
+                                    data-ajaxlist-counter-selector=":root .js-ajax-list-counter">
+                                    <div class="js-ajax-filters js-ajax-filters-inline"
                                         data-plugin="filterFormSave"
-                                        id="ajax-filters"
-                                    >
-                                        <div
-                                            class="row"
-                                            data-plugin="parallax"
+                                        id="ajax-filters">
+                                        <div class="row" data-plugin="parallax"
                                             data-parallax-enable-mq="md-down"
                                             data-parallax-clamp="true"
                                             data-parallax-0-0='{"--opacity": "0", "--z-index": "-1"}'
@@ -158,222 +150,173 @@
                                             data-parallax-0-2='{"--opacity": "1", "--z-index": "2"}'
                                             data-parallax-100-98='{"--opacity": "1", "--z-index": "2"}'
                                             data-parallax-100-99='{"--opacity": "0", "--z-index": "2"}'
-                                            data-parallax-100-100='{"--opacity": "0", "--z-index": "-1"}'
-                                        >
-                                            
-
-                                            
-
+                                            data-parallax-100-100='{"--opacity": "0", "--z-index": "-1"}' >
                                             <div class="col col--xs-12 col--lg-12 flats__col pt-0.5 pt-0:lg pl-2:lg px-layout pl-0:lg pb-1 pb-0.5:lg p-relative" >
-                                               
-
                                                 <div class="gallery-container">
 
-                                            <div class="gallery-heading">
-                                                <h1 class="h1-sm goldenColor">Explore Our Gallery</h1>
-                                                <p>
-                                                    Discover our architectural excellence, thoughtfully
-                                                    designed spaces and exceptional developments.
-                                                </p>
-                                            </div>
-
-                                            <div class="gallery-filters">
-                                                <button class="filter-btn active" data-filter="all">All</button>
-                                                <button class="filter-btn" data-filter="exterior">Exterior</button>
-                                                <button class="filter-btn" data-filter="interior">Interior</button>
-                                                <button class="filter-btn" data-filter="amenities">Amenities</button>
-                                                <button class="filter-btn" data-filter="landscape">Landscape</button>
-                                            </div>
-
-                                            <div class="gallery-grid" id="gallery">
-
-                                                <a class="gallery-item" data-category="exterior"
-                                                href="assets/images/media/infrastructure/amphitheatre/xxl.webp"
-                                                data-sub-html="<h4>Modern Residences</h4><p>Exterior Architecture</p>">
-                                                    <img src="assets/images/media/infrastructure/amphitheatre/xxl.webp" alt="Modern residences">
-                                                    <div class="gallery-overlay">
-                                                        <span>Modern Residences</span>
-                                                        <span class="zoom-icon">↗</span>
+                                                    <div class="gallery-heading">
+                                                        <h1 class="h1-sm goldenColor">Explore Our Gallery</h1>
+                                                        <p>
+                                                            Discover our architectural excellence, thoughtfully
+                                                            designed spaces and exceptional developments.
+                                                        </p>
                                                     </div>
-                                                </a>
 
-                                                <a class="gallery-item" data-category="interior"
-                                                href="assets/images/media/infrastructure/basketball/xxl.webp"
-                                                data-sub-html="<h4>Luxury Interiors</h4><p>Interior Design</p>">
-                                                    <img src="assets/images/media/infrastructure/basketball/xxl.webp" alt="Luxury interior">
-                                                    <div class="gallery-overlay">
-                                                        <span>Luxury Interiors</span>
-                                                        <span class="zoom-icon">↗</span>
+                                                    <div class="gallery-filters">
+                                                        <button class="filter-btn active" data-filter="all">All</button>
+                                                        <button class="filter-btn" data-filter="exterior">Exterior</button>
+                                                        <button class="filter-btn" data-filter="interior">Interior</button>
+                                                        <button class="filter-btn" data-filter="amenities">Amenities</button>
+                                                        <button class="filter-btn" data-filter="landscape">Landscape</button>
                                                     </div>
-                                                </a>
 
-                                                <a class="gallery-item" data-category="exterior"
-                                                href="assets/images/media/infrastructure/childrenpark/xxl.webp"
-                                                data-sub-html="<h4>Skyline Towers</h4><p>Modern Architecture</p>">
-                                                    <img src="assets/images/media/infrastructure/childrenpark/xxl.webp" alt="High-rise towers">
-                                                    <div class="gallery-overlay">
-                                                        <span>Skyline Towers</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                    <div class="gallery-grid" id="gallery">
 
-                                                <a class="gallery-item" data-category="amenities"
-                                                href="assets/images/media/infrastructure/community_park/design-bg@xxxl.webp"
-                                                data-sub-html="<h4>Premium Amenities</h4><p>Luxury Living</p>">
-                                                    <img src="assets/images/media/infrastructure/community_park/design-bg@xxxl.webp" alt="Swimming pool">
-                                                    <div class="gallery-overlay">
-                                                        <span>Premium Amenities</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="exterior"
+                                                        href="assets/images/media/infrastructure/amphitheatre/xxl.webp"
+                                                        data-sub-html="<h4>Modern Residences</h4><p>Exterior Architecture</p>">
+                                                            <img src="assets/images/media/infrastructure/amphitheatre/xxl.webp" alt="Modern residences">
+                                                            <div class="gallery-overlay">
+                                                                <span>Modern Residences</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="landscape"
-                                                href="assets/images/media/infrastructure/childrenpark/xxl.webp"
-                                                data-sub-html="<h4>Green Spaces</h4><p>Landscape Design</p>">
-                                                    <img src="assets/images/media/infrastructure/childrenpark/xxl.webp" alt="Landscaped gardens">
-                                                    <div class="gallery-overlay">
-                                                        <span>Green Spaces</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="interior"
+                                                        href="assets/images/media/infrastructure/basketball/xxl.webp"
+                                                        data-sub-html="<h4>Luxury Interiors</h4><p>Interior Design</p>">
+                                                            <img src="assets/images/media/infrastructure/basketball/xxl.webp" alt="Luxury interior">
+                                                            <div class="gallery-overlay">
+                                                                <span>Luxury Interiors</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="interior"
-                                                href="assets/images/media/infrastructure/yogadeck/xxl.webp"
-                                                data-sub-html="<h4>Elegant Interiors</h4><p>Bedroom Design</p>">
-                                                    <img src="assets/images/media/infrastructure/yogadeck/xxl.webp" alt="Elegant bedroom">
-                                                    <div class="gallery-overlay">
-                                                        <span>Elegant Interiors</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="exterior"
+                                                        href="assets/images/media/infrastructure/childrenpark/xxl.webp"
+                                                        data-sub-html="<h4>Skyline Towers</h4><p>Modern Architecture</p>">
+                                                            <img src="assets/images/media/infrastructure/childrenpark/xxl.webp" alt="High-rise towers">
+                                                            <div class="gallery-overlay">
+                                                                <span>Skyline Towers</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="amenities"
-                                                href="assets/images/media/infrastructure/pergola/xxl.webp"
-                                                data-sub-html="<h4>Community Spaces</h4><p>Modern Amenities</p>">
-                                                    <img src="assets/images/media/infrastructure/pergola/xxl.webp" alt="Community facilities">
-                                                    <div class="gallery-overlay">
-                                                        <span>Community Spaces</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="amenities"
+                                                        href="assets/images/media/infrastructure/community_park/design-bg@xxxl.webp"
+                                                        data-sub-html="<h4>Premium Amenities</h4><p>Luxury Living</p>">
+                                                            <img src="assets/images/media/infrastructure/community_park/design-bg@xxxl.webp" alt="Swimming pool">
+                                                            <div class="gallery-overlay">
+                                                                <span>Premium Amenities</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="exterior"
-                                                href="assets/images/media/infrastructure/openair/xxl.webp"
-                                                data-sub-html="<h4>Contemporary Architecture</h4><p>Building Design</p>">
-                                                    <img src="assets/images/media/infrastructure/openair/xxl.webp" alt="Contemporary building">
-                                                    <div class="gallery-overlay">
-                                                        <span>Architecture</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
-                                                 <a class="gallery-item" data-category="landscape"
-                                                href="assets/images/media/infrastructure/childrenpark/xxl.webp"
-                                                data-sub-html="<h4>Green Spaces</h4><p>Landscape Design</p>">
-                                                    <img src="assets/images/media/infrastructure/childrenpark/xxl.webp" alt="Landscaped gardens">
-                                                    <div class="gallery-overlay">
-                                                        <span>Green Spaces</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="landscape"
+                                                        href="assets/images/media/infrastructure/childrenpark/xxl.webp"
+                                                        data-sub-html="<h4>Green Spaces</h4><p>Landscape Design</p>">
+                                                            <img src="assets/images/media/infrastructure/childrenpark/xxl.webp" alt="Landscaped gardens">
+                                                            <div class="gallery-overlay">
+                                                                <span>Green Spaces</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="interior"
-                                                href="assets/images/media/infrastructure/yogadeck/xxl.webp"
-                                                data-sub-html="<h4>Elegant Interiors</h4><p>Bedroom Design</p>">
-                                                    <img src="assets/images/media/infrastructure/yogadeck/xxl.webp" alt="Elegant bedroom">
-                                                    <div class="gallery-overlay">
-                                                        <span>Elegant Interiors</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="interior"
+                                                        href="assets/images/media/infrastructure/yogadeck/xxl.webp"
+                                                        data-sub-html="<h4>Elegant Interiors</h4><p>Bedroom Design</p>">
+                                                            <img src="assets/images/media/infrastructure/yogadeck/xxl.webp" alt="Elegant bedroom">
+                                                            <div class="gallery-overlay">
+                                                                <span>Elegant Interiors</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="amenities"
-                                                href="assets/images/media/infrastructure/pergola/xxl.webp"
-                                                data-sub-html="<h4>Community Spaces</h4><p>Modern Amenities</p>">
-                                                    <img src="assets/images/media/infrastructure/pergola/xxl.webp" alt="Community facilities">
-                                                    <div class="gallery-overlay">
-                                                        <span>Community Spaces</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="amenities"
+                                                        href="assets/images/media/infrastructure/pergola/xxl.webp"
+                                                        data-sub-html="<h4>Community Spaces</h4><p>Modern Amenities</p>">
+                                                            <img src="assets/images/media/infrastructure/pergola/xxl.webp" alt="Community facilities">
+                                                            <div class="gallery-overlay">
+                                                                <span>Community Spaces</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="exterior"
-                                                href="assets/images/media/infrastructure/openair/xxl.webp"
-                                                data-sub-html="<h4>Contemporary Architecture</h4><p>Building Design</p>">
-                                                    <img src="assets/images/media/infrastructure/openair/xxl.webp" alt="Contemporary building">
-                                                    <div class="gallery-overlay">
-                                                        <span>Architecture</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
-                                                 <a class="gallery-item" data-category="landscape"
-                                                href="assets/images/media/infrastructure/childrenpark/xxl.webp"
-                                                data-sub-html="<h4>Green Spaces</h4><p>Landscape Design</p>">
-                                                    <img src="assets/images/media/infrastructure/childrenpark/xxl.webp" alt="Landscaped gardens">
-                                                    <div class="gallery-overlay">
-                                                        <span>Green Spaces</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="exterior"
+                                                        href="assets/images/media/infrastructure/openair/xxl.webp"
+                                                        data-sub-html="<h4>Contemporary Architecture</h4><p>Building Design</p>">
+                                                            <img src="assets/images/media/infrastructure/openair/xxl.webp" alt="Contemporary building">
+                                                            <div class="gallery-overlay">
+                                                                <span>Architecture</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
+                                                        <a class="gallery-item" data-category="landscape"
+                                                        href="assets/images/media/infrastructure/childrenpark/xxl.webp"
+                                                        data-sub-html="<h4>Green Spaces</h4><p>Landscape Design</p>">
+                                                            <img src="assets/images/media/infrastructure/childrenpark/xxl.webp" alt="Landscaped gardens">
+                                                            <div class="gallery-overlay">
+                                                                <span>Green Spaces</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="interior"
-                                                href="assets/images/media/infrastructure/yogadeck/xxl.webp"
-                                                data-sub-html="<h4>Elegant Interiors</h4><p>Bedroom Design</p>">
-                                                    <img src="assets/images/media/infrastructure/yogadeck/xxl.webp" alt="Elegant bedroom">
-                                                    <div class="gallery-overlay">
-                                                        <span>Elegant Interiors</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="interior"
+                                                        href="assets/images/media/infrastructure/yogadeck/xxl.webp"
+                                                        data-sub-html="<h4>Elegant Interiors</h4><p>Bedroom Design</p>">
+                                                            <img src="assets/images/media/infrastructure/yogadeck/xxl.webp" alt="Elegant bedroom">
+                                                            <div class="gallery-overlay">
+                                                                <span>Elegant Interiors</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="amenities"
-                                                href="assets/images/media/infrastructure/pergola/xxl.webp"
-                                                data-sub-html="<h4>Community Spaces</h4><p>Modern Amenities</p>">
-                                                    <img src="assets/images/media/infrastructure/pergola/xxl.webp" alt="Community facilities">
-                                                    <div class="gallery-overlay">
-                                                        <span>Community Spaces</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="amenities"
+                                                        href="assets/images/media/infrastructure/pergola/xxl.webp"
+                                                        data-sub-html="<h4>Community Spaces</h4><p>Modern Amenities</p>">
+                                                            <img src="assets/images/media/infrastructure/pergola/xxl.webp" alt="Community facilities">
+                                                            <div class="gallery-overlay">
+                                                                <span>Community Spaces</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
 
-                                                <a class="gallery-item" data-category="exterior"
-                                                href="assets/images/media/infrastructure/openair/xxl.webp"
-                                                data-sub-html="<h4>Contemporary Architecture</h4><p>Building Design</p>">
-                                                    <img src="assets/images/media/infrastructure/openair/xxl.webp" alt="Contemporary building">
-                                                    <div class="gallery-overlay">
-                                                        <span>Architecture</span>
-                                                        <span class="zoom-icon">↗</span>
-                                                    </div>
-                                                </a>
+                                                        <a class="gallery-item" data-category="exterior"
+                                                        href="assets/images/media/infrastructure/openair/xxl.webp"
+                                                        data-sub-html="<h4>Contemporary Architecture</h4><p>Building Design</p>">
+                                                            <img src="assets/images/media/infrastructure/openair/xxl.webp" alt="Contemporary building">
+                                                            <div class="gallery-overlay">
+                                                                <span>Architecture</span>
+                                                                <span class="zoom-icon">↗</span>
+                                                            </div>
+                                                        </a>
+                                                        
 
 
+                                                    </div>
+                                                </div>                
                                             </div>
                                         </div>
-
-                                                    
-                                            </div>
-
-                                           
-                                        </div>
-                                            </div>
+                                    </div>
                                 </div>
                             </div>
-                        </section>
-                         <div class="image-modal" id="imageModal">
+                         </section>
+                        <div class="image-modal" id="imageModal">
 
-                                        <button class="modal-close" id="modalClose"
-                                                aria-label="Close">&times;</button>
+                            <button class="modal-close" id="modalClose"
+                                    aria-label="Close">&times;</button>
 
-                                        <button class="modal-prev" id="modalPrev"
-                                                aria-label="Previous image">&#8249;</button>
+                            <button class="modal-prev" id="modalPrev"
+                                    aria-label="Previous image">&#8249;</button>
 
-                                        <img class="modal-image" id="modalImage" src="" alt="Gallery image">
+                            <img class="modal-image" id="modalImage" src="" alt="Gallery image">
 
-                                        <button class="modal-next" id="modalNext"
-                                                aria-label="Next image">&#8250;</button>
+                            <button class="modal-next" id="modalNext"
+                                    aria-label="Next image">&#8250;</button>
 
-                                        <div class="modal-counter" id="modalCounter"></div>
+                            <div class="modal-counter" id="modalCounter"></div>
 
-                                    </div>
+                        </div>
                     </main>
                     <?php $this->load->view('common/footer'); ?>
                 </div>
@@ -509,8 +452,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
             });
+            
 
         });
+        
 
     });
 
