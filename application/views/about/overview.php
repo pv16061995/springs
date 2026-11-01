@@ -216,7 +216,7 @@
         </div>
         <?php if (isset($chairmen_msg)): ?>
         <div class="l-wellness__webgl-caption pt-2 ml-2">
-            <h1 class="h1  pt-1 col col--md-7 offset--md-1 mb-1 leading-trim" data-reveal="text" style="color: #d7ab3e !important;"><?php echo $chairmen_msg['heading']; ?></h1>
+            <h1 class="h1 col col--md-7 offset--md-1 mb-1 leading-trim" data-reveal="text" style="color: #d7ab3e !important; font-size: 60px; font-weight: 400;"><?php echo $chairmen_msg['heading']; ?></h1>
             <p class="col  col--md-5 offset--md-1 mb-1 text-justify P_cmdmessege" data-reveal="text"><?php echo $chairmen_msg['description']; ?></p>
             <div class="col col--md-5 offset--md-1 text-right">
                 <p class="h4 leading-trim" data-reveal="text" style="color: #d7ab3e !important; font-weight: 800;">

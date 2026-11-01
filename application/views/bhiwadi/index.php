@@ -239,14 +239,6 @@
 
                                 </div>
                             </div>
-
-                           
-
-                            
-
-                                   
-                                    
-                                   
                                    
                             <div class="project-advantages bgclwht">
                             <div class="gallery-container">

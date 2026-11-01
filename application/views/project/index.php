@@ -491,14 +491,14 @@
                     heading: "Where Corporate Growth, World-Class Infrastructure and Real Estate Opportunities Come Together.",
                     description: "Gurugram has evolved into one of India's most prominent business and real estate destinations. With a strong presence of multinational corporations, IT companies, financial institutions and global businesses, the city continues to attract professionals, entrepreneurs and investors from across the country.",
                     button: "Explore Gurgaon",
-                    link: "#gurgoan"
+                    link: "<?php echo base_url('gurgoan'); ?>"
                 },
                 {
                     subtitle: "Why Invest in Jhajjar?",
                     heading: "The Next Growth Frontier of NCR, Powered by Industrial Expansion and Planned Infrastructure.",
                     description: "Strategically positioned within the Delhi NCR region, Jhajjar is emerging as an important destination for industrial, residential and commercial development. Its proximity to Gurugram, Bahadurgarh, Rohtak and Delhi, combined with connectivity through the Kundli-Manesar-Palwal Expressway, is strengthening its position on the NCR growth map.",
                     button: "Explore Jhajjar",
-                    link: "#jhajjar"
+                    link: "<?php echo base_url('jhajjar'); ?>"
                 }
             ];
 

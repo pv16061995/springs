@@ -115,7 +115,7 @@
                             <div class="pt-3 mb-2">
                                 <h1 class="h0 leading-trim">
                                 <span class="is-hidden--xs">
-                                    Privacy policy
+                                    Privacy Policy
                                 </span>
                                 <span class="is-hidden--sm-up" aria-hidden="true">
                                     Privacy<br>
@@ -127,115 +127,99 @@
                             <div class="row">
                                 <div class="col col--xs-4 col--md-12 pb-4 pb-2:md">
                                     <div class="text text--policy">
-                                        <p>1. Key Terms and Definitions
-                                            <br /> For the purposes of this Personal Data Processing Policy (the "Policy"), the following terms, definitions, and abbreviations are used:
-                                            <br /> Automated processing of personal data - processing of personal data using computing technology.
-                                            <br /> Biometric personal data - information describing an individual's physiological or biological characteristics that allows for their identification and is used to verify the identity of the personal data subject.
-                                            <br
-                                            /> Blocking of personal data - temporary suspension of personal data processing (except when processing is required to clarify personal data).
-                                            <br /> Personal data legislation - applicable data protection laws and regulations governing the conditions, procedures, and security measures for processing and ensuring the confidentiality of personal data.
-                                            <br /> Confidentiality of personal data - the obligation of the Organization (its personnel) and other authorized individuals to refrain from disclosing or disseminating personal data to third parties without the
-                                            consent of the data subject, unless otherwise required by applicable law.
-                                            <br /> Tangible medium for personal data - any physical object used for storing or recording personal data in electronic or written form (including paper documents and machine-readable media).
-                                            <br /> Non-automated processing of personal data - pers1. Key Terms and Definitions
-                                            <br /> For the purposes of this Personal Data Processing Policy (the "Policy"), the following terms, definitions, and abbreviations are used:
-                                            <br /> Automated processing of personal data - processing of personal data using computing technology.
-                                            <br /> Biometric personal data - information describing an individual's physiological or biological characteristics that allows for their identification and is used to verify the identity of the personal data subject.
-                                            <br
-                                            /> Blocking of personal data - temporary suspension of personal data processing (except when processing is required to clarify personal data).
-                                            <br /> Personal data legislation - applicable data protection laws and regulations governing the conditions, procedures, and security measures for processing and ensuring the confidentiality of personal data.
-                                            <br /> Confidentiality of personal data - the obligation of the Organization (its personnel) and other authorized individuals to refrain from disclosing or disseminating personal data to third parties without the
-                                            consent of the data subject, unless otherwise required by applicable law.
-                                            <br /> Tangible medium for personal data - any physical object used for storing or recording personal data in electronic or written form (including paper documents and machine-readable media).
-                                            <br /> Non-automated processing of personal data - personal data processing performed without automated tools, where all actions (e.g., use, updating, distribution, deletion) are carried out manually for each subject.
-                                            <br /> Anonymization of personal data - actions that make it impossible to identify a personal data subject without the use of additional information.
-                                            <br /> Processing of personal data - any operation or series of operations performed on personal data, with or without automated tools, including collection, recording, systematization, accumulation, storage, updating
-                                            (modification), retrieval, use, transfer (distribution, provision, access), anonymization, blocking, deletion, and destruction.
-                                            <br /> Organization - independently or jointly with others organizes and/or performs personal data processing, defines processing purposes, determines the scope of data to be processed, and performs (or arranges)
-                                            the required operations.
-                                            <br /> Personal data - any information processed by the Organization, including information submitted through its official website BST Developers and/or collected during the use of the website, relating directly or
-                                            indirectly to a specific or identifiable natural person (the data subject).
-                                            <br /> The Organization processes the following categories of personal data:
-                                            <br /> Data voluntarily submitted by the data subject via input forms (e.g., full name, email address, phone number);
-                                            <br /> Data contained in messages sent by the data subject to the Organization;
-                                            <br /> Data necessary for the conclusion and performance of contracts, fulfillment of legal obligations, or protection of the Organization's legitimate interests;
-                                            <br /> Statistical and technical data (e.g., user settings, identifiers, cookies), including data obtained through third-party analytics tools; the Organization does not combine personally identifiable information
-                                            with passively collected data.
-                                            <br /> Policy - this Personal Data Processing Policy of Organization
-                                            <br /> Disclosure of personal data - intentional or accidental violation of confidentiality requirements by personnel or third parties with unauthorized access.
-                                            <br /> Dissemination of personal data - actions aimed at transferring personal data to an undefined number of persons.
-                                            <br /> Website - the Organization's official website at BST Developers
-                                            <br /> Data subject - a natural person whose personal data is processed by the Organization, including:</p>
+                                        <h2>1. Key Terms and Definitions</h2>
+                                        <p>For the purposes of this Personal Data Processing Policy (the "Policy"), the following terms, definitions, and abbreviations are used:</p>
 
-                                        <ul>
-                                            <li>Organization personnel,</li>
-                                            <li>Clients or contractual counterparties,</li>
-                                            <li>Other individuals, such as:</li>
-                                            <li>legal representatives,</li>
-                                            <li>beneficiaries of contracts,</li>
-                                            <li>directors, shareholders, and representatives of counterparties,</li>
-                                            <li>individuals subject to regulatory disclosure requirements,</li>
-                                            <li>users accessing or interacting with the Organization's website or services.</li>
-                                        </ul>
+                                        <dl class="policy-definitions">
+                                            <dt>Automated processing of personal data</dt>
+                                            <dd>Processing of personal data using computing technology.</dd>
 
-                                        <p>Cross-border transfer of personal data - transmission of personal data to foreign jurisdictions or foreign individuals/entities.
-                                            <br /> Destruction of personal data - actions that make it impossible to restore personal data in the information system and/or result in the destruction of physical storage media.
-                                            <br /> Cookies - a set of depersonalized data stored in a user's browser and processed by the Organization's web resource during website usage.
-                                            <br /> 2. General Provisions
-                                            <br /> This Policy outlines the basic principles, objectives, conditions, and methods of personal data processing carried out by the Organization.
-                                            <br /> The Policy is developed in accordance with applicable data protection legislation and internal regulations on information security and data protection.
-                                            <br /> The Policy applies to all personal data processed by the Organization, regardless of format, method of transmission, or storage. In resolving matters related to personal data processing, the Organization prioritizes
-                                            compliance with applicable law over internal regulations. In the event of any inconsistency between this Policy and applicable data protection requirements, the Organization adheres to the requirements of the
-                                            law until internal documents are updated.
-                                            <br /> For any matters not expressly covered by this Policy or internal regulations, the Organization refers to applicable data protection laws, regulatory guidance, and relevant international standards.
-                                            <br /> This Policy is a publicly available internal document of the Organization and is published online at BST Developers
-                                            <br /> The Organization may update this Policy periodically. The new version becomes effective upon publication on the website unless stated otherwise. Continued use of the website or ongoing interaction with the
-                                            Organization signifies acceptance of the updated Policy.onal data processing performed without automated tools, where all actions (e.g., use, updating, distribution, deletion) are carried out manually for each
-                                            subject.
-                                            <br /> Anonymization of personal data - actions that make it impossible to identify a personal data subject without the use of additional information.
-                                            <br /> Processing of personal data - any operation or series of operations performed on personal data, with or without automated tools, including collection, recording, systematization, accumulation, storage, updating
-                                            (modification), retrieval, use, transfer (distribution, provision, access), anonymization, blocking, deletion, and destruction.
-                                            <br /> Organization - independently or jointly with others organizes and/or performs personal data processing, defines processing purposes, determines the scope of data to be processed, and performs (or arranges)
-                                            the required operations.
-                                            <br /> Personal data - any information processed by the Organization, including information submitted through its official website BST Developers and/or collected during the use of the website, relating directly or
-                                            indirectly to a specific or identifiable natural person (the data subject).
-                                            <br /> The Organization processes the following categories of personal data:
-                                            <br /> Data voluntarily submitted by the data subject via input forms (e.g., full name, email address, phone number);
-                                            <br /> Data contained in messages sent by the data subject to the Organization;
-                                            <br /> Data necessary for the conclusion and performance of contracts, fulfillment of legal obligations, or protection of the Organization's legitimate interests;
-                                            <br /> Statistical and technical data (e.g., user settings, identifiers, cookies), including data obtained through third-party analytics tools; the Organization does not combine personally identifiable information
-                                            with passively collected data.
-                                            <br /> Policy - this Personal Data Processing Policy of Organization
-                                            <br /> Disclosure of personal data - intentional or accidental violation of confidentiality requirements by personnel or third parties with unauthorized access.
-                                            <br /> Dissemination of personal data - actions aimed at transferring personal data to an undefined number of persons.
-                                            <br /> Website - the Organization's official website at BST Developers
-                                            <br /> Data subject - a natural person whose personal data is processed by the Organization, including:</p>
+                                            <dt>Biometric personal data</dt>
+                                            <dd>Information describing an individual's physiological or biological characteristics that allows for their identification and is used to verify the identity of the personal data subject.</dd>
 
-                                        <ul>
-                                            <li>Organization personnel,</li>
-                                            <li>Clients or contractual counterparties,</li>
-                                            <li>Other individuals, such as:</li>
-                                            <li>legal representatives,</li>
-                                            <li>beneficiaries of contracts,</li>
-                                            <li>directors, shareholders, and representatives of counterparties,</li>
-                                            <li>individuals subject to regulatory disclosure requirements,</li>
-                                            <li>users accessing or interacting with the Organization's website or services.</li>
-                                        </ul>
+                                            <dt>Blocking of personal data</dt>
+                                            <dd>Temporary suspension of personal data processing (except when processing is required to clarify personal data).</dd>
 
-                                        <p>Cross-border transfer of personal data - transmission of personal data to foreign jurisdictions or foreign individuals/entities.
-                                            <br /> Destruction of personal data - actions that make it impossible to restore personal data in the information system and/or result in the destruction of physical storage media.
-                                            <br /> Cookies - a set of depersonalized data stored in a user's browser and processed by the Organization's web resource during website usage.
-                                            <br /> 2. General Provisions
-                                            <br /> This Policy outlines the basic principles, objectives, conditions, and methods of personal data processing carried out by the Organization.
-                                            <br /> The Policy is developed in accordance with applicable data protection legislation and internal regulations on information security and data protection.
-                                            <br /> The Policy applies to all personal data processed by the Organization, regardless of format, method of transmission, or storage. In resolving matters related to personal data processing, the Organization prioritizes
-                                            compliance with applicable law over internal regulations. In the event of any inconsistency between this Policy and applicable data protection requirements, the Organization adheres to the requirements of the
-                                            law until internal documents are updated.
-                                            <br /> For any matters not expressly covered by this Policy or internal regulations, the Organization refers to applicable data protection laws, regulatory guidance, and relevant international standards.
-                                            <br /> This Policy is a publicly available internal document of the Organization and is published online at BST Developers
-                                            <br /> The Organization may update this Policy periodically. The new version becomes effective upon publication on the website unless stated otherwise. Continued use of the website or ongoing interaction with the
-                                            Organization signifies acceptance of the updated Policy.
-                                        </p>
+                                            <dt>Personal data legislation</dt>
+                                            <dd>Applicable data protection laws and regulations governing the conditions, procedures, and security measures for processing and ensuring the confidentiality of personal data.</dd>
+
+                                            <dt>Confidentiality of personal data</dt>
+                                            <dd>The obligation of the Organization (its personnel) and other authorized individuals to refrain from disclosing or disseminating personal data to third parties without the consent of the data subject, unless otherwise required by applicable law.</dd>
+
+                                            <dt>Tangible medium for personal data</dt>
+                                            <dd>Any physical object used for storing or recording personal data in electronic or written form (including paper documents and machine-readable media).</dd>
+
+                                            <dt>Non-automated processing of personal data</dt>
+                                            <dd>Personal data processing performed without automated tools, where all actions (e.g., use, updating, distribution, deletion) are carried out manually for each subject.</dd>
+
+                                            <dt>Anonymization of personal data</dt>
+                                            <dd>Actions that make it impossible to identify a personal data subject without the use of additional information.</dd>
+
+                                            <dt>Processing of personal data</dt>
+                                            <dd>Any operation or series of operations performed on personal data, with or without automated tools, including collection, recording, systematization, accumulation, storage, updating (modification), retrieval, use, transfer (distribution, provision, access), anonymization, blocking, deletion, and destruction.</dd>
+
+                                            <dt>Organization</dt>
+                                            <dd>Independently or jointly with others organizes and/or performs personal data processing, defines processing purposes, determines the scope of data to be processed, and performs (or arranges) the required operations.</dd>
+
+                                            <dt>Personal data</dt>
+                                            <dd>
+                                                Any information processed by the Organization, including information submitted through its official website BST Developers and/or collected during the use of the website, relating directly or indirectly to a specific or identifiable natural person (the data subject).
+                                                <p><strong>The Organization processes the following categories of personal data:</strong></p>
+                                                <ul>
+                                                    <li>Data voluntarily submitted by the data subject via input forms (e.g., full name, email address, phone number);</li>
+                                                    <li>Data contained in messages sent by the data subject to the Organization;</li>
+                                                    <li>Data necessary for the conclusion and performance of contracts, fulfillment of legal obligations, or protection of the Organization's legitimate interests;</li>
+                                                    <li>Statistical and technical data (e.g., user settings, identifiers, cookies), including data obtained through third-party analytics tools; the Organization does not combine personally identifiable information with passively collected data.</li>
+                                                </ul>
+                                            </dd>
+
+                                            <dt>Policy</dt>
+                                            <dd>This Personal Data Processing Policy of Organization.</dd>
+
+                                            <dt>Disclosure of personal data</dt>
+                                            <dd>Intentional or accidental violation of confidentiality requirements by personnel or third parties with unauthorized access.</dd>
+
+                                            <dt>Dissemination of personal data</dt>
+                                            <dd>Actions aimed at transferring personal data to an undefined number of persons.</dd>
+
+                                            <dt>Website</dt>
+                                            <dd>The Organization's official website at BST Developers.</dd>
+
+                                            <dt>Data subject</dt>
+                                            <dd>
+                                                A natural person whose personal data is processed by the Organization, including:
+                                                <ul>
+                                                    <li>Organization personnel,</li>
+                                                    <li>Clients or contractual counterparties,</li>
+                                                    <li>Other individuals, such as:
+                                                        <ul>
+                                                            <li>legal representatives,</li>
+                                                            <li>beneficiaries of contracts,</li>
+                                                            <li>directors, shareholders, and representatives of counterparties,</li>
+                                                            <li>individuals subject to regulatory disclosure requirements,</li>
+                                                            <li>users accessing or interacting with the Organization's website or services.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </dd>
+
+                                            <dt>Cross-border transfer of personal data</dt>
+                                            <dd>Transmission of personal data to foreign jurisdictions or foreign individuals/entities.</dd>
+
+                                            <dt>Destruction of personal data</dt>
+                                            <dd>Actions that make it impossible to restore personal data in the information system and/or result in the destruction of physical storage media.</dd>
+
+                                            <dt>Cookies</dt>
+                                            <dd>A set of depersonalized data stored in a user's browser and processed by the Organization's web resource during website usage.</dd>
+                                        </dl>
+
+                                        <h2>2. General Provisions</h2>
+                                        <p>This Policy outlines the basic principles, objectives, conditions, and methods of personal data processing carried out by the Organization.</p>
+                                        <p>The Policy is developed in accordance with applicable data protection legislation and internal regulations on information security and data protection.</p>
+                                        <p>The Policy applies to all personal data processed by the Organization, regardless of format, method of transmission, or storage. In resolving matters related to personal data processing, the Organization prioritizes compliance with applicable law over internal regulations. In the event of any inconsistency between this Policy and applicable data protection requirements, the Organization adheres to the requirements of the law until internal documents are updated.</p>
+                                        <p>For any matters not expressly covered by this Policy or internal regulations, the Organization refers to applicable data protection laws, regulatory guidance, and relevant international standards.</p>
+                                        <p>This Policy is a publicly available internal document of the Organization and is published online at BST Developers.</p>
+                                        <p>The Organization may update this Policy periodically. The new version becomes effective upon publication on the website unless stated otherwise. Continued use of the website or ongoing interaction with the Organization signifies acceptance of the updated Policy.</p>
                                     </div>
                                 </div>
                             </div>
