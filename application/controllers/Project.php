@@ -12,4 +12,10 @@ class Project extends CI_Controller {
         echo "ttst"; die;
         $this->load->view('project/index', $data);
     }
+
+    public function list()
+    {
+        $data = array();
+        $this->load->view('project_list/list', $data);
+    }
 }
