@@ -182,110 +182,79 @@
                                 </div>
                             </div>
 
-                           
-
                             <div class="project-advantages bgclwht">
-                                 
                                 <div class="row row--middle-lg">
-                                   
-                                   
-<section class="main-section slider-container">
+                                        <section class="main-section slider-container">
+                                            <!-- LEFT: CONTENT CHANGES WITH SLIDE -->
+                                            <div class="content">
+                                                <div class="content-inner content-section" id="contentInner">
+                                                    <span class="tag-line"></span> 
+                                                    <div class="subtitle" id="subtitle" style="color: #162d24; font-size: 30px;"></div>
+                                                    <h1 id="heading" class=" leading-trim blkfc " style="font-size: 28px; font-weight: 500; margin: 45px 0px 45px;"></h1>
+                                                    <p id="description" class="fs24 blkfc" style=" margin-bottom: 38px;"></p>
+                                                    <a href="<?php echo base_url('bhiwadi');?>" class="btn btn--secondary  golden mobbtngolden" style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;" id="exploreBtn">
+                                                        Explore BHIWADI &rarr;
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- RIGHT: THREE VISIBLE IMAGES -->
+                                            <div class="slider-area ">
+                                                <div class="vertical-slider" id="verticalSlider">
+                                                    <div class="vertical-track" id="verticalTrack">
+                                                        <div class="slide">
+                                                            <img src="assets/images/media/investor_guide/bhiwadi/xxxl.webp"
+                                                                alt="Modern buildings">
+                                                        </div>
+                                                        <div class="slide">
+                                                            <img src="assets/images/media/investor_guide/bhiwadi/xxxl_1.webp"
+                                                                alt="Industrial warehouse">
+                                                        </div>
+                                                        <div class="slide">
+                                                            <img src="assets/images/media/investor_guide/bhiwadi/xxxl_3.webp"
+                                                                alt="Contemporary architecture">
+                                                        </div>
+                                                        <div class="slide">
+                                                            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85"
+                                                                alt="Commercial office">
+                                                        </div>
 
-    <!-- LEFT: CONTENT CHANGES WITH SLIDE -->
-    <div class="content">
-        <div class="content-inner content-section" id="contentInner">
-<span class="tag-line"></span> 
-            <div class="subtitle" id="subtitle" style="color: #162d24; font-size: 30px;">
-               WHY BHIWADI?
-            </div>
+                                                        <div class="slide">
+                                                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85"
+                                                                alt="Luxury residential property">
+                                                        </div>
 
-            <h1 id="heading" class=" leading-trim blkfc " style="font-size: 28px; font-weight: 500; margin: 45px 0px 45px;">
-               A Location <br>
-                That Works Today<br>
-                and Tomorrow
-            </h1>
+                                                        <div class="slide">
+                                                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
+                                                                alt="Modern interior">
+                                                        </div>
 
-            <p id="description" class="fs24 blkfc" style=" margin-bottom: 38px;">
-                Bhiwadi is emerging as one of NCR's most promising
-                investment destinations with excellent connectivity,
-                rapid development and strong demand for residential
-                and commercial spaces.
-            </p>
+                                                        <div class="slide">
+                                                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
+                                                                alt="Modern buildings">
+                                                        </div>
 
-            <a href="<?php echo base_url('bhiwadi');?>" class="btn btn--secondary  golden mobbtngolden" style="border:none !important;display: inline-flex; align-items: center; justify-content: center; color: #2a2f31 !important;" id="exploreBtn">
-                Explore BHIWADI &rarr;
-            </a>
+                                                        <div class="slide">
+                                                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
+                                                                alt="Industrial warehouse">
+                                                        </div>
 
-        </div>
-    </div>
+                                                        <div class="slide">
+                                                            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85"
+                                                                alt="Contemporary architecture">
+                                                        </div>
 
-    <!-- RIGHT: THREE VISIBLE IMAGES -->
-    <div class="slider-area ">
-
-        <div class="vertical-slider" id="verticalSlider">
-            <div class="vertical-track" id="verticalTrack">
-
-                <div class="slide">
-                    <img src="assets/images/media/investor_guide/bhiwadi/xxxl.webp"
-                         alt="Modern buildings">
-                </div>
-                <div class="slide">
-                    <img src="assets/images/media/investor_guide/bhiwadi/xxxl_1.webp"
-                         alt="Industrial warehouse">
-                </div>
-                <div class="slide">
-                    <img src="assets/images/media/investor_guide/bhiwadi/xxxl_3.webp"
-                         alt="Contemporary architecture">
-                </div>
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85"
-                         alt="Commercial office">
-                </div>
-
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85"
-                         alt="Luxury residential property">
-                </div>
-
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
-                         alt="Modern interior">
-                </div>
-
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
-                         alt="Modern buildings">
-                </div>
-
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
-                         alt="Industrial warehouse">
-                </div>
-
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85"
-                         alt="Contemporary architecture">
-                </div>
-
-            </div>
-        </div>
-
-        <div class="slider-buttons">
-            <button type="button" id="prevBtn" aria-label="Previous slide">
-                &uarr;
-            </button>
-            <button type="button" id="nextBtn" aria-label="Next slide">
-                &darr;
-            </button>
-        </div>
-
-    </div>
-
-</section>
-
-                                   
-                                    
-                                   
+                                                    </div>
+                                                </div>
+                                                <div class="slider-buttons">
+                                                    <button type="button" id="prevBtn" aria-label="Previous slide">
+                                                        &uarr;
+                                                    </button>
+                                                    <button type="button" id="nextBtn" aria-label="Next slide">
+                                                        &darr;
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </section>
                                       <div class="col col--lg-12 col--md-12 col--12 pr-1 pl-1 pt-0.5">
                                         <div class="project-feature-panel">
                                             <div class="row">
@@ -348,7 +317,7 @@
                                     <div class="video-grid">
                                         
                                         <!-- Card 1: Masterplan Overview (Large 8 cols) -->
-                                        <div class="video-card span-5" onclick="openVideoModal('BST Masterplan Overview')">
+                                        <div class="video-card span-5" onclick="openVideoModal(event, 'BST Masterplan Overview', '1239749674')">
                                            <div class="vimeo-video">
                                                  <iframe
                                                     src="https://player.vimeo.com/video/1239749674?autoplay=1&muted=1&loop=1&background=1"
@@ -467,7 +436,6 @@
         </div>
     </div>
     <?php $this->load->view('common/cookies'); ?>
-
     <script fetchpriority="low" async src="assets/javascripts/browser-message/browser-message.js"></script>
     <script fetchpriority="low" src="assets/javascripts/shared.js"></script>
     <script>
@@ -485,205 +453,210 @@
         };
     </script>
     <script src="assets/javascripts/blogs.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const track = document.getElementById("verticalTrack");
+            const viewport = document.getElementById("verticalSlider");
+            const contentInner = document.getElementById("contentInner");
 
-<script>
-const track = document.getElementById("verticalTrack");
-const viewport = document.getElementById("verticalSlider");
-const contentInner = document.getElementById("contentInner");
+            const subtitle = document.getElementById("subtitle");
+            const heading = document.getElementById("heading");
+            const description = document.getElementById("description");
+            const exploreBtn = document.getElementById("exploreBtn");
 
-const subtitle = document.getElementById("subtitle");
-const heading = document.getElementById("heading");
-const description = document.getElementById("description");
-const exploreBtn = document.getElementById("exploreBtn");
+            const prevBtn = document.getElementById("prevBtn");
+            const nextBtn = document.getElementById("nextBtn");
 
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
+            if (
+                !track || !viewport || !contentInner ||
+                !subtitle || !heading || !description ||
+                !exploreBtn || !prevBtn || !nextBtn
+            ) {
+                console.error("Slider: Required HTML elements are missing.");
+                return;
+            }
 
-const slides = Array.from(track.children);
+            const slides = Array.from(track.querySelectorAll(".slide"));
 
-/*
-  Exactly 2 content slides.
-  Each content slide controls its own group of 3 images.
-*/
-const pageContent = [
-    {
-        subtitle: "Why Invest in Gurgaon?",
-        heading: `Where Corporate Growth, World-Class Infrastructure and Real Estate Opportunities Come Together.`,
-        description: "Gurugram has evolved into one of India's most prominent business and real estate destinations. With a strong presence of multinational corporations, IT companies, financial institutions and global businesses, the city continues to attract professionals, entrepreneurs and investors from across the country.",
-        button: "Explore Gurgaon",
-        link: "#gurgoan"
-    },
-    {
-        subtitle: "Why Invest in Bhiwadi?",
-        heading: "The Emerging Investment Destination of NCR, Where Industrial Growth Meets Affordable Real Estate Opportunities.",
-        description: "Strategically located at the Rajasthan-Haryana border, Bhiwadi is emerging as one of the promising industrial and real estate destinations within the wider Delhi NCR region. With its proximity to Gurugram, Delhi and major industrial corridors, the city offers a strategic advantage for businesses, homebuyers and property investors.",
-        button: "Explore Bhiwadi",
-        link: "<?php echo base_url('bhiwadi');?>"
-    },
-    {
-        subtitle: "Why Invest in Jhajjar?",
-        heading: "The Next Growth Frontier of NCR, Powered by Industrial Expansion and Planned Infrastructure.",
-        description: "Strategically positioned within the Delhi NCR region, Jhajjar is emerging as an important destination for industrial, residential and commercial development. Its proximity to Gurugram, Bahadurgarh, Rohtak and Delhi, combined with connectivity through the Kundli-Manesar-Palwal (KMP) Expressway, is strengthening its position on the NCR growth map.",
-        button: "Explore Jhajjar",
-        link: "#jhajjar"
-    }
-];
+            const pageContent = [
+                {
+                    subtitle: "Why Invest in Bhiwadi?",
+                    heading: "The Emerging Investment Destination of NCR, Where Industrial Growth Meets Affordable Real Estate Opportunities.",
+                    description: "Strategically located at the Rajasthan-Haryana border, Bhiwadi is emerging as one of the promising industrial and real estate destinations within the wider Delhi NCR region. With its proximity to Gurugram, Delhi and major industrial corridors, the city offers a strategic advantage for businesses, homebuyers and property investors.",
+                    button: "Explore Bhiwadi",
+                    link: "<?php echo base_url('bhiwadi'); ?>"
+                },
+                {
+                    subtitle: "Why Invest in Gurgaon?",
+                    heading: "Where Corporate Growth, World-Class Infrastructure and Real Estate Opportunities Come Together.",
+                    description: "Gurugram has evolved into one of India's most prominent business and real estate destinations. With a strong presence of multinational corporations, IT companies, financial institutions and global businesses, the city continues to attract professionals, entrepreneurs and investors from across the country.",
+                    button: "Explore Gurgaon",
+                    link: "#gurgoan"
+                },
+                {
+                    subtitle: "Why Invest in Jhajjar?",
+                    heading: "The Next Growth Frontier of NCR, Powered by Industrial Expansion and Planned Infrastructure.",
+                    description: "Strategically positioned within the Delhi NCR region, Jhajjar is emerging as an important destination for industrial, residential and commercial development. Its proximity to Gurugram, Bahadurgarh, Rohtak and Delhi, combined with connectivity through the Kundli-Manesar-Palwal Expressway, is strengthening its position on the NCR growth map.",
+                    button: "Explore Jhajjar",
+                    link: "#jhajjar"
+                }
+            ];
 
-let currentPage = 0;
-let currentPosition = 0;
-let timer;
+            const slidesPerPage = 3;
+            let currentPage = 0;
+            let timer = null;
 
-/* Show the content associated with the selected page */
-function updateContent(page) {
-    contentInner.classList.add("changing");
+            function updateContent() {
+                const data = pageContent[currentPage];
 
-    setTimeout(() => {
-        const data = pageContent[page];
+                contentInner.classList.add("changing");
 
-        subtitle.textContent = data.subtitle;
-        heading.textContent = data.heading;
-        description.textContent = data.description;
-        exploreBtn.textContent = data.button + " →";
-        exploreBtn.href = data.link;
+                subtitle.textContent = data.subtitle;
+                heading.textContent = data.heading;
+                description.textContent = data.description;
+                exploreBtn.textContent = data.button + " →";
+                exploreBtn.href = data.link;
 
-        contentInner.classList.remove("changing");
-    }, 300);
-}
+                requestAnimationFrame(() => {
+                    contentInner.classList.remove("changing");
+                });
+            }
 
-/* Show three images for each content slide */
-function updateSlider() {
-    const firstSlide = track.querySelector(".slide");
-    const gap = parseFloat(getComputedStyle(track).gap) || 0;
-    const step = firstSlide.getBoundingClientRect().height + gap;
+            function updateSlider() {
+                if (!slides.length) return;
 
-    // Each page moves by three images
-    currentPosition = currentPage * 2;
+                const firstSlide = slides[0];
+                const slideHeight = firstSlide.getBoundingClientRect().height;
+                const trackStyle = getComputedStyle(track);
+                const gap = parseFloat(trackStyle.rowGap) ||
+                            parseFloat(trackStyle.gap) || 0;
 
-    track.style.transform =
-        `translateY(-${currentPosition * step}px)`;
+                const step = slideHeight + gap;
+                const firstIndex = currentPage * slidesPerPage;
 
-    updateContent(currentPage);
-}
+                track.style.transform =
+                    `translateY(-${firstIndex * step}px)`;
 
-/* Show all 3 content slides */
-function nextPage() {
-    // currentPage = (currentPage + 1) % 2;
-    currentPage = (currentPage + 1) % pageContent.length;
-    updateSlider();
-}
+                updateContent();
+            }
 
-function prevPage() {
-    // currentPage = (currentPage - 1 + 2) % 2;
-    currentPage = (currentPage - 1 + pageContent.length) % pageContent.length;
-    updateSlider();
-}
+            function nextPage() {
+                currentPage = (currentPage + 1) % pageContent.length;
+                updateSlider();
+            }
 
-nextBtn.addEventListener("click", () => {
-    nextPage();
-    restartAutoSlide();
-});
+            function prevPage() {
+                currentPage =
+                    (currentPage - 1 + pageContent.length) % pageContent.length;
+                updateSlider();
+            }
 
-prevBtn.addEventListener("click", () => {
-    prevPage();
-    restartAutoSlide();
-});
+            function startAutoSlide() {
+                clearInterval(timer);
+                timer = setInterval(nextPage, 6000);
+            }
 
-/* Clicking an image selects its corresponding page */
-track.addEventListener("click", event => {
-    const slide = event.target.closest(".slide");
-    if (!slide) return;
+            function stopAutoSlide() {
+                clearInterval(timer);
+            }
 
-    const index = slides.indexOf(slide);
-    currentPage = index < 3 ? 0 : 1;
+            nextBtn.addEventListener("click", function () {
+                nextPage();
+                startAutoSlide();
+            });
 
-    updateSlider();
-    restartAutoSlide();
-});
+            prevBtn.addEventListener("click", function () {
+                prevPage();
+                startAutoSlide();
+            });
 
-/* Automatic change every 5 seconds */
-function startAutoSlide() {
-    clearInterval(timer);
-    timer = setInterval(nextPage, 6000);
-}
+            track.addEventListener("click", function (event) {
+                const slide = event.target.closest(".slide");
+                if (!slide) return;
 
-function restartAutoSlide() {
-    startAutoSlide();
-}
+                const index = slides.indexOf(slide);
+                if (index < 0) return;
 
+                currentPage = Math.min(
+                    Math.floor(index / slidesPerPage),
+                    pageContent.length - 1
+                );
 
-viewport.addEventListener("mouseenter", () => clearInterval(timer));
-viewport.addEventListener("mouseleave", startAutoSlide);
+                updateSlider();
+                startAutoSlide();
+            });
 
-window.addEventListener("resize", updateSlider);
+            viewport.addEventListener("mouseenter", stopAutoSlide);
+            viewport.addEventListener("mouseleave", startAutoSlide);
 
-updateSlider();
-startAutoSlide();
-</script>
+            window.addEventListener("resize", updateSlider);
 
-<script src="https://player.vimeo.com/api/player.js"></script>
+            updateSlider();
+            startAutoSlide();
+        });
+    </script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script>
+        document.querySelectorAll('.vimeo-video').forEach(function (container) {
+            const iframe = container.querySelector('iframe');
+            const player = new Vimeo.Player(iframe);
 
-<script>
-document.querySelectorAll('.vimeo-video').forEach(function (container) {
-    const iframe = container.querySelector('iframe');
-    const player = new Vimeo.Player(iframe);
+            container.addEventListener('mouseenter', function () {
+                player.play();
+            });
 
-    container.addEventListener('mouseenter', function () {
-        player.play();
-    });
+            container.addEventListener('mouseleave', function () {
+                player.pause();
+            });
+        });
+        function openVideoModal(event, title, videoId) {
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
 
-    container.addEventListener('mouseleave', function () {
-        player.pause();
-    });
-});
-<script>
-function openVideoModal(event, title, videoId) {
-    if (event) {
-        event.preventDefault();
-        event.stopPropagation();
-    }
+            const modal = document.getElementById('videoModal');
+            const frame = document.getElementById('modalVideoFrame');
 
-    const modal = document.getElementById('videoModal');
-    const frame = document.getElementById('modalVideoFrame');
+            frame.title = title;
 
-    frame.title = title;
+            frame.src =
+                'https://player.vimeo.com/video/' +
+                videoId +
+                '?autoplay=1&title=0&byline=0&portrait=0';
 
-    frame.src =
-        'https://player.vimeo.com/video/' +
-        videoId +
-        '?autoplay=1&title=0&byline=0&portrait=0';
+            modal.classList.add('active');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.classList.add('video-modal-open');
+        }
 
-    modal.classList.add('active');
-    modal.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('video-modal-open');
-}
+        function closeVideoModal() {
+            const modal = document.getElementById('videoModal');
+            const frame = document.getElementById('modalVideoFrame');
 
-function closeVideoModal() {
-    const modal = document.getElementById('videoModal');
-    const frame = document.getElementById('modalVideoFrame');
+            modal.classList.remove('active');
+            modal.setAttribute('aria-hidden', 'true');
 
-    modal.classList.remove('active');
-    modal.setAttribute('aria-hidden', 'true');
+            // Stop playback when closing
+            frame.src = '';
 
-    // Stop playback when closing
-    frame.src = '';
+            document.body.classList.remove('video-modal-open');
+        }
 
-    document.body.classList.remove('video-modal-open');
-}
+        // Close with Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeVideoModal();
+            }
+        });
 
-// Close with Escape
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-        closeVideoModal();
-    }
-});
-
-// Close when clicking the modal background
-document.getElementById('videoModal').addEventListener('click', function(event) {
-    if (event.target === this) {
-        closeVideoModal();
-    }
-});
-</script>
+        // Close when clicking the modal background
+        document.getElementById('videoModal').addEventListener('click', function(event) {
+            if (event.target === this) {
+                closeVideoModal();
+            }
+        });
+    </script>
 
 
 </body>

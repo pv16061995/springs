@@ -10,7 +10,8 @@ class Investor extends CI_Controller {
     {
         $data = array();
         
-        $this->load->view('investor/index', $data);
+        // $this->load->view('investor/index', $data);
+        $this->load->view('project/index', $data);
     }
 }
 
