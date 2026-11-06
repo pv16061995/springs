@@ -44,7 +44,7 @@
                         data-themed-class="ui-dak">
                         <div class="project-green-bhoomi ">
 
-                            <div class="project-hero-section bgimage">
+                            <div class="project-hero-section bgimage gurgoan_bg_img">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-content pl-1">
                                         <div class="tag-container">

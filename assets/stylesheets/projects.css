@@ -20,6 +20,16 @@
     position: relative;
     z-index: 2;
 }
+ .hero_section_bg_green_bhoomi {
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+        background: var(--t-background);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/media/green_bhomi/hero_xxxl.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
 .project-green-bhoomi .project-eyebrow {
         margin-bottom: calc(var(--spacing) * .2);

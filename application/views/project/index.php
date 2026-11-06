@@ -42,7 +42,6 @@
                     <section class="section ui-dark" data-scroll-section
                         data-themed-class="ui-dak">
                         <div class="project-green-bhoomi ">
-
                             <div class="project-hero-section bgimage">
                                 <div class="row row--middle-lg">
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-content pl-1">
@@ -214,32 +213,27 @@
                                                                 alt="Contemporary architecture">
                                                         </div>
                                                         <div class="slide">
-                                                            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85"
+                                                            <img src="assets/images/media/investor_guide/gurgoan/xxxl.webp"
                                                                 alt="Commercial office">
                                                         </div>
-
                                                         <div class="slide">
-                                                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85"
+                                                            <img src="assets/images/media/investor_guide/gurgoan/xxxl_1.webp"
                                                                 alt="Luxury residential property">
                                                         </div>
-
                                                         <div class="slide">
-                                                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
+                                                            <img src="assets/images/media/investor_guide/gurgoan/xxxl_3.webp"
                                                                 alt="Modern interior">
                                                         </div>
-
                                                         <div class="slide">
-                                                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85"
+                                                            <img src="assets/images/media/investor_guide/jhajjar/xxxl.webp"
                                                                 alt="Modern buildings">
                                                         </div>
-
                                                         <div class="slide">
-                                                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=85"
+                                                            <img src="assets/images/media/investor_guide/jhajjar/xxxl_1.webp"
                                                                 alt="Industrial warehouse">
                                                         </div>
-
                                                         <div class="slide">
-                                                            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=85"
+                                                            <img src="assets/images/media/investor_guide/jhajjar/xxxl_2.webp"
                                                                 alt="Contemporary architecture">
                                                         </div>
 

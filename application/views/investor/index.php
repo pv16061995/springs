@@ -12,6 +12,16 @@
         .js.not-ready * {
             transition: none !important;
         }
+        .project-green-bhoomi .project-hero-section {
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+        background: var(--t-background);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../assets/images/investorguide.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
     </style>
 
     <link rel="stylesheet" href="assets/stylesheets/jsSlider.css">
@@ -40,9 +50,8 @@
                     <section class="section ui-dark" data-scroll-section
                         data-themed-class="ui-dak">
                         <div class="project-green-bhoomi">
-
                             <div class="project-hero-section">
-                                <div class="row row--middle-lg">
+                                <div class="row row--middle-lg hero_section_bg_green_bhoomi">
                                     <div class="col col--lg-6 col--md-6 col--12 project-hero-content pl-1">
                                         <div class="project-eyebrow">
                                             RESIDENTIAL PLOTS
@@ -92,13 +101,47 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
+                                    <!-- <div class="col col--lg-6 col--md-6 col--12 project-hero-media-column pr-1">
                                         <div class="project-media project-media-hero">
                                             <div class="project-media-label">
-                                                HERO IMAGE
+                                                 <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
+                                                data-plugin="appear " draggable="false">
+                                                    <source data-srcset="assets/images/media/green_bhomi/hero_xxxl.webp"
+                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                    <source data-srcset="assets/images/media/green_bhomi/hero_xxl.webp"
+                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 1200px) and (min-height: 500px)" width="720" height="900">
+                                                    <source data-srcset="assets/images/media/green_bhomi/hero_md.webp"
+                                                        srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                        width="720" height="900">
+                                                    <img data-src="assets/images/media/green_bhomi/hero_xs.webp"
+                                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                        alt="" width="720" height="900" data-plugin="parallax" data-parallax-clamp="true"
+                                                        data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                                                        data-parallax--400-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                        draggable="false">
+                                                </picture>
+                                                <noscript>
+                                                    <picture class=" img-full parallax-image-move" draggable="false">
+                                                        <source srcset="assets/images/media/green_bhomi/hero_xxxl.webp"
+                                                        media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                        <source srcset="assets/images/media/green_bhomi/hero_xxl.webp"
+                                                        media="(min-width: 1200px) and (min-height: 500px)" width="720" height="900">
+                                                        <source srcset="assets/images/media/green_bhomi/hero_md.webp"
+                                                        media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                        width="720" height="900">
+                                                        <img src="assets/images/media/green_bhomi/hero_xs.webp" alt="" width="720"
+                                                        height="900" data-plugin="parallax" data-parallax-clamp="true"
+                                                        data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                                                        data-parallax--400-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                        draggable="false">
+                                                    </picture>
+                                                </noscript>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
@@ -402,7 +445,42 @@
                                     </div>
                                     <div class="col col--lg-7 col--md-7 col--12 pr-1">
                                         <div class="project-media project-plot-image">
-                                            <span>PLOT IMAGE</span>
+                                            <!-- <span>PLOT IMAGE</span> -->
+                                             <picture class="is-invisible--js is-hidden--no-js img-full parallax-image-move"
+                                                data-plugin="appear " draggable="false">
+                                                <source data-srcset="assets/images/media/green_bhomi/xxxl.webp"
+                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                <source data-srcset="assets/images/media/green_bhomi/xxl.webp"
+                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 1200px) and (min-height: 500px)" width="720" height="900">
+                                                <source data-srcset="assets/images/media/green_bhomi/md.webp"
+                                                    srcset="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                    width="720" height="900">
+                                                <img data-src="assets/images/media/green_bhomi/xs.webp"
+                                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22720%22%20height=%22900%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20720%20900%22%3E%3C/svg%3E"
+                                                    alt="" width="720" height="900" data-plugin="parallax" data-parallax-clamp="true"
+                                                    data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                                                    data-parallax--400-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                    draggable="false">
+                                            </picture>
+                                            <noscript>
+                                                <picture class=" img-full parallax-image-move" draggable="false">
+                                                    <source srcset="assets/images/media/green_bhomi/xxxl.webp"
+                                                    media="(min-width: 1440px) and (min-height: 700px)" width="720" height="900">
+                                                    <source srcset="assets/images/media/green_bhomi/xxl.webp"
+                                                    media="(min-width: 1200px) and (min-height: 500px)" width="720" height="900">
+                                                    <source srcset="assets/images/media/green_bhomi/md.webp"
+                                                    media="(min-width: 568px) and (max-aspect-ratio: 13 / 9), (min-width: 668px) and (min-height: 416px), (min-width: 980px)"
+                                                    width="720" height="900">
+                                                    <img src="assets/images/media/green_bhomi/xs.webp" alt="" width="720"
+                                                    height="900" data-plugin="parallax" data-parallax-clamp="true"
+                                                    data-parallax--200-0="{&quot;transform&quot;: &quot;scale(1.2)&quot;}"
+                                                    data-parallax--400-0="{&quot;transform&quot;: &quot;scale(1.0)&quot;}"
+                                                    draggable="false">
+                                                </picture>
+                                            </noscript>
                                         </div>
                                     </div>
                                 </div>
@@ -413,9 +491,7 @@
                                     <div class="col col--lg-3 col--md-6 col--12">
                                         <div class="project-experience-intro">
                                             <h2>Experience<br>Green Bhoomi</h2>
-                                            <p>
-                                                A Lifestyle Surrounded by Greenery
-                                            </p>
+                                            <p> A Lifestyle Surrounded by Greenery </p>
                                             <!-- <a href="#" class="btn btn--primary btn--clone btn--text-small is-hidden--sm-down btn--cloned" data-plugin=" button" data-button-clone-content="true">
                                                 <span class="btn__content">
                                                     <span class="btn__text btn__text--clone">

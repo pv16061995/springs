@@ -153,3 +153,24 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.gurgoan_bg_img {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background: var(--t-background);
+    background-image: url(../images/media/gurugram.webp) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jhajjar_bg_img {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background: var(--t-background);
+    background-image: url(../images/media/jhajjar.webp) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

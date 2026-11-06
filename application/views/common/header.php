@@ -41,7 +41,7 @@
                </span>
             </span>
          </a>
-         <a class="btn btn--text-small  btn--link btn--clone is-hidden--no-hover" href="#menu-picker"
+         <!-- <a class="btn btn--text-small  btn--link btn--clone is-hidden--no-hover" href="#menu-picker"
             data-plugin=" button" data-button-clone-content="true">
             <span class="btn__content">
                <span class="btn__text  ">
@@ -55,6 +55,21 @@
                <span class="btn__text  ">
                   Residences
                </span>
+            </span>
+         </a> -->
+         <a class="btn btn--text-small btn--link btn--clone is-hidden--no-hover"
+            href="<?php echo base_url('greenbhoomi'); ?>"
+            data-plugin="button" data-button-clone-content="true">
+            <span class="btn__content">
+               <span class="btn__text">Project</span>
+            </span>
+         </a>
+
+         <a class="btn btn--text-small btn--link btn--clone is-hidden--hover"
+            href="<?php echo base_url('greenbhoomi'); ?>"
+            data-plugin="button" data-button-clone-content="true">
+            <span class="btn__content">
+               <span class="btn__text">Project</span>
             </span>
          </a>
       </div>
@@ -71,11 +86,11 @@
          </a>
       </div>
       <div class="header__right header-animation-link" data-custom-scroll-theme-target="right">
-         <a class="btn btn--text-small btn--link btn--clone is-hidden--md-up"  href="<?php echo base_url('flats'); ?>"
+         <a class="btn btn--text-small btn--link btn--clone is-hidden--md-up"  href="<?php echo base_url('greenbhoomi'); ?>"
             data-plugin=" button" data-button-clone-content="true">
             <span class="btn__content">
                <span class="btn__text  ">
-                  Residences
+                  Projects
                </span>
             </span>
          </a>
